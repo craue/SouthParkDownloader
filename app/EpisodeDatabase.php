@@ -51,7 +51,7 @@ class EpisodeDatabase extends XmlDatabase {
 		$urlNode = $episode[0]->xpath(sprintf('acts/act[@id="%u"]/url[@resolution="%s"]',
 						$actId,
 						$resolution));
-		return (string) $urlNode[0];
+		return trim((string) $urlNode[0]);
 	}
 
 	public function getSha1($seasonId, $episodeId, $language, $actId, $resolution) {
