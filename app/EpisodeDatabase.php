@@ -54,6 +54,14 @@ class EpisodeDatabase extends XmlDatabase {
 		return (string) $urlNode[0];
 	}
 
+	public function getSha1($seasonId, $episodeId, $language, $actId, $resolution) {
+		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
+		$urlNode = $episode[0]->xpath(sprintf('acts/act[@id="%u"]/url[@resolution="%s"]',
+						$actId,
+						$resolution));
+		return (string) $urlNode[0]->attributes()->sha1;
+	}
+
 	public function getTitle($seasonId, $episodeId, $language) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
 		if (empty($episode)) {

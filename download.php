@@ -24,6 +24,7 @@ try {
 	$config->setRtmpdump($rtmpdump);
 	$config->setFfmpeg($ffmpeg);
 	$config->setMkvmerge($mkvmerge);
+	$config->setVerifyChecksums(true); // no command line option yet
 	$config->setRemoveTempFiles(true); // no command line option yet
 	$config->setRemoveDownloadedFiles(false); // no command line option yet
 	$southParkDownloader->setConfig($config);

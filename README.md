@@ -10,6 +10,7 @@ South Park Downloader to get South Park episodes from official sources.
  - Renaming of episodes to contain title of each language.
  - Fix audio delay for certain acts/parts (e.g. S13E08A1).
  - XML file containing all information.
+ - Checksum verification of downloaded parts.
 
 # Installation
 

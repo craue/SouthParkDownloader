@@ -68,6 +68,17 @@ class SouthParkDownloader {
 						escapeshellarg($this->player->swfurl),
 						escapeshellarg($this->player->swfsize),
 						escapeshellarg($this->player->swfhash)));
+
+				$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution()));
+			}
+		}
+	}
+
+	protected function verifyChecksum($file, $expectedChecksum) {
+		if ($this->config->getVerifyChecksums() === true && !empty($expectedChecksum)) {
+			$actualChecksum = sha1_file($file);
+			if ($actualChecksum !== $expectedChecksum) {
+				throw new RuntimeException(sprintf('Checksum mismatch for "%s". Expected "%s", but got "%s". Try to download the file again.', $file, $expectedChecksum, $actualChecksum));
 			}
 		}
 	}

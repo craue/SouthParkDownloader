@@ -23,6 +23,8 @@ class Config {
 	protected $ffmpeg = null;
 	protected $mkvmerge = null;
 
+	protected $verifyChecksums = true;
+
 	protected $removeTempFiles = true;
 	protected $removeDownloadedFiles = false;
 
@@ -116,6 +118,14 @@ class Config {
 
 	public function getMkvmerge() {
 		return $this->mkvmerge;
+	}
+
+	public function setVerifyChecksums($verifyChecksums) {
+		$this->verifyChecksums = $verifyChecksums;
+	}
+
+	public function getVerifyChecksums() {
+		return $this->verifyChecksums;
 	}
 
 	public function setRemoveTempFiles($removeTempFiles) {
