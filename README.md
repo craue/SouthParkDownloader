@@ -8,7 +8,7 @@ South Park Downloader to get South Park episodes from official sources.
  - Full support for English and German episodes.
  - Ready for additional languages, too!
  - Renaming of episodes to contain title of each language.
- - Fix of audio delay for acts/parts (e.g. S13E08A1).
+ - Fix audio delay for certain acts/parts (e.g. S13E08A1).
  - XML file containing all information.
 
 # Installation

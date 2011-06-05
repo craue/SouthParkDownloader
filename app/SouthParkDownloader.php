@@ -33,14 +33,12 @@ class SouthParkDownloader {
 
 		$this->episodeDb = new EpisodeDatabase(__DIR__.'/../data/episodes.xml');
 
-		$languages = $this->config->getLanguages();
-
 		$episodesToProcess = array();
 
 		if ($this->config->getEpisode() > 0) {
 			$episodesToProcess[] = $this->config->getEpisode();
 		} else {
-			$episodesToProcess = $this->episodeDb->getEpisodeIds($this->config->getSeason(), $languages[0]);
+			$episodesToProcess = $this->episodeDb->getEpisodeIds($this->config->getSeason(), $this->config->getMainLanguage());
 		}
 
 		foreach ($episodesToProcess as $episode) {
@@ -82,7 +80,7 @@ class SouthParkDownloader {
 	}
 
 	/**
-	 * Renames an episode's file name to contain the titles of all desired languages.
+	 * Renames an episode's final file to contain the titles of all desired languages.
 	 */
 	public function rename() {
 		$sourceFile = $this->config->getOutputFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $this->config->getLanguages(), 'mkv');
@@ -111,7 +109,7 @@ class SouthParkDownloader {
 		rename($sourceFile, $targetFile);
 	}
 
-	protected function cleanUp() {
+	public function cleanUp() {
 		if ($this->config->getRemoveTempFiles() === true) {
 			foreach ($this->tempFiles as $tempFile) {
 				unlink($tempFile);
