@@ -34,26 +34,26 @@
 					<acts>
 						<act id="1">
 							<audio-delay>870</audio-delay>
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act1_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="2a712cff0bf39ff46858a949b19e4d5df2e2c29f">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act1_1280x720_1200.mp4</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act2_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="eab8f19abb16b217624956cc9a0f94e9195a360e">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act2_1280x720_1200.mp4</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act3_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="6cf4ac3c5a3b6b045c726259b4ab71570ce2de3c">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act3_1280x720_1200.mp4</url>
 						</act>
 					</acts>
 				</language>
 				<language id="de" title="Tote Promis">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act1_DEU_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="d4ff7c78fe1243e1f2869db9186862aed9310da2">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act1_DEU_1280x720_1200.mp4</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act2_DEU_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="e8f5cc261fd4d4a9c8c86c25656a4d66307572a0">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act2_DEU_1280x720_1200.mp4</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act3_DEU_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="5afe632fd16d40e1ae3f77495de4363d2a6a8d87">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act3_DEU_1280x720_1200.mp4</url>
 						</act>
 					</acts>
 				</language>
@@ -100,26 +100,26 @@
 				<language id="en" title="The Tale of Scrotie McBoogerballs">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act1_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="2accd46870d6f9a79997fd2c0b827d5ab7b12bb1">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act1_1280x720_1200.mp4</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act2_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="4ba22093b0bcd46f22d1d1569d5b593f6982e98d">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act2_1280x720_1200.mp4</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act3_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="4f16bac95e89040468782fd2268c6cda0c55511a">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_14/1402/acts/sp_1402_act3_1280x720_1200.mp4</url>
 						</act>
 					</acts>
 				</language>
 				<language id="de" title="Als die Kacke Pipi musste">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act1_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="a79383da2fce0f44403550167bd0477bb8f5f5df">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act1_1280x720_1200.mp4</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act2_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="5bfbfb25c145d9c9a8511197ea81aced3fdc31fa">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act2_1280x720_1200.mp4</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act3_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="8945fdf43ddd44387a05b664c10ab0920641a5f1">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act3_1280x720_1200.mp4</url>
 						</act>
 					</acts>
 				</language>
@@ -489,13 +489,13 @@
 				<language id="en" title="City Sushi">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act1_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="704a9d0bdd50cd0c096e75cda49cf2c3c013139c">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act1_1280x720_1200.mp4</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act2_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="a7bee2c43a11a15c15aebdf24dc1ebc0a69385fb">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act2_1280x720_1200.mp4</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act3_1280x720_1200.mp4</url>
+							<url resolution="1280x720" bitrate="1200" sha1="c85c7826296020260a00ed07873f7a8c5945d0fc">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act3_1280x720_1200.mp4</url>
 						</act>
 					</acts>
 				</language>
