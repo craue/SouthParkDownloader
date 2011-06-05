@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	Episode database.
+	This file is part of the South Park Downloader package.
+
+	Author: Christian Raue <christian.raue@gmail.com>
+	Copyright: 2011 Christian Raue
+	License: http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
+-->
+<seasons>
+	<!-- TODO Season 1 -->
+	<!-- TODO Season 2 -->
+	<!-- TODO Season 3 -->
+	<!-- TODO Season 4 -->
+	<!-- TODO Season 5 -->
+	<!-- TODO Season 6 -->
+	<!-- TODO Season 7 -->
+	<!-- TODO Season 8 -->
+	<!-- TODO Season 9 -->
+	<!-- TODO Season 10 -->
+	<!-- TODO Season 11 -->
+	<!-- TODO Season 12 -->
+	<season id="13">
+		<episodes>
+			<!-- TODO Episode 1 -->
+			<!-- TODO Episode 2 -->
+			<!-- TODO Episode 3 -->
+			<!-- TODO Episode 4 -->
+			<!-- TODO Episode 5 -->
+			<!-- TODO Episode 6 -->
+			<!-- TODO Episode 7 -->
+			<episode id="8">
+				<language id="en" title="Dead Celebrities">
+					<acts>
+						<act id="1">
+							<audio-delay>870</audio-delay>
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Tote Promis">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act1_DEU_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act2_DEU_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act3_DEU_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<!-- TODO Episode 9 -->
+			<!-- TODO Episode 10 -->
+			<!-- TODO Episode 11 -->
+			<!-- TODO Episode 12 -->
+			<!-- TODO Episode 13 -->
+			<!-- TODO Episode 14 -->
+		</episodes>
+	</season>
+	<season id="15">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="HUMANCENTiPAD">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="2">
+				<language id="en" title="Funnybot">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="Royal Pudding">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="T.M.I.">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="Crack Baby Athletic Association">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="City Sushi">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act1_1280x720_1200.mp4</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act2_1280x720_1200.mp4</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200">rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act3_1280x720_1200.mp4</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
+</seasons>
