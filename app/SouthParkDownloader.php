@@ -112,7 +112,7 @@ class SouthParkDownloader {
 			}
 		}
 
-		$targetFile = $this->config->getOutputFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $this->config->getLanguages(), 'mkv', null, $title);
+		$targetFile = $this->config->getOutputFolder() . 'South Park ' . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $this->config->getLanguages(), 'mkv', null, $title);
 		if (file_exists($targetFile)) {
 			throw new FileAlreadyExistsException($targetFile);
 		}
