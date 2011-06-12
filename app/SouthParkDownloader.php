@@ -54,24 +54,26 @@ class SouthParkDownloader {
 		foreach ($this->config->getLanguages() as $language) {
 			foreach ($this->episodeDb->getActs($this->config->getSeason(), $this->config->getEpisode(), $language) as $act) {
 				$actId = $act->attributes()->id;
-
-				$targetFile = $this->config->getDownloadFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $language, 'mp4', $actId);
-				if (file_exists($targetFile)) {
-					throw new FileAlreadyExistsException($targetFile);
-				}
-
-				$this->downloadedFiles[] = $targetFile;
-				$this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s',
-						escapeshellarg($this->config->getRtmpdump()),
-						escapeshellarg($targetFile),
-						escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
-						escapeshellarg($this->player->swfurl),
-						escapeshellarg($this->player->swfsize),
-						escapeshellarg($this->player->swfhash)));
-
+				$this->downloadPart($language, $actId);
 				$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution()));
 			}
 		}
+	}
+
+	protected function downloadPart($language, $actId) {
+		$targetFile = $this->config->getDownloadFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $language, 'mp4', $actId);
+		if (file_exists($targetFile)) {
+			throw new FileAlreadyExistsException($targetFile);
+		}
+
+		$this->downloadedFiles[] = $targetFile;
+		$this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s',
+				escapeshellarg($this->config->getRtmpdump()),
+				escapeshellarg($targetFile),
+				escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
+				escapeshellarg($this->player->swfurl),
+				escapeshellarg($this->player->swfsize),
+				escapeshellarg($this->player->swfhash)));
 	}
 
 	protected function verifyChecksum($file, $expectedChecksum) {
