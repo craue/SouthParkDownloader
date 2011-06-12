@@ -15,6 +15,6 @@ $ffmpeg = __DIR__.'/bin/ffmpeg/ffmpeg.exe';
 $mkvmerge = __DIR__.'/bin/mkvtoolnix/mkvmerge.exe';
 
 /*
- * player
+ * player (optional)
  */
-$playerUrl = 'http://media.mtvnservices.com/player/prime/mediaplayerprime.1.7.0.swf';
+//$playerUrl = 'http://media.mtvnservices.com/player/prime/mediaplayerprime.1.8.5.swf';

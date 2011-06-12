@@ -17,7 +17,9 @@ try {
 	$southParkDownloader = new SouthParkDownloader();
 	$config = $southParkDownloader->getCommandLineArguments($argv);
 	$config->setResolution('1280x720'); // no support for other values yet
-	$config->setPlayerUrl($playerUrl);
+	if (isset($playerUrl)) {
+		$config->setPlayerUrl($playerUrl);
+	}
 	$config->setTmpFolder($tmp);
 	$config->setDownloadFolder($download);
 	$config->setOutputFolder($output);

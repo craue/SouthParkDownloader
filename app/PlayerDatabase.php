@@ -17,11 +17,25 @@ class PlayerDatabase extends XmlDatabase {
 	}
 
 	public function findPlayer($playerUrl) {
+		if (empty($playerUrl)) {
+			return $this->findLatestPlayer();
+		}
+
 		$playerData = $this->getPlayers()->xpath(sprintf('/players/player[swfurl="%s"]', $playerUrl));
 		if (empty($playerData)) {
 			throw new RuntimeException(sprintf(
 					'Invalid or unknown player URL. Verify "%s" and update "%s" if necessary.',
 					$playerUrl,
+					$this->source));
+		}
+		return $playerData[0];
+	}
+
+	public function findLatestPlayer() {
+		$playerData = $this->getPlayers()->xpath('/players/player[@latest="true"]');
+		if (empty($playerData)) {
+			throw new RuntimeException(sprintf(
+					'There is no player marked as "latest". Please do so in "%s".',
 					$this->source));
 		}
 		return $playerData[0];
