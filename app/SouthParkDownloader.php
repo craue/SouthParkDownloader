@@ -346,8 +346,16 @@ class SouthParkDownloader {
 	}
 
 	protected function call($command) {
+		$exitCode = 0;
+
 //		echo $command, "\n";
-		passthru($command);
+		passthru($command, $exitCode);
+
+		if ($exitCode !== 0) {
+			throw new RuntimeException(sprintf(
+					'External program aborted with an exit code of "%d". Will abort too as this looks like an error.',
+					$exitCode));
+		}
 	}
 
 }
