@@ -353,7 +353,7 @@ class SouthParkDownloader {
 
 		if ($exitCode !== 0) {
 			throw new RuntimeException(sprintf(
-					'External program aborted with an exit code of "%d". Will abort too as this looks like an error.',
+					'External program aborted with an exit code of "%d" which seems to be an error. Will abort now.',
 					$exitCode));
 		}
 	}
