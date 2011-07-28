@@ -68,7 +68,7 @@ class SouthParkDownloader {
 
 		$this->downloadedFiles[] = $targetFile;
 		$this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s',
-				escapeshellarg($this->config->getRtmpdump()),
+				escapeshellcmd($this->config->getRtmpdump()),
 				escapeshellarg($targetFile),
 				escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
 				escapeshellarg($this->player->swfurl),
@@ -197,7 +197,7 @@ class SouthParkDownloader {
 
 			$this->tempFiles[] = $targetFile;
 			$this->call(sprintf('%s -loglevel quiet -i %s -vcodec copy -an %s',
-					escapeshellarg($this->config->getFfmpeg()),
+					escapeshellcmd($this->config->getFfmpeg()),
 					escapeshellarg($sourceFile),
 					escapeshellarg($targetFile)));
 		}
@@ -222,7 +222,7 @@ class SouthParkDownloader {
 
 				$this->tempFiles[] = $targetFile;
 				$this->call(sprintf('%s -loglevel quiet -i %s -vn -acodec copy %s',
-						escapeshellarg($this->config->getFfmpeg()),
+						escapeshellcmd($this->config->getFfmpeg()),
 						escapeshellarg($sourceFile),
 						escapeshellarg($targetFile)));
 			}
@@ -271,7 +271,7 @@ class SouthParkDownloader {
 
 			$this->tempFiles[] = $targetFile;
 			$this->call(sprintf('%s -o %s %s %s',
-					escapeshellarg($this->config->getMkvmerge()),
+					escapeshellcmd($this->config->getMkvmerge()),
 					escapeshellarg($targetFile),
 					escapeshellarg($actVideoSourceFile),
 					$audioParts));
@@ -326,7 +326,7 @@ class SouthParkDownloader {
 		}
 
 		$this->call(sprintf('%s -o %s --default-track 2 %s %s',
-				escapeshellarg($this->config->getMkvmerge()),
+				escapeshellcmd($this->config->getMkvmerge()),
 				escapeshellarg($targetFile),
 				$audioParts,
 				$mkvParts));
