@@ -63,7 +63,6 @@ class SouthParkDownloader {
 			foreach ($this->episodeDb->getActs($this->config->getSeason(), $this->config->getEpisode(), $language) as $act) {
 				$actId = $act->attributes()->id;
 				$this->downloadPart($language, $actId);
-				$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution()));
 			}
 		}
 	}
@@ -91,6 +90,8 @@ class SouthParkDownloader {
 		if ($exitCode !== self::EXITCODE_SUCCESS) {
 			$this->abort($exitCode);
 		}
+
+		$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution()));
 	}
 
 	protected function verifyChecksum($file, $expectedChecksum) {
