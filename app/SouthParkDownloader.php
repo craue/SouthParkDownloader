@@ -85,7 +85,7 @@ class SouthParkDownloader {
 					escapeshellarg($this->player->swfurl),
 					escapeshellarg($this->player->swfsize),
 					escapeshellarg($this->player->swfhash),
-					$exitCode === null ? '' : ' --resume'));
+					$exitCode === null ? '' : ' --resume --skip 1'));
 		} while ($exitCode === self::EXITCODE_RTMPDUMP_INCOMPLETE);
 
 		if ($exitCode !== self::EXITCODE_SUCCESS) {
