@@ -7,7 +7,9 @@
 	Copyright: 2011 Christian Raue
 	License: http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
 -->
-<seasons>
+<seasons xmlns="https://github.com/craue/SouthParkDownloader"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://github.com/craue/SouthParkDownloader episodes.xsd">
 	<!-- TODO Season 1 -->
 	<!-- TODO Season 2 -->
 	<!-- TODO Season 3 -->
