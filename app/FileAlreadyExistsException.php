@@ -11,7 +11,7 @@
 class FileAlreadyExistsException extends RuntimeException {
 
 	public function __construct($path) {
-		parent::__construct(sprintf('File "%s" already exists. Will abort now instead of overwriting it.', $path));
+		parent::__construct(sprintf('File "%s" already exists. Will abort now instead of overwriting it. Delete it manually and try again if you want to continue.', $path));
 	}
 
 }

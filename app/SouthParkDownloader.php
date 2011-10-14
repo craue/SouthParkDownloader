@@ -3,6 +3,7 @@
 require_once(__DIR__.'/Config.php');
 require_once(__DIR__.'/EpisodeDatabase.php');
 require_once(__DIR__.'/PlayerDatabase.php');
+require_once(__DIR__.'/ChecksumMismatchException.php');
 require_once(__DIR__.'/FileAlreadyExistsException.php');
 require_once(__DIR__.'/FileDoesNotExistException.php');
 
@@ -98,7 +99,7 @@ class SouthParkDownloader {
 		if ($this->config->getVerifyChecksums() === true && !empty($expectedChecksum)) {
 			$actualChecksum = sha1_file($file);
 			if ($actualChecksum !== $expectedChecksum) {
-				throw new RuntimeException(sprintf('Checksum mismatch for "%s". Expected "%s", but got "%s". Try to download the file again.', $file, $expectedChecksum, $actualChecksum));
+				throw new ChecksumMismatchException($file, $expectedChecksum, $actualChecksum);
 			}
 		}
 	}
