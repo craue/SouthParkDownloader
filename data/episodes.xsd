@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	XML Schema for episodes database.
+	This file is part of the South Park Downloader package.
+
+	Author: Christian Raue <christian.raue@gmail.com>
+	Copyright: 2011 Christian Raue
+	License: http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
+-->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns="https://github.com/craue/SouthParkDownloader"
 		targetNamespace="https://github.com/craue/SouthParkDownloader"
 		elementFormDefault="qualified">
 	<xs:element name="seasons">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice minOccurs="1" maxOccurs="unbounded">
 				<xs:element name="season">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="episodes" minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="episodes" minOccurs="1" maxOccurs="1">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="episode" minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="episode" minOccurs="1" maxOccurs="unbounded">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="language" minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="language" minOccurs="1" maxOccurs="unbounded">
 														<xs:complexType>
 															<xs:sequence>
-																<xs:element name="acts" minOccurs="0" maxOccurs="unbounded">
+																<xs:element name="acts" minOccurs="1" maxOccurs="1">
 																	<xs:complexType>
 																		<xs:sequence>
-																			<xs:element name="act" minOccurs="0" maxOccurs="unbounded">
+																			<xs:element name="act" minOccurs="1" maxOccurs="unbounded">
 																				<xs:complexType>
 																					<xs:sequence>
 																						<xs:element name="audio-delay" type="xs:string" minOccurs="0" />
-																						<xs:element name="url" nillable="true" minOccurs="0" maxOccurs="unbounded">
+																						<xs:element name="url" minOccurs="1" maxOccurs="unbounded">
 																							<xs:complexType>
 																								<xs:simpleContent>
-																									<xs:extension base="xs:string">
+																									<xs:extension base="xs:anyURI">
 																										<xs:attribute name="resolution" type="xs:string" />
-																										<xs:attribute name="bitrate" type="xs:string" />
-																										<xs:attribute name="sha1" type="xs:string" />
+																										<xs:attribute name="bitrate" type="xs:unsignedInt" />
+																										<xs:attribute name="sha1" type="xs:hexBinary" />
 																									</xs:extension>
 																								</xs:simpleContent>
 																							</xs:complexType>
 																						</xs:element>
 																					</xs:sequence>
-																					<xs:attribute name="id" type="xs:string" />
+																					<xs:attribute name="id" type="xs:unsignedInt" />
 																				</xs:complexType>
 																			</xs:element>
 																		</xs:sequence>
@@ -49,14 +57,14 @@
 														</xs:complexType>
 													</xs:element>
 												</xs:sequence>
-												<xs:attribute name="id" type="xs:string" />
+												<xs:attribute name="id" type="xs:unsignedInt" />
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="id" type="xs:string" />
+						<xs:attribute name="id" type="xs:unsignedInt" />
 					</xs:complexType>
 				</xs:element>
 			</xs:choice>
