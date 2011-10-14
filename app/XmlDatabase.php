@@ -22,4 +22,9 @@ class XmlDatabase {
 		return $this->data;
 	}
 
+	protected function addXPathNamespace(SimpleXMLElement $element, $prefix) {
+		$element->registerXPathNamespace($prefix, 'https://github.com/craue/SouthParkDownloader');
+		return $element;
+	}
+
 }

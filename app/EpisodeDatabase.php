@@ -13,11 +13,11 @@ require_once(__DIR__.'/XmlDatabase.php');
 class EpisodeDatabase extends XmlDatabase {
 
 	public function getEpisodes() {
-		return $this->getData();
+		return $this->addXPathNamespace($this->getData(), 'e');
 	}
 
 	public function getEpisodeIds($seasonId, $language) {
-		$episodes = $this->getEpisodes()->xpath(sprintf('/seasons/season[@id="%u"]/episodes/episode[language[@id="%s"]]',
+		$episodes = $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode[e:language[@id="%s"]]',
 			$seasonId,
 			strtolower($language)));
 
@@ -30,68 +30,71 @@ class EpisodeDatabase extends XmlDatabase {
 		foreach ($episodes as $episode) {
 			$episodeIds[] = (int) $episode->attributes()->id;
 		}
+
 		return $episodeIds;
 	}
 
 	public function findEpisode($seasonId, $episodeId, $language) {
-		$episode = $this->getEpisodes()->xpath(sprintf('/seasons/season[@id="%u"]/episodes/episode%s/language%s',
+		$episodes = $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode%s/e:language%s',
 			$seasonId,
 			!empty($episodeId) ? sprintf('[@id="%u"]', $episodeId) : '',
 			!empty($language) ? sprintf('[@id="%s"]', strtolower($language)) : ''));
 
-		if (empty($episode)) {
+		if (empty($episodes)) {
 			throw new RuntimeException(sprintf('No entry found for S%02uE%02u with language "%s".',
 					$seasonId, $episodeId, $language));
 		}
-		return $episode;
+
+		return $this->addXPathNamespace($episodes[0], 'e');
 	}
 
 	public function getUrl($seasonId, $episodeId, $language, $actId, $resolution) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		$urlNode = $episode[0]->xpath(sprintf('acts/act[@id="%u"]/url[@resolution="%s"]',
+		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]',
 						$actId,
 						$resolution));
+
 		return trim((string) $urlNode[0]);
 	}
 
 	public function getSha1($seasonId, $episodeId, $language, $actId, $resolution) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		$urlNode = $episode[0]->xpath(sprintf('acts/act[@id="%u"]/url[@resolution="%s"]',
+		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]',
 						$actId,
 						$resolution));
+
 		return (string) $urlNode[0]->attributes()->sha1;
 	}
 
 	public function getTitle($seasonId, $episodeId, $language) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		if (empty($episode)) {
-			throw new RuntimeException(sprintf('No title found for S%02uE%02u with language "%s".',
-					$seasonId, $episodeId, $language));
-		}
-		return (string) $episode[0]->attributes()->title;
+
+		return (string) $episode->attributes()->title;
 	}
 
 	/**
 	 * @return array
 	 */
 	public function getActs($seasonId, $episodeId, $language) {
-		return $this->getEpisodes()->xpath(sprintf('/seasons/season[@id="%u"]/episodes/episode[@id="%u"]/language[@id="%s"]/acts/act',
+		return $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode[@id="%u"]/e:language[@id="%s"]/e:acts/e:act',
 				$seasonId,
 				$episodeId,
 				strtolower($language)));
 	}
 
 	public function getAct($seasonId, $episodeId, $language, $actId) {
-		$act = $this->getEpisodes()->xpath(sprintf('/seasons/season[@id="%u"]/episodes/episode[@id="%u"]/language[@id="%s"]/acts/act[@id="%u"]',
+		$acts = $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode[@id="%u"]/e:language[@id="%s"]/e:acts/e:act[@id="%u"]',
 				$seasonId,
 				$episodeId,
 				strtolower($language),
 				$actId));
-		if (empty($act)) {
+
+		if (empty($acts)) {
 			throw new RuntimeException(sprintf('Act S%02uE%02uA%02u not found with language "%s".',
 					$seasonId, $episodeId, $actId, $language));
 		}
-		return $act[0];
+
+		return $acts[0];
 	}
 
 	public function getActAudioDelay($seasonId, $episodeId, $language, $actId) {
