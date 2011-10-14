@@ -389,7 +389,7 @@ class SouthParkDownloader {
 		return $exitCode;
 	}
 
-	protected function abort() {
+	protected function abort($exitCode) {
 		throw new RuntimeException(sprintf(
 				'External program aborted with an exit code of "%d" which seems to be an error. Will abort now.',
 				$exitCode));
