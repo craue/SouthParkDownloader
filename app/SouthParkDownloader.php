@@ -16,6 +16,14 @@ require_once(__DIR__.'/FileDoesNotExistException.php');
  */
 class SouthParkDownloader {
 
+	const EXITCODE_SUCCESS = 0;
+
+	const EXITCODE_RTMPDUMP_FAILED = 1;
+	const EXITCODE_RTMPDUMP_INCOMPLETE = 2; // e.g. "Download may be incomplete (downloaded about 71.10%), try resuming"
+
+	const EXITCODE_MKVMERGE_WARNINGS = 1; // at least one warning
+	const EXITCODE_MKVMERGE_ERROR = 2;
+
 	protected $episodeDb;
 	protected $config;
 	protected $player;
@@ -67,13 +75,22 @@ class SouthParkDownloader {
 		}
 
 		$this->downloadedFiles[] = $targetFile;
-		$this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s',
-				escapeshellcmd($this->config->getRtmpdump()),
-				escapeshellarg($targetFile),
-				escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
-				escapeshellarg($this->player->swfurl),
-				escapeshellarg($this->player->swfsize),
-				escapeshellarg($this->player->swfhash)));
+
+		$exitCode = null;
+		do {
+			$exitCode = $this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s%s',
+					escapeshellcmd($this->config->getRtmpdump()),
+					escapeshellarg($targetFile),
+					escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
+					escapeshellarg($this->player->swfurl),
+					escapeshellarg($this->player->swfsize),
+					escapeshellarg($this->player->swfhash),
+					$exitCode === null ? '' : ' --resume'));
+		} while ($exitCode === self::EXITCODE_RTMPDUMP_INCOMPLETE);
+
+		if ($exitCode !== self::EXITCODE_SUCCESS) {
+			$this->abort($exitCode);
+		}
 	}
 
 	protected function verifyChecksum($file, $expectedChecksum) {
@@ -196,10 +213,14 @@ class SouthParkDownloader {
 			}
 
 			$this->tempFiles[] = $targetFile;
-			$this->call(sprintf('%s -loglevel quiet -i %s -vcodec copy -an %s',
+			$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s -vcodec copy -an %s',
 					escapeshellcmd($this->config->getFfmpeg()),
 					escapeshellarg($sourceFile),
 					escapeshellarg($targetFile)));
+
+			if ($exitCode !== self::EXITCODE_SUCCESS) {
+				$this->abort($exitCode);
+			}
 		}
 	}
 
@@ -221,10 +242,14 @@ class SouthParkDownloader {
 				}
 
 				$this->tempFiles[] = $targetFile;
-				$this->call(sprintf('%s -loglevel quiet -i %s -vn -acodec copy %s',
+				$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s -vn -acodec copy %s',
 						escapeshellcmd($this->config->getFfmpeg()),
 						escapeshellarg($sourceFile),
 						escapeshellarg($targetFile)));
+
+				if ($exitCode !== self::EXITCODE_SUCCESS) {
+					$this->abort($exitCode);
+				}
 			}
 		}
 	}
@@ -270,11 +295,15 @@ class SouthParkDownloader {
 			}
 
 			$this->tempFiles[] = $targetFile;
-			$this->call(sprintf('%s -o %s %s %s',
+			$exitCode = $this->call(sprintf('%s -o %s %s %s',
 					escapeshellcmd($this->config->getMkvmerge()),
 					escapeshellarg($targetFile),
 					escapeshellarg($actVideoSourceFile),
 					$audioParts));
+
+			if ($exitCode !== self::EXITCODE_SUCCESS && $exitCode !== self::EXITCODE_MKVMERGE_WARNINGS) {
+				$this->abort($exitCode);
+			}
 		}
 	}
 
@@ -325,11 +354,15 @@ class SouthParkDownloader {
 			$mkvParts .= escapeshellarg($actSourceFile);
 		}
 
-		$this->call(sprintf('%s -o %s --default-track 2 %s %s',
+		$exitCode = $this->call(sprintf('%s -o %s --default-track 2 %s %s',
 				escapeshellcmd($this->config->getMkvmerge()),
 				escapeshellarg($targetFile),
 				$audioParts,
 				$mkvParts));
+
+		if ($exitCode !== self::EXITCODE_SUCCESS) {
+			$this->abort($exitCode);
+		}
 	}
 
 	protected function getFilename($season, $episode, $language = null, $extension = null, $act = null, $title = null) {
@@ -351,11 +384,13 @@ class SouthParkDownloader {
 //		echo $command, "\n";
 		passthru($command, $exitCode);
 
-		if ($exitCode !== 0) {
-			throw new RuntimeException(sprintf(
-					'External program aborted with an exit code of "%d" which seems to be an error. Will abort now.',
-					$exitCode));
-		}
+		return $exitCode;
+	}
+
+	protected function abort() {
+		throw new RuntimeException(sprintf(
+				'External program aborted with an exit code of "%d" which seems to be an error. Will abort now.',
+				$exitCode));
 	}
 
 }
