@@ -76,6 +76,8 @@ class SouthParkDownloader {
 
 		$this->downloadedFiles[] = $targetFile;
 
+		// TODO try all defined mirrors on error / checksum failure (configurable)
+
 		$exitCode = null;
 		do {
 			$exitCode = $this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s%s',

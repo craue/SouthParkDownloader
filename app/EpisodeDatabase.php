@@ -50,7 +50,7 @@ class EpisodeDatabase extends XmlDatabase {
 
 	public function getUrl($seasonId, $episodeId, $language, $actId, $resolution) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]',
+		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]/e:mirror',
 						$actId,
 						$resolution));
 

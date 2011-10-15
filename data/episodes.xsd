@@ -32,16 +32,22 @@
 																			<xs:element name="act" minOccurs="1" maxOccurs="unbounded">
 																				<xs:complexType>
 																					<xs:sequence>
-																						<xs:element name="audio-delay" type="xs:string" minOccurs="0" />
+																						<xs:element name="audio-delay" type="xs:int" minOccurs="0" />
 																						<xs:element name="url" minOccurs="1" maxOccurs="unbounded">
 																							<xs:complexType>
-																								<xs:simpleContent>
-																									<xs:extension base="xs:anyURI">
-																										<xs:attribute name="resolution" type="xs:string" />
-																										<xs:attribute name="bitrate" type="xs:unsignedInt" />
-																										<xs:attribute name="sha1" type="xs:hexBinary" />
-																									</xs:extension>
-																								</xs:simpleContent>
+																								<xs:sequence>
+																									<xs:element name="mirror" minOccurs="1" maxOccurs="unbounded">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:anyURI">
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																								<xs:attribute name="resolution" type="xs:string" />
+																								<xs:attribute name="bitrate" type="xs:unsignedInt" />
+																								<xs:attribute name="sha1" type="xs:hexBinary" />
 																							</xs:complexType>
 																						</xs:element>
 																					</xs:sequence>
