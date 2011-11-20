@@ -76,10 +76,17 @@ class EpisodeDatabase extends XmlDatabase {
 	 * @return array
 	 */
 	public function getActs($seasonId, $episodeId, $language) {
-		return $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode[@id="%u"]/e:language[@id="%s"]/e:acts/e:act',
+		$acts = $this->getEpisodes()->xpath(sprintf('/e:seasons/e:season[@id="%u"]/e:episodes/e:episode[@id="%u"]/e:language[@id="%s"]/e:acts/e:act',
 				$seasonId,
 				$episodeId,
 				strtolower($language)));
+
+		if (empty($acts)) {
+			throw new RuntimeException(sprintf('No acts found for S%02uE%02u with language "%s".',
+					$seasonId, $episodeId, $language));
+		}
+
+		return $acts;
 	}
 
 	public function getAct($seasonId, $episodeId, $language, $actId) {
