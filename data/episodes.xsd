@@ -4,7 +4,7 @@
 	This file is part of the South Park Downloader package.
 
 	Author: Christian Raue <christian.raue@gmail.com>
-	Copyright: 2011 Christian Raue
+	Copyright: 2011-2012 Christian Raue
 	License: http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"

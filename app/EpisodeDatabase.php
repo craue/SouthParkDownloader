@@ -7,7 +7,7 @@ require_once(__DIR__.'/XmlDatabase.php');
  * This file is part of the South Park Downloader package.
  *
  * @author Christian Raue <christian.raue@gmail.com>
- * @copyright 2011 Christian Raue
+ * @copyright 2011-2012 Christian Raue
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
  */
 class EpisodeDatabase extends XmlDatabase {
