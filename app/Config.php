@@ -124,7 +124,7 @@ class Config {
 		$this->verifyChecksums = $verifyChecksums;
 	}
 
-	public function getVerifyChecksums() {
+	public function isVerifyChecksums() {
 		return $this->verifyChecksums;
 	}
 
@@ -132,7 +132,7 @@ class Config {
 		$this->removeTempFiles = $removeTempFiles;
 	}
 
-	public function getRemoveTempFiles() {
+	public function isRemoveTempFiles() {
 		return $this->removeTempFiles;
 	}
 
@@ -140,7 +140,7 @@ class Config {
 		$this->removeDownloadedFiles = $removeDownloadedFiles;
 	}
 
-	public function getRemoveDownloadedFiles() {
+	public function isRemoveDownloadedFiles() {
 		return $this->removeDownloadedFiles;
 	}
 

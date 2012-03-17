@@ -98,7 +98,7 @@ class SouthParkDownloader {
 	}
 
 	protected function verifyChecksum($file, $expectedChecksum) {
-		if ($this->config->getVerifyChecksums() === true && !empty($expectedChecksum)) {
+		if ($this->config->isVerifyChecksums() && !empty($expectedChecksum)) {
 			$actualChecksum = sha1_file($file);
 			if ($actualChecksum !== $expectedChecksum) {
 				throw new ChecksumMismatchException($file, $expectedChecksum, $actualChecksum);
@@ -144,14 +144,14 @@ class SouthParkDownloader {
 	}
 
 	public function cleanUp() {
-		if ($this->config->getRemoveTempFiles() === true) {
+		if ($this->config->isRemoveTempFiles()) {
 			foreach ($this->tempFiles as $tempFile) {
 				unlink($tempFile);
 			}
 		}
 		$this->tempFiles = array();
 
-		if ($this->config->getRemoveDownloadedFiles() === true) {
+		if ($this->config->isRemoveDownloadedFiles()) {
 			foreach ($this->downloadedFiles as $downloadedFile) {
 				unlink($downloadedFile);
 			}
