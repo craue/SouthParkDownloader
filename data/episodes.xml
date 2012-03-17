@@ -1454,4 +1454,35 @@
 			</episode>
 		</episodes>
 	</season>
+	<season id="16">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Reverse Cowgirl">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="e26edddb7fe94a3c254534c80f7b5f9e4d2fc544">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="f29ffcd28cd0d439789aedff4d8efa430e4f34cd">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="b79772b1fe8bfe914ad1bd79333cf1eb0ba42c7e">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
 </seasons>
