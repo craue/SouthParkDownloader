@@ -383,9 +383,12 @@ class SouthParkDownloader {
 	}
 
 	protected function call($command) {
+		if ($this->config->isPrintCommandCalls()) {
+			echo '> ', $command, "\n";
+		}
+
 		$exitCode = 0;
 
-//		echo $command, "\n";
 		passthru($command, $exitCode);
 
 		return $exitCode;

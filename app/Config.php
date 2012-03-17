@@ -24,6 +24,7 @@ class Config {
 	protected $mkvmerge = null;
 
 	protected $verifyChecksums = true;
+	protected $printCommandCalls = false;
 
 	protected $removeTempFiles = true;
 	protected $removeDownloadedFiles = false;
@@ -127,6 +128,15 @@ class Config {
 
 	public function isVerifyChecksums() {
 		return $this->verifyChecksums;
+	}
+
+	public function setPrintCommandCalls($printCommandCalls) {
+		$this->assertBoolean($printCommandCalls);
+		$this->printCommandCalls = $printCommandCalls;
+	}
+
+	public function isPrintCommandCalls() {
+		return $this->printCommandCalls;
 	}
 
 	public function setRemoveTempFiles($removeTempFiles) {
