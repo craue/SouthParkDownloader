@@ -121,6 +121,7 @@ class Config {
 	}
 
 	public function setVerifyChecksums($verifyChecksums) {
+		$this->assertBoolean($verifyChecksums);
 		$this->verifyChecksums = $verifyChecksums;
 	}
 
@@ -129,6 +130,7 @@ class Config {
 	}
 
 	public function setRemoveTempFiles($removeTempFiles) {
+		$this->assertBoolean($removeTempFiles);
 		$this->removeTempFiles = $removeTempFiles;
 	}
 
@@ -137,6 +139,7 @@ class Config {
 	}
 
 	public function setRemoveDownloadedFiles($removeDownloadedFiles) {
+		$this->assertBoolean($removeDownloadedFiles);
 		$this->removeDownloadedFiles = $removeDownloadedFiles;
 	}
 
@@ -156,6 +159,17 @@ class Config {
 			throw new RuntimeException(sprintf('Program "%s" doesn\'t exist or isn\'t executable.', $path));
 		}
 		return realpath($path);
+	}
+
+	protected function assertBoolean($value) {
+		if (!is_bool($value)) {
+			throw new InvalidArgumentException(sprintf('Boolean value expected, but %s given.',
+					$this->getTypeOf($value)));
+		}
+	}
+
+	protected function getTypeOf($value) {
+		return is_object($value) ? get_class($value) : gettype($value);
 	}
 
 }
