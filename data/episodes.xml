@@ -1483,6 +1483,222 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="2">
+				<language id="en" title="Cash For Gold">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="Faith Hilling">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="7f9c759e34082aedbd4b0c3571e7f7c1b5d8e4fa">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="21c4af49b9ee2f5d312d00de48d13622a138a926">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="9690d42cad5fe5a413e79ce057ea148d7a0bf322">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="Jewpacabra">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="518600f688debe7fb0738fe1d75cd76beaa8ff10">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="cb339ca3d32166ebdb8915812c6af1dedfb6ae1a">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="ea2a7239e20e485fb2771d24d713c45470b49492">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="Butterballs">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="78a7a8dd7f1f48ac104d7bb77f97ed925afd6dcf">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="26d3520f61cd87965bb643b0b9a992be59388314">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="acd448bc8ce0ccb0f129d4afc348d76e5c2555c5">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="I Should Have Never Gone Ziplining">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9b8e5f4e085e7e015115d8acf71c1e6d36855e61">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act1_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="619398b50116ef5163ef5d0f8d26f7d3c1f35410">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act2_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="6e7c5efac516b0027751a410b92d6f44f0beaf35">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act3_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="7">
+				<language id="en" title="Cartman Finds Love">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="d29f65eb01d2580a0a0ad2760356dd7fd160b15d">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act1_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="e2f89cf8b9452969aec4a263fe8961d2066d416f">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act2_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="010e6d5ed5d164b728f98be8767ba587160c2d6b">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act3_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="8">
+				<language id="en" title="Sarcastaball">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="d5805cd8d59619c2d68367956a41f951aa64dd84">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act1_REV_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="d6ddf8ab360ac9579c89c981d1d6069e1b9682a5">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act2_REV_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="5848b623fcddf6d992a6f59acc7d2c22e9af6de3">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act3_REV_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="9">
+				<language id="en" title="Raising the Bar">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="de375839472b8e2df986ee19ba29e2749db3d902">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act1_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="4be55f581120ffa6a9b82e7cdb107b380a61a7f9">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act2_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="63c851aa5d9bd67e8ed3b732c8dba1d238c2e699">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act3_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
