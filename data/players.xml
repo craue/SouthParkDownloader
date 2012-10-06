@@ -35,9 +35,24 @@
 		<swfsize>2022384</swfsize>
 		<swfhash>4dc6a9e1db35a9c89c380015af28fe80cd7acd259af63315202a50cac7999b05</swfhash>
 	</player>
-	<player latest="true">
+	<player>
 		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.1.10.7.swf</swfurl>
 		<swfsize>2026181</swfsize>
 		<swfhash>f35625eaa2366605fd50d0f42821e8c77306b0b6535d14ae5937133eb96c2491</swfhash>
+	</player>
+	<player>
+		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.1.11.3.swf</swfurl>
+		<swfsize>2047696</swfsize>
+		<swfhash>7d0e2de5025640fbcffdab7257dbadbed885c2f415340fbbccf350f65adfd7c5</swfhash>
+	</player>
+	<player>
+		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.1.12.5.swf</swfurl>
+		<swfsize>2092641</swfsize>
+		<swfhash>fc253ee16f4b7463502133fcf21452c89377612dc6f6f59fe0754833cd99d392</swfhash>
+	</player>
+	<player latest="true">
+		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.2.3.4.swf</swfurl>
+		<swfsize>2042199</swfsize>
+		<swfhash>d824ec3fb1347be066b3c4db016a1fc2da21f4099565584c311a7d509d499634</swfhash>
 	</player>
 </players>
