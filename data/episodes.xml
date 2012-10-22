@@ -1699,6 +1699,60 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="10">
+				<language id="en" title="Insecurity">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="01b73ff2f75536cf7b31dde367ff8995f649f400">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act1_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="63afc0f7b23e986b42d7dcd2d30614bd8687eaaf">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act2_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="464289470c351293a838209487dab002c1424dc9">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act3_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="11">
+				<language id="en" title="Going Native">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="b594de882312b15fbb7361c230612452eed92903">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act1_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="864bc0f9314aca1b96eebd4781ae5922c77d42f8">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act2_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="57ee53b14207956d439096dd3e3babaf176a39c6">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act3_rev_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
