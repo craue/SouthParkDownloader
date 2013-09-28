@@ -1836,4 +1836,35 @@
 			</episode>
 		</episodes>
 	</season>
+	<season id="17">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Let Go, Let Gov">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="919ea61c4bd7f97219538e1cf249f31e34061ec2">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1701/acts/sp_1701_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="d40c4e31f659da9a03d774d822121e72b2fc7a53">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1701/acts/sp_1701_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="5924c9aa5276b892627db643a3756189a8f71f43">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1701/acts/sp_1701_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
 </seasons>
