@@ -50,9 +50,14 @@
 		<swfsize>2092641</swfsize>
 		<swfhash>fc253ee16f4b7463502133fcf21452c89377612dc6f6f59fe0754833cd99d392</swfhash>
 	</player>
-	<player latest="true">
+	<player>
 		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.2.3.4.swf</swfurl>
 		<swfsize>2042199</swfsize>
 		<swfhash>d824ec3fb1347be066b3c4db016a1fc2da21f4099565584c311a7d509d499634</swfhash>
+	</player>
+	<player latest="true">
+		<swfurl>http://media.mtvnservices.com/player/prime/mediaplayerprime.2.5.7.swf</swfurl>
+		<swfsize>2089880</swfsize>
+		<swfhash>9c4826375bb0ae5c53196c9eb0ea10b6fe0dcd3a609d1f7ab346b7eb881f4b29</swfhash>
 	</player>
 </players>
