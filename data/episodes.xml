@@ -1892,6 +1892,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="3">
+				<language id="en" title="World War Zimmerman">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="f0fc9f67cecc174d8495d29b23abfd53f1a98ae6">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1703/acts/sp_1703_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a9fd2583837c814eeb94bbf7236f677191f5cf3c">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1703/acts/sp_1703_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="e5f754e7ab45b9d6afab210e034672254c64e15c">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1703/acts/sp_1703_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
