@@ -12,6 +12,7 @@ South Park Downloader to get South Park episodes from official sources.
  - XML file containing all information.
  - Checksum verification of downloaded parts.
  - Resuming of incomplete downloads (which occur starting with S15E07).
+ - Enforce audio reencoding for certain acts/parts (needed for e.g. S17E03A2).
 
 # Installation
 

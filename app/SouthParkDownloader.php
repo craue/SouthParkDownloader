@@ -246,9 +246,26 @@ class SouthParkDownloader {
 				}
 
 				$this->tempFiles[] = $targetFile;
-				$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s -vn -acodec copy %s',
+
+				$audioCodecParam = '-acodec copy';
+				if ($this->episodeDb->getAudioReencode($this->config->getSeason(), $this->config->getEpisode(), $currentLanguage, $actId)) {
+					/*
+					 * Not just copying audio results in reencoding it.
+					 * Needed for S17E03A2EN, as FFMPEG quits with error when trying to copy it:
+					 *   [adts @ 01DDFAE0] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 34310340 >= 34306200
+					 *   av_interleaved_write_frame(): Invalid argument
+					 *
+					 * Merging audio tracks with mixed copy/reencode settings doesn't work for mkvmerge:
+					 *   Error: The track number 2 from the file 'S17E03A2EN.mkv' cannot be appended to the track number 2 from the file 'S17E03A1EN.mkv'. The track parameters do not match.
+					 * Thus, all parts need to be reencoded.
+					 */
+					$audioCodecParam = '';
+				}
+
+				$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s -vn %s %s',
 						escapeshellcmd($this->config->getFfmpeg()),
 						escapeshellarg($sourceFile),
+						$audioCodecParam,
 						escapeshellarg($targetFile)));
 
 				if ($exitCode !== self::EXITCODE_SUCCESS) {

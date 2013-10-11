@@ -1903,6 +1903,7 @@
 							</url>
 						</act>
 						<act id="2">
+							<audio-reencode>true</audio-reencode>
 							<url resolution="1280x720" bitrate="1200" sha1="a9fd2583837c814eeb94bbf7236f677191f5cf3c">
 								<mirror>
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1703/acts/sp_1703_actHD_02_B_1280x720_1200.mp4

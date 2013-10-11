@@ -73,6 +73,21 @@ class EpisodeDatabase extends XmlDatabase {
 	}
 
 	/**
+	 * @return boolean
+	 */
+	public function getAudioReencode($seasonId, $episodeId, $language) {
+		foreach ($this->getActs($seasonId, $episodeId, $language) as $act) {
+			$actId = $act->attributes()->id;
+
+			if ($this->getActAudioReencode($seasonId, $episodeId, $language, $actId)) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	/**
 	 * @return array
 	 */
 	public function getActs($seasonId, $episodeId, $language) {
@@ -107,6 +122,14 @@ class EpisodeDatabase extends XmlDatabase {
 	public function getActAudioDelay($seasonId, $episodeId, $language, $actId) {
 		$act = $this->getAct($seasonId, $episodeId, $language, $actId);
 		return (int) $act->{'audio-delay'};
+	}
+
+	/**
+	 * @return boolean
+	 */
+	public function getActAudioReencode($seasonId, $episodeId, $language, $actId) {
+		$act = $this->getAct($seasonId, $episodeId, $language, $actId);
+		return (boolean) $act->{'audio-reencode'};
 	}
 
 }

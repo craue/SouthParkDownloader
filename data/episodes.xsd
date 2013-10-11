@@ -33,6 +33,7 @@
 																				<xs:complexType>
 																					<xs:sequence>
 																						<xs:element name="audio-delay" type="xs:int" minOccurs="0" />
+																						<xs:element name="audio-reencode" type="xs:boolean" minOccurs="0" />
 																						<xs:element name="url" minOccurs="1" maxOccurs="unbounded">
 																							<xs:complexType>
 																								<xs:sequence>
