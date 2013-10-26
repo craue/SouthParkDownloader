@@ -1920,6 +1920,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="4">
+				<language id="en" title="Goth Kids 3 - Dawn of the Posers">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ddc2bffacaa274c788990280ede595526a4679b1">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1704/acts/sp_1704_actHD_01_7F9C6K5J3R4W1Z_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="e66aa258283b373417a15e055398297e00f905a6">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1704/acts/sp_1704_actHD_02_7F9C6K5J3R4W1Z_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="6082bf5a9ba6b9c3c320659af7f31a5483ad297e">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1704/acts/sp_1704_actHD_03_7F9C6K5J3R4W1Z_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
