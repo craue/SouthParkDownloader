@@ -1947,6 +1947,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="5">
+				<language id="en" title="Taming Strange">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="5da6568e820b37e8c5bad0917ef1b1746b6b455f">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1705/acts/sp_1705_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="97e33b8142cc806157a4a27e38c651f73bf253e6">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1705/acts/sp_1705_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="8045d493782577950a53e0604173ffc36cca38c1">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1705/acts/sp_1705_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
