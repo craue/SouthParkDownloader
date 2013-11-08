@@ -1974,6 +1974,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="6">
+				<language id="en" title="Ginger Cow">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="6b722fc0275a309bf36adafaa35a72cd5c80be6c">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1706/acts/sp_1706_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="9b455e1d3f82d7253a029c4a772a323a902a4807">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1706/acts/sp_1706_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0fac9058c94fdacf0cd989aa2f86e16a0d2499b6">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1706/acts/sp_1706_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
