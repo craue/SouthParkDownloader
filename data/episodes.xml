@@ -2001,6 +2001,34 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="7">
+				<language id="en" title="Black Friday">
+					<acts>
+						<act id="1">
+							<audio-reencode>true</audio-reencode>
+							<url resolution="1280x720" bitrate="1200" sha1="b71e5071f0982d8d4b743d303926047acbf5a348">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1707/acts/sp_1707_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="064156aa732b6505c5cb67f7702c7739a033e02c">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1707/acts/sp_1707_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="67b8bd04b89e5dfe9a10b4ad994e2d543d370ca3">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1707/acts/sp_1707_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
