@@ -2029,6 +2029,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="8">
+				<language id="en" title="A Song of Ass and Fire">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="c204352c3868ced1ad98d33889f0d8a59ed46077">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1708/acts/sp_1708_actHD_01_rev_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="dbc7623280dbdd78209851350918c52f5042ca97">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1708/acts/sp_1708_actHD_02_rev_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="17814d5ebe4c8f8e9e3356799ed6e4e0b69aa205">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1708/acts/sp_1708_actHD_03_rev_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
