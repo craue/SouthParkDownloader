@@ -16,7 +16,6 @@ require_once(__DIR__.'/config.php');
 try {
 	$southParkDownloader = new SouthParkDownloader();
 	$config = $southParkDownloader->getCommandLineArguments($argv);
-	$config->setResolution('1280x720'); // no support for other values yet
 	if (isset($playerUrl)) {
 		$config->setPlayerUrl($playerUrl);
 	}

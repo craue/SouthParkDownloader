@@ -13,7 +13,6 @@ class Config {
 	protected $season = 0;
 	protected $episode = 0;
 	protected $languages = array();
-	protected $resolution = null;
 	protected $playerUrl = null;
 
 	protected $tmpFolder = null;
@@ -55,14 +54,6 @@ class Config {
 
 	public function getMainLanguage() {
 		return $this->languages[0];
-	}
-
-	public function setResolution($resolution) {
-		$this->resolution = $resolution;
-	}
-
-	public function getResolution() {
-		return $this->resolution;
 	}
 
 	public function setPlayerUrl($playerUrl) {

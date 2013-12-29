@@ -83,7 +83,7 @@ class SouthParkDownloader {
 			$exitCode = $this->call(sprintf('%s -o %s -r %s --swfUrl %s --swfsize %s --swfhash %s%s',
 					escapeshellcmd($this->config->getRtmpdump()),
 					escapeshellarg($targetFile),
-					escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution())),
+					escapeshellarg($this->episodeDb->getUrl($this->config->getSeason(), $this->config->getEpisode(), $language, $actId)),
 					escapeshellarg($this->player->swfurl),
 					escapeshellarg($this->player->swfsize),
 					escapeshellarg($this->player->swfhash),
@@ -94,7 +94,7 @@ class SouthParkDownloader {
 			$this->abort($exitCode);
 		}
 
-		$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId, $this->config->getResolution()));
+		$this->verifyChecksum($targetFile, $this->episodeDb->getSha1($this->config->getSeason(), $this->config->getEpisode(), $language, $actId));
 	}
 
 	protected function verifyChecksum($file, $expectedChecksum) {

@@ -48,20 +48,14 @@ class EpisodeDatabase extends XmlDatabase {
 		return $this->addXPathNamespace($episodes[0], 'e');
 	}
 
-	public function getUrl($seasonId, $episodeId, $language, $actId, $resolution) {
-		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]/e:mirror',
-						$actId,
-						$resolution));
+	public function getUrl($seasonId, $episodeId, $language, $actId) {
+		$urlNode = $this->getUrlNode($seasonId, $episodeId, $language, $actId);
 
-		return trim((string) $urlNode[0]);
+		return trim((string) $urlNode[0]->mirror);
 	}
 
-	public function getSha1($seasonId, $episodeId, $language, $actId, $resolution) {
-		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
-		$urlNode = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url[@resolution="%s"]',
-						$actId,
-						$resolution));
+	public function getSha1($seasonId, $episodeId, $language, $actId) {
+		$urlNode = $this->getUrlNode($seasonId, $episodeId, $language, $actId);
 
 		return (string) $urlNode[0]->attributes()->sha1;
 	}
@@ -130,6 +124,18 @@ class EpisodeDatabase extends XmlDatabase {
 	public function getActAudioReencode($seasonId, $episodeId, $language, $actId) {
 		$act = $this->getAct($seasonId, $episodeId, $language, $actId);
 		return (boolean) $act->{'audio-reencode'};
+	}
+
+	protected function getUrlNode($seasonId, $episodeId, $language, $actId) {
+		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
+		$urlNodes = $episode->xpath(sprintf('e:acts/e:act[@id="%u"]/e:url', $actId));
+
+		if (count($urlNodes) === 0) {
+			throw new RuntimeException(sprintf('No URL found for S%02uE%02u act %02u with language "%s".',
+					$seasonId, $episodeId, $actId, $language));
+		}
+
+		return $urlNodes[0];
 	}
 
 }
