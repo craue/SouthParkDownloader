@@ -302,6 +302,8 @@ class SouthParkDownloader {
 					$audioParts .= ' ';
 				}
 
+				$audioParts .= '--aac-is-sbr 0 ';
+
 				$actAudioDelay = $this->episodeDb->getActAudioDelay($this->config->getSeason(), $this->config->getEpisode(), $currentLanguage, $actId);
 				if ($actAudioDelay > 0) {
 					$audioParts .= sprintf('--sync 0:%u', $actAudioDelay);
@@ -347,7 +349,7 @@ class SouthParkDownloader {
 				$audioParts .= ' ';
 			}
 			if (in_array(strtolower($currentLanguage), array('de', 'en'))) {
-				$audioParts .= sprintf('--language %u:', $i + 2);
+				$audioParts .= sprintf('--language %u:', $i + 1);
 				switch (strtolower($currentLanguage)) {
 					case 'de':
 						$audioParts .= 'ger';
@@ -375,7 +377,7 @@ class SouthParkDownloader {
 			$mkvParts .= escapeshellarg($actSourceFile);
 		}
 
-		$exitCode = $this->call(sprintf('%s --quiet -o %s --default-track 2 %s %s',
+		$exitCode = $this->call(sprintf('%s --quiet -o %s --default-track 1 %s %s',
 				escapeshellcmd($this->config->getMkvmerge()),
 				escapeshellarg($targetFile),
 				$audioParts,
