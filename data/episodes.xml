@@ -10,7 +10,88 @@
 <seasons xmlns="https://github.com/craue/SouthParkDownloader"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://github.com/craue/SouthParkDownloader episodes.xsd">
-	<!-- TODO Season 1 -->
+	<season id="1">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Cartman Gets an Anal Probe">
+					<acts>
+						<act id="1">
+							<url resolution="640x480" bitrate="800" sha1="c8fce2d354237cc8db60853320e7aabb35f8179e">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_01_B_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="640x480" bitrate="800" sha1="2252fed8da35680a9a0e82d9b2a54126da4db38c">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_02_B_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="640x480" bitrate="800" sha1="91f190af72790279610bef03d093b238b0e1bd93">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_03_B_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="4">
+							<url resolution="640x480" bitrate="800" sha1="03b95525486319b76dde0ab2b881d8f07c088d56">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_04_B_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Cartman und die Analsonde">
+					<acts>
+						<act id="1">
+							<url resolution="640x480" bitrate="800" sha1="9912ec7085803197341a759fc01821658bfbcb2b">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_1_DI_DEU_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="640x480" bitrate="800" sha1="e9a5e341bbfa952f86fa770b19a46586f267b6f9">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_2_DI_DEU_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="640x480" bitrate="800" sha1="a379f1113a1204ceef73046af008b005006e009b">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_3_DI_DEU_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="4">
+							<url resolution="640x480" bitrate="800" sha1="047546c9bae0b7bb7d48adcec15bc851bb4c4516">
+								<mirror>
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_4_DI_DEU_640x480_800.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<!-- TODO Episode 2 -->
+			<!-- TODO Episode 3 -->
+			<!-- TODO Episode 4 -->
+			<!-- TODO Episode 5 -->
+			<!-- TODO Episode 6 -->
+			<!-- TODO Episode 7 -->
+			<!-- TODO Episode 8 -->
+			<!-- TODO Episode 9 -->
+			<!-- TODO Episode 10 -->
+			<!-- TODO Episode 11 -->
+			<!-- TODO Episode 12 -->
+			<!-- TODO Episode 13 -->
+		</episodes>
+	</season>
 	<!-- TODO Season 2 -->
 	<!-- TODO Season 3 -->
 	<!-- TODO Season 4 -->
