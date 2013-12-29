@@ -15,28 +15,28 @@
 					<acts>
 						<act id="1">
 							<url resolution="640x480" bitrate="800" sha1="c8fce2d354237cc8db60853320e7aabb35f8179e">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_01_B_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="640x480" bitrate="800" sha1="2252fed8da35680a9a0e82d9b2a54126da4db38c">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_02_B_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="640x480" bitrate="800" sha1="91f190af72790279610bef03d093b238b0e1bd93">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_03_B_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="4">
 							<url resolution="640x480" bitrate="800" sha1="03b95525486319b76dde0ab2b881d8f07c088d56">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-1/0101/acts/sp_0101_actHD_04_B_640x480_800.mp4
 								</mirror>
 							</url>
@@ -47,28 +47,28 @@
 					<acts>
 						<act id="1">
 							<url resolution="640x480" bitrate="800" sha1="9912ec7085803197341a759fc01821658bfbcb2b">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_1_DI_DEU_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="640x480" bitrate="800" sha1="e9a5e341bbfa952f86fa770b19a46586f267b6f9">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_2_DI_DEU_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="640x480" bitrate="800" sha1="a379f1113a1204ceef73046af008b005006e009b">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_3_DI_DEU_640x480_800.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="4">
 							<url resolution="640x480" bitrate="800" sha1="047546c9bae0b7bb7d48adcec15bc851bb4c4516">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_01/0101/acts/0101_4_DI_DEU_640x480_800.mp4
 								</mirror>
 							</url>
@@ -115,21 +115,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="471e8c803e467aa6be98f936c3a192497a1133fd">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="101cbf40f662fced99c3605fd8e8e7c82927d7c3">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="987a14fd7f80c7f84728ae6b79d893b3ec5e2d32">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -140,21 +140,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="d4ff7c78fe1243e1f2869db9186862aed9310da2">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act1_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="e8f5cc261fd4d4a9c8c86c25656a4d66307572a0">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act2_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="5afe632fd16d40e1ae3f77495de4363d2a6a8d87">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_13/1308/acts/sp_1308_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -177,21 +177,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="5395510c6b73981bddc802c7217f7f4125228840">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1401/acts/sp_1401_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="0968ce1f5fec9a2f15dd2ca59fe16b4949fca564">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1401/acts/sp_1401_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="d95a16382e287c34a14e1b0f86682a53ef89bdb1">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1401/acts/sp_1401_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -202,21 +202,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="f65c78f16eb52bde012d3656441ca113187c030f">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1401/acts/sp_1401_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="956259e5a21453f348d78bb0dd7e29bffbf62dc4">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1401/acts/sp_1401_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="495dd8e5c61cc7e1ec0e2caa8ec7103200087efe">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1401/acts/sp_1401_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -229,21 +229,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="d898771ca7eab3ecc9697d397e205f630c156331">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1402/acts/sp_1402_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="d82a7af565c946671cdd7a461862e960e3b42b71">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1402/acts/sp_1402_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="307c197174d45db7952870afaa39bb77936f8649">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1402/acts/sp_1402_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -254,21 +254,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="a79383da2fce0f44403550167bd0477bb8f5f5df">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="5bfbfb25c145d9c9a8511197ea81aced3fdc31fa">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="8945fdf43ddd44387a05b664c10ab0920641a5f1">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1402/acts/sp_1402_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -281,21 +281,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="f7dbabfe11322025d69382745b44cf8a9380e30a">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1403/acts/sp_1403_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="c45f40e3644b74600200ec29d80a612c45f976f1">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1403/acts/sp_1403_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="d014bdd98207564b3d2cb9c0447947dae9125981">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1403/acts/sp_1403_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -306,21 +306,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="e072c98b9c6da8fca7d608bdef0d3591417b0175">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1403/acts/sp_1403_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="ada7f38ce44e13187487a336da5c17df598e5c18">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1403/acts/sp_1403_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="8112bdd5a1ec04c912618dfcbfd7e1826f6f8cb0">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1403/acts/sp_1403_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -333,21 +333,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="4998ce07201d0056e8b45cc932301600d4e5b929">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1404/acts/sp_1404_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="c3c0c02638a6f0bfbbba78dc8b97c4e73c1b1fe8">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1404/acts/sp_1404_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="ce7e2dc5d6bc587738cb2fd432b9aaf46b64ecf3">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1404/acts/sp_1404_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -358,21 +358,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="30fafab65f9b1dddd52575568869635b8b721e80">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1404/acts/sp_1404_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="79025b3ec6885792fbee51798f148378b3782869">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1404/acts/sp_1404_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="85d2c16f2d76fd2c7772940295bed299393c505e">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1404/acts/sp_1404_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -387,21 +387,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="392e732b02c01eefc5839de1a6b667e3e0fcd2b1">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1407/acts/sp_1407_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="16e8fb1d6b04370672f00b7b44f14bcdf93f4815">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1407/acts/sp_1407_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="728e897c73f7f59df502bed5295275ebc12163fd">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1407/acts/sp_1407_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -412,21 +412,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="7db288bd29f2c4748d8c29776f9c2ded8fe1e644">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1407/acts/sp_1407_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="36d54b0efed1e17ce07d90201ffb1212e6ab7087">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1407/acts/sp_1407_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="63c534b0ffde9a5c6c72c0b290f2332ac1967104">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1407/acts/sp_1407_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -439,21 +439,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="f5a1a366d4f480878d3090e19be2ae7642e656f4">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1408/acts/sp_1408_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="5b4f24ced02810f5d31c02ae40819317c94004f4">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1408/acts/sp_1408_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="2f582698f0fe2ccfaa3d0a8cfca2eb4ae81322ff">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1408/acts/sp_1408_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -464,21 +464,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="bc0d6e96ebdba813a5d6829cb0e8b85f9490e777">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1408/acts/sp_1408_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="871c3ecdd9281c3837bb1c4ad91b2836ee0e47da">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1408/acts/sp_1408_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="800199937d943609383773ea923451a8eb40e81b">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1408/acts/sp_1408_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -491,21 +491,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="1ca0b242e18c3d7886b37246bd2c8d0c78cc1879">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1409/acts/sp_1409_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="9dc65b9f0b5e5b65cb8001a99fbd896bf9b97ab7">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1409/acts/sp_1409_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="993f7ad4a1bcb217e32c7b5ce030db6de2ae1604">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1409/acts/sp_1409_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -516,21 +516,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="89ee8386cbeb0ba1407aadba9ef015fad9355661">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1409/acts/sp_1409_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="23cd84fabefa1e1167b56ce1d4cd9e66fb1619c3">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1409/acts/sp_1409_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="de6b75e6385393dee6f44f9d0bbfb58a47a20e5b">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1409/acts/sp_1409_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -543,21 +543,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="bf9dd48510019b5664a12bd77fc3b1a91e1c1412">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1410/acts/sp_1410_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="0773145efa09ead436600977914e55bf44b4103c">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1410/acts/sp_1410_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="0b78eac9532a9143c306c4916ff88ae35d45efbc">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1410/acts/sp_1410_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -568,21 +568,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="7a7a8e0a6a0803c7f9b46f0df880d90857f48118">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1410/acts/sp_1410_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="b6ba3f55c1bf31a0c2ae1166a44b3b45b0eed313">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1410/acts/sp_1410_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="624d0a39d29cfabf3fb7f29f736791043e053fa6">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1410/acts/sp_1410_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -595,21 +595,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="cb46037ee9d4f941aaa2a9b41f1253012ebd6507">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1411/acts/sp_1411_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="25c2ecd6dc888067ca9152fa42d11497fac7fc73">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1411/acts/sp_1411_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="6bc65a9087fb9530d95aedaca4ad5026ffa638f4">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1411/acts/sp_1411_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -620,21 +620,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="b88734db8c9d757e920388449b525662e95a459d">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1411/acts/sp_1411_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="bdcdf6a72d9510ea105f0c0ac69f9bef39b66666">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1411/acts/sp_1411_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="1d9b0032f7a35d93711e0694dcb1823b90642f86">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1411/acts/sp_1411_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -647,21 +647,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="2f100e29925ed8f0c1b8ac80b1d24e5d79e8ce38">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1412/acts/sp_1412_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="973f05ff50d7c7d0db5b1ab6934c62540fc74c68">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1412/acts/sp_1412_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="98e8804b6b78a09bc69dad53c2d513f9f2085ccc">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1412/acts/sp_1412_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -672,21 +672,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="fd3e0a2705ac0dae8fe9d8446c6a64a56e6f9220">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1412/acts/sp_1412_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="1480e8d9e5d225fa68c12e06b41ed059d9dd5e0d">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1412/acts/sp_1412_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="2d60074c09eddaf06bad31e6ef455a552bfe822f">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1412/acts/sp_1412_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -699,21 +699,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="1df1e60219c0d1e3724049c149d18aebe9219f57">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1413/acts/sp_1413_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="37f78b8d02c0be6c5d8e51c54e34c9e36667c2a2">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1413/acts/sp_1413_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="fcc3bcd3a6bdeb53f25e1e0cec4407aa092e4d6c">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1413/acts/sp_1413_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -724,21 +724,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="35769b62f9c18a7bf42ddebbc32973714b34b143">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1413/acts/sp_1413_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="d7978292c3037fe7150fd318803225dac0e5eca5">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1413/acts/sp_1413_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="46587741cbf7d3bf2f76d0ef79aa729f432381c8">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1413/acts/sp_1413_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -751,21 +751,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="c19362d2c806d793280726fb5f2c4254f19e57a9">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1414/acts/sp_1414_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="c85d9ccef0fedf21dc708493051f7f0b91bc18bf">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1414/acts/sp_1414_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="82384192bb68f23f9cbb0e3f186002a5af0145bb">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-14/1414/acts/sp_1414_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -776,21 +776,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="93c9a3bf1ed0583fdd55fea14ffb7ce513d2295c">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1414/acts/sp_1414_act1_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="719e0d40707f3a8464f3b5d089a1e340259bb438">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1414/acts/sp_1414_act2_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="a5f3b12bc6227b52cb655ef692a9f49448d5f902">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_14/1414/acts/sp_1414_act3_1280x720_1200.mp4
 								</mirror>
 							</url>
