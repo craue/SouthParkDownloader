@@ -343,21 +343,14 @@ class SouthParkDownloader {
 		$audioParts = '';
 		$languages = $this->config->getLanguages();
 		for ($i = 0; $i < count($languages); $i++) {
-			$currentLanguage = $languages[$i];
+			$currentLanguage = strtolower($languages[$i]);
 
 			if (strlen($audioParts) > 0) {
 				$audioParts .= ' ';
 			}
-			if (in_array(strtolower($currentLanguage), array('de', 'en'))) {
-				$audioParts .= sprintf('--language %u:', $i + 1);
-				switch (strtolower($currentLanguage)) {
-					case 'de':
-						$audioParts .= 'ger';
-						break;
-					case 'en':
-						$audioParts .= 'eng';
-						break;
-				}
+
+			if (in_array($currentLanguage, array('de', 'en'), true)) {
+				$audioParts .= sprintf('--language %u:%s', $i + 1, $currentLanguage);
 			}
 		}
 
