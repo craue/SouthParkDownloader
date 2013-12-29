@@ -806,23 +806,23 @@
 				<language id="en" title="HUMANCENTiPAD">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="679ce068ca9f60ab458fe11daa7bc94ee76b76d9">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="cdfb0492c534c7c5e9eba10e8cd878a52c059cf6">
+								<mirror last-checked="2013-12-29T18:57:43+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="92bb4ff1e5068737bd292b5b30a530245df8b63f">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="dafb175aea49067ae315095e6be2774b1801cfda">
+								<mirror last-checked="2013-12-29T18:57:44+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="212d8b2b5209f9ac80c0a1003a6d283f173fb413">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="acc773c9213131a5f26667adfd822123e03e7116">
+								<mirror last-checked="2013-12-29T18:57:44+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1501/acts/sp_1501_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -832,21 +832,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="3027b73302db8a80b2d01eceef80bb89fc857cdd">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:52+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1501/acts/sp_1501_act1_DEU_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="3c2378f8c647c56af86f8d8bdc43051a4b28f43f">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:52+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1501/acts/sp_1501_act2_DEU_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="81be04f4e3b81aafc4def138d6f4426cda11aa11">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:53+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1501/acts/sp_1501_act3_DEU_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -858,23 +858,23 @@
 				<language id="en" title="Funnybot">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="83203e08056f2ec7656e4960cc3a3df5233e288a">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="ac796a7d15687017ac1940157dd447bef77e4ed4">
+								<mirror last-checked="2013-12-29T18:57:44+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="53f76db32cfed1b417c60d21f817d886a68945c5">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="695657661a0ed0dcfaca744b89b45c143601baea">
+								<mirror last-checked="2013-12-29T18:57:44+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="f7b771eef6f96372c97ec9845009eca706630a4a">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="739e5d498abc854682f44b7e756fcb95ed6723eb">
+								<mirror last-checked="2013-12-29T18:57:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1502/acts/sp_1502_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -884,21 +884,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="371c6ac9c0cda4deae0cf0c0c6751549665a4eef">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:53+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1502/acts/sp_1502_act1_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="407e156a85bdc77ba376be461726fb77967c8d5d">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:53+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1502/acts/sp_1502_act2_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="daa8efbd18dc0cf6169ffb65a1522f0afb27829e">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:54+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1502/acts/sp_1502_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -910,23 +910,23 @@
 				<language id="en" title="Royal Pudding">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="c1f90809ff03ea560ce16282719a7fa061a87bbf">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="03b7bba6f0da26cbd336fb96336e2699ec962e29">
+								<mirror last-checked="2013-12-29T18:57:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="12af04a526b3b1cc1506a63446eb2702e56b1e58">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="7113534a6c6f560bee21a65df9eb5df244e08ff5">
+								<mirror last-checked="2013-12-29T18:57:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="979200a79b4bfdd6655ff970c2ea5b4c858979ec">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_pudding_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="ab8197c0837e392fba73196b19ae35e22841ff94">
+								<mirror last-checked="2013-12-29T18:57:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1503/acts/sp_1503_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -936,21 +936,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="df7e89ba391f7cc53b530f1c1dba2c4ffd5ac3e2">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:54+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1503/acts/sp_1503_act1_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="d019b151b88c0e38132493aad9b75de5c35c0211">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:54+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1503/acts/sp_1503_act2_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="fc170a92cfa2f09553763210467085069c609d16">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:54+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1503/acts/sp_1503_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -962,23 +962,23 @@
 				<language id="en" title="T.M.I.">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="b1342a70dc0cc738343e4b0ebe52fc1a81ba71d1">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="eb703ce1739b3847315a24c7a6269bf57dd816ec">
+								<mirror last-checked="2013-12-29T18:57:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="55b9d7adf0410e66feb70cc5a3924b71cd3c9052">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="bb6effed39f99b31b7da3a4ef329bebc189a66c8">
+								<mirror last-checked="2013-12-29T18:57:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="ff0d66e860338478445dc4ba840713168a2a8e31">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_tapemeasure_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="3ae3c98bb3ff60a56c0513cb2c5af0ef009db110">
+								<mirror last-checked="2013-12-29T18:57:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1504/acts/sp_1504_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -988,21 +988,21 @@
 					<acts>
 						<act id="1">
 							<url resolution="1280x720" bitrate="1200" sha1="2c2a95d59b919691e1509949c05fc30263e9ec49">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:55+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1504/acts/sp_1504_america_act1_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
 							<url resolution="1280x720" bitrate="1200" sha1="148ceb124779d7c7640d785f660d5d3ae75819db">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:55+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1504/acts/sp_1504_america_act2_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
 							<url resolution="1280x720" bitrate="1200" sha1="e3891db62695c1ea024905fe5e81fe0e4d9fbb0c">
-								<mirror>
+								<mirror last-checked="2013-12-29T18:59:55+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_15/1504/acts/sp_1504_america_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
@@ -1014,23 +1014,23 @@
 				<language id="en" title="Crack Baby Athletic Association">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="1dddbcd72d619e96680f06f704ce34b9f12ba6b3">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="45508ceed3f1a3005a73eeb08cf21170b24b7714">
+								<mirror last-checked="2013-12-29T19:26:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="22f9f443d493f9c1e2f25631232f34858961b5c0">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="eb4f6b6feb9f6832e26dc408a556a2edddba58e6">
+								<mirror last-checked="2013-12-29T19:27:32+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="35bb4e3e6e6d93bea2ddf58daf8ae64f51a1df24">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_slash_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="dbc78935cc203a661e3f7f265a0fd11db5ef81b1">
+								<mirror last-checked="2013-12-29T19:28:14+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1505/acts/sp_1505_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1066,23 +1066,23 @@
 				<language id="en" title="City Sushi">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="704a9d0bdd50cd0c096e75cda49cf2c3c013139c">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="4bdff0550ec9c2947f013143494061d1272bcab5">
+								<mirror last-checked="2013-12-29T19:35:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="a7bee2c43a11a15c15aebdf24dc1ebc0a69385fb">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="b317bdaa172b413b10851ecb3ee2e1123ab67d07">
+								<mirror last-checked="2013-12-29T19:35:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="c85c7826296020260a00ed07873f7a8c5945d0fc">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_inspector_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="6f28bd57ec3e2b920d771828f0d82f3aa7ab20f7">
+								<mirror last-checked="2013-12-29T19:36:37+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1506/acts/sp_1506_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1118,23 +1118,23 @@
 				<language id="en" title="You're Getting Old">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="10efcd7e7a61ab75b8751971a33c183cfc15c0a7">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_M3J529M1_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="9cc70ab60acd7f905621e810a4e7344e67ca2e24">
+								<mirror last-checked="2013-12-29T19:45:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="2dd09d0c5a9f92673a8cca03329e67f8c248915a">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_M3J529M1_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="237e72d218d60b8cf00f7b7f2599e55841fb4787">
+								<mirror last-checked="2013-12-29T19:46:27+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="a36b4683135cc24380d10e56b4140530932032f0">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_M3J529M1_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="a95b976081535a4a53fa0ec92e1fa4625dd324bf">
+								<mirror last-checked="2013-12-29T19:47:10+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1507/acts/sp_1507_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1170,23 +1170,23 @@
 				<language id="en" title="Ass Burgers">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="8f7fd4c496b2fe898c2c5d7ab3bbd93480b04e19">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_3J5R1M2_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="78d69faef365da0cff175ea87a3c1b9b790ce900">
+								<mirror last-checked="2013-12-29T19:57:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="c10f14502acb7aae2b599ba3aa114f07fc6106ea">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_3J5R1M2_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="1e143663fc55052bc0a20c09cd384261720e1461">
+								<mirror last-checked="2013-12-29T19:59:06+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="64db33637be45e6a8c75f4fa6d89c74c69a6de71">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_3J5R1M2_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="eb1c7006e77ed99ba44720783f1912cc970381ca">
+								<mirror last-checked="2013-12-29T19:59:50+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1508/acts/sp_1508_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1222,23 +1222,23 @@
 				<language id="en" title="The Last of the Meheecans">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="224d771f5f5d56e585d75286c33090eda6cab6c7">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_7R3L5A8B4_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="538c32d48f9b9d7d49cad6816ac86fa94d665873">
+								<mirror last-checked="2013-12-29T20:10:17+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="64ffc27bad05b9de343af0ff919afdb89923f7f6">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_7R3L5A8B4_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="ce839a6f0853a5bc56d32a5ff2b1b96c04532f2c">
+								<mirror last-checked="2013-12-29T20:13:36+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="008b69275ba60b3b924877d89153a60dc2d7f0b0">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_7R3L5A8B4_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="1c8ba2ce861057f25d9c72fe4479f6ee032bc6d3">
+								<mirror last-checked="2013-12-29T20:14:11+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1509/acts/sp_1509_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1274,23 +1274,23 @@
 				<language id="en" title="Bass to Mouth">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="856d0a224dca52b3148a83a78ba12176e88b3af4">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_8F4J3A7T9R_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="cffd53bfa4a5afe5a6979d75a5b626ceda2dc796">
+								<mirror last-checked="2013-12-29T20:19:47+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="f167c95231a4a0873e03c7e6a3c82c5768770d52">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_8F4J3A7T9R_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="d27391d9c1126a01f92091eb18c11da2c9b8c72a">
+								<mirror last-checked="2013-12-29T20:20:30+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="2543cff1fbbf4bbca04eb4eac763f278e3eb25cc">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_8F4J3A7T9R_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="2949e71a13cec2f9f97a049fe2265eb8c9ad1411">
+								<mirror last-checked="2013-12-29T20:21:07+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1510/acts/sp_1510_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1326,23 +1326,23 @@
 				<language id="en" title="Broadway Bro Down">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="7e076422b2f763fd73074e78dad539e4f51117f9">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_L2P9Q4K3X7Y6_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="912676ef8cbe3a8eda0f6609231c7d3cab290f96">
+								<mirror last-checked="2013-12-29T20:28:39+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="087611ae41cf0a1e6bf8bb7f671e8b8ac1bcc878">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_L2P9Q4K3X7Y6_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="05c984fe3cf5d42ccebc72728c4d0ab7b5fe8a14">
+								<mirror last-checked="2013-12-29T20:29:28+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="94cbccd1597d75bc28e6b47e09dad740591d1a79">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_L2P9Q4K3X7Y6_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="38ca993244c58615cb3ca7a4ab5e90908bc49a41">
+								<mirror last-checked="2013-12-29T20:30:08+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1511/acts/sp_1511_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1378,23 +1378,23 @@
 				<language id="en" title="1%">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="1cc3303767db2849b323cd5de7c321e5c7b24409">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_4W9D7M3U1E5_act01_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="dfedbc6a2aa40156bcf6ec550b42f626923213a6">
+								<mirror last-checked="2013-12-29T20:37:32+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="06e160c0b3ec22aa2d52d071cd9ced25d9bdf3b3">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_4W9D7M3U1E5_act02_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="89965b679ee739c039a9f8e141fe01634daebf4c">
+								<mirror last-checked="2013-12-29T20:38:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="ba67167d2e12ffcdb75917e414466c9550b19de5">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_4W9D7M3U1E5_act03_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="c7440b8923dfd6f275ec92972b57b77277819c3c">
+								<mirror last-checked="2013-12-29T20:39:02+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1512/acts/sp_1512_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1430,23 +1430,23 @@
 				<language id="en" title="A History Channel Thanksgiving">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="aef28707b3d149e57dcdf85642e1ca643286d3da">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_T9P6H2D4E9W1U3X_act01_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="130054dcca48cf08feb12e5e0bb127d2c4c3deed">
+								<mirror last-checked="2013-12-29T20:44:43+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="671ea287926453b5d1eca4281b8476bee8bb3e87">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_T9P6H2D4E9W1U3X_act02_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="05087e4afde6302c4e3c8ab5bb59485dfd1e86e5">
+								<mirror last-checked="2013-12-29T20:45:30+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="1f67b7f275596e6b0270538fbd4a0bb49611665a">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_T9P6H2D4E9W1U3X_act03_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="807b9a12aab96d78cb197e1f1d0090198b2610c3">
+								<mirror last-checked="2013-12-29T20:46:08+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1513/acts/sp_1513_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1482,23 +1482,23 @@
 				<language id="en" title="The Poor Kid">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="42f8ca81cb0883dda22a25cb550c5c838b013212">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_B0P1T4U6K8S59_act01_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="61d1c3c85b7a531e5125a4bcb3a192a54690815d">
+								<mirror last-checked="2013-12-29T21:03:24+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="4a94ff422400080195b7c93b2c22e44097d4eab6">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_B0P1T4U6K8S59_act02_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="e7cf11aee99651ce8333f0e5aab0f5e0a0bc8be1">
+								<mirror last-checked="2013-12-29T21:04:09+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="245d7df4720235473aa3f6863394c4b4ade6fcbe">
-								<mirror>
-									rtmpe://viacomspstrmfs.fplive.net/viacomspstrm/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_B0P1T4U6K8S59_act03_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="d3e775b8b74ba3d740e906e0c18dd2239bffcf98">
+								<mirror last-checked="2013-12-29T21:04:55+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-15/1514/acts/sp_1514_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
