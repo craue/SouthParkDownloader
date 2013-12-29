@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Base class for reading from an XML database.
+ * Base class for reading/writing an XML database.
  * This file is part of the South Park Downloader package.
  *
  * @author Christian Raue <christian.raue@gmail.com>
@@ -20,6 +20,10 @@ class XmlDatabase {
 
 	public function getData() {
 		return $this->data;
+	}
+
+	public function save() {
+		$this->data->asXML($this->source);
 	}
 
 	protected function addXPathNamespace(SimpleXMLElement $element, $prefix) {
