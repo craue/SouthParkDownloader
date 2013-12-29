@@ -65,6 +65,11 @@ class EpisodeDatabase extends XmlDatabase {
 		$urlNode[0]['sha1'] = $sha1;
 	}
 
+	public function updateLastChecked($seasonId, $episodeId, $language, $actId) {
+		$urlNode = $this->getUrlNode($seasonId, $episodeId, $language, $actId);
+		$urlNode[0]->mirror['last-checked'] = gmdate('c');
+	}
+
 	public function getTitle($seasonId, $episodeId, $language) {
 		$episode = $this->findEpisode($seasonId, $episodeId, strtolower($language));
 

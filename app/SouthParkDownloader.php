@@ -111,8 +111,12 @@ class SouthParkDownloader {
 // 			// add missing checksum
 // 			$actualChecksum = sha1_file($file);
 // 			$this->episodeDb->setSha1($season, $episode, $language, $actId, $actualChecksum);
-// 			$this->episodeDb->save();
 // 		}
+
+// 		// update "last-checked" timestamp
+// 		$this->episodeDb->updateLastChecked($season, $episode, $language, $actId);
+
+// 		$this->episodeDb->save();
 	}
 
 	public function merge() {

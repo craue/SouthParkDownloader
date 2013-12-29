@@ -41,6 +41,7 @@
 																										<xs:complexType>
 																											<xs:simpleContent>
 																												<xs:extension base="xs:anyURI">
+																													<xs:attribute name="last-checked" type="xs:dateTime" />
 																												</xs:extension>
 																											</xs:simpleContent>
 																										</xs:complexType>
