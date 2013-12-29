@@ -381,7 +381,7 @@ class SouthParkDownloader {
 				$audioParts,
 				$mkvParts));
 
-		if ($exitCode !== self::EXITCODE_SUCCESS) {
+		if ($exitCode !== self::EXITCODE_SUCCESS && $exitCode !== self::EXITCODE_MKVMERGE_WARNINGS) {
 			$this->abort($exitCode);
 		}
 	}
