@@ -316,7 +316,7 @@ class SouthParkDownloader {
 			}
 
 			$this->tempFiles[] = $targetFile;
-			$exitCode = $this->call(sprintf('%s -o %s %s %s',
+			$exitCode = $this->call(sprintf('%s --quiet -o %s %s %s',
 					escapeshellcmd($this->config->getMkvmerge()),
 					escapeshellarg($targetFile),
 					escapeshellarg($actVideoSourceFile),
@@ -375,7 +375,7 @@ class SouthParkDownloader {
 			$mkvParts .= escapeshellarg($actSourceFile);
 		}
 
-		$exitCode = $this->call(sprintf('%s -o %s --default-track 2 %s %s',
+		$exitCode = $this->call(sprintf('%s --quiet -o %s --default-track 2 %s %s',
 				escapeshellcmd($this->config->getMkvmerge()),
 				escapeshellarg($targetFile),
 				$audioParts,
