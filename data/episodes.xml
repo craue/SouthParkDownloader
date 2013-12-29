@@ -35,24 +35,23 @@
 				<language id="en" title="Dead Celebrities">
 					<acts>
 						<act id="1">
-							<audio-delay>870</audio-delay>
-							<url resolution="1280x720" bitrate="1200" sha1="2a712cff0bf39ff46858a949b19e4d5df2e2c29f">
+							<url resolution="1280x720" bitrate="1200" sha1="471e8c803e467aa6be98f936c3a192497a1133fd">
 								<mirror>
-									rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act1_1280x720_1200.mp4
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="eab8f19abb16b217624956cc9a0f94e9195a360e">
+							<url resolution="1280x720" bitrate="1200" sha1="101cbf40f662fced99c3605fd8e8e7c82927d7c3">
 								<mirror>
-									rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act2_1280x720_1200.mp4
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="6cf4ac3c5a3b6b045c726259b4ab71570ce2de3c">
+							<url resolution="1280x720" bitrate="1200" sha1="987a14fd7f80c7f84728ae6b79d893b3ec5e2d32">
 								<mirror>
-									rtmpe://cp40493.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season_13/1308/acts/sp_1308_act3_1280x720_1200.mp4
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-13/1308/acts/sp_1308_actHD_03_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
