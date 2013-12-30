@@ -1538,23 +1538,48 @@
 				<language id="en" title="Reverse Cowgirl">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="e26edddb7fe94a3c254534c80f7b5f9e4d2fc544">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="76c3e51a15c093e479ba4c57dbd9f6669ab23750">
+								<mirror last-checked="2013-12-29T22:06:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="f29ffcd28cd0d439789aedff4d8efa430e4f34cd">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="85c014bcd718f69496132e465d349b1416f92e89">
+								<mirror last-checked="2013-12-29T22:07:14+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="b79772b1fe8bfe914ad1bd79333cf1eb0ba42c7e">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="5f7bc8eaa09062b072196f56e0fa0b085a655218">
+								<mirror last-checked="2013-12-29T22:07:49+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1601/acts/sp_1601_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Rückwärts Reiten">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="c03a26941561db553ca226f0450ee28ac44f0692">
+								<mirror last-checked="2013-12-29T22:03:30+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="392833ab45afa469bfdc72d08566e492d8fd13ff">
+								<mirror last-checked="2013-12-29T22:04:28+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="11103252530164aac45e2b3b1decac0bf90e0b6f">
+								<mirror last-checked="2013-12-29T22:05:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1601/acts/sp_1601_6X2E9P6Y7H1Q4_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1565,23 +1590,48 @@
 				<language id="en" title="Cash For Gold">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="82f0b8dd01a6f8fa905aab7213a9031af2bbe500">
+								<mirror last-checked="2013-12-30T10:24:49+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="c31f398606e5722b1259308752df36017a023344">
+								<mirror last-checked="2013-12-30T10:25:38+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="971ebcf9dcc2a53296912e7db2016b01ef266115">
+								<mirror last-checked="2013-12-30T10:26:25+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1602/acts/sp_1602_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Wer hat zuerst gerochen">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ebc853eafaa862486074fdb3d83d80fa8d876db6">
+								<mirror last-checked="2013-12-30T10:22:09+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="54b40c12bc5a8f53d1f883a8b84991f1fd5d4c37">
+								<mirror last-checked="2013-12-30T10:22:58+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="50ccc497e80d2416b486e00911fb3530d8fe9663">
+								<mirror last-checked="2013-12-30T10:23:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1602/acts/sp_1602_9V7R3F5B1Q4Y2L_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1592,23 +1642,48 @@
 				<language id="en" title="Faith Hilling">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="7f9c759e34082aedbd4b0c3571e7f7c1b5d8e4fa">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="b463e12a492801db4d901203668e5cf4352ffbee">
+								<mirror last-checked="2013-12-30T10:30:22+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="21c4af49b9ee2f5d312d00de48d13622a138a926">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="ef624af38dcbcca44b4281b684a82d0083df82d3">
+								<mirror last-checked="2013-12-30T10:31:06+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="9690d42cad5fe5a413e79ce057ea148d7a0bf322">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_REV_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="f62e7427258e2dd227a4c3cd022b4a9f71991299">
+								<mirror last-checked="2013-12-30T10:31:48+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1603/acts/sp_1603_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Faith Hilling">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="16213455d163777f9e9a12b6d8a2c6dfc54b42db">
+								<mirror last-checked="2013-12-30T10:27:42+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="47d9efd31fd120ad553fd8d0bc4a5f17abded979">
+								<mirror last-checked="2013-12-30T10:28:25+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2b7a34325d084fdd0a2a3a2879ebef5ff2c1406f">
+								<mirror last-checked="2013-12-30T10:29:05+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1603/acts/sp_1603_P8G3M6U5E1B4D2S_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1619,23 +1694,48 @@
 				<language id="en" title="Jewpacabra">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="518600f688debe7fb0738fe1d75cd76beaa8ff10">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="c1b8f066cfa4eccdf6442cc76a26c8ff829c14ad">
+								<mirror last-checked="2013-12-30T10:35:48+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="cb339ca3d32166ebdb8915812c6af1dedfb6ae1a">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="ac80d135c02f025db7a2f9db7149d98ceb3e5768">
+								<mirror last-checked="2013-12-30T10:36:33+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="ea2a7239e20e485fb2771d24d713c45470b49492">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_rev_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="c59de145bd5ad48f5b376a4f62f5583b2b3badc9">
+								<mirror last-checked="2013-12-30T10:37:15+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1604/acts/sp_1604_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Judapacabra">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="09f1d331eb32faea614fd49890df5c5a2897c18a">
+								<mirror last-checked="2013-12-30T10:33:05+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_act1_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a42f45e33a10e61c96602aa18fccf8f5e5752361">
+								<mirror last-checked="2013-12-30T10:33:49+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_act2_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="c6f29214f31cf07d13b0d340ca1b5d6481a44ae0">
+								<mirror last-checked="2013-12-30T10:34:32+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1604/acts/sp_1604_6D9M3F8R7E5T1Z3O_act3_1280x720_1200_DEU.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1646,23 +1746,48 @@
 				<language id="en" title="Butterballs">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="78a7a8dd7f1f48ac104d7bb77f97ed925afd6dcf">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="82ca61fdda5b1a4cfc6ef016f5f1994caa995a20">
+								<mirror last-checked="2013-12-30T10:41:14+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="26d3520f61cd87965bb643b0b9a992be59388314">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="1311b72d5f28a6edceeba875b301f3758d371d7b">
+								<mirror last-checked="2013-12-30T10:41:56+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="acd448bc8ce0ccb0f129d4afc348d76e5c2555c5">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_REV_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="473958b95f7946faee0af6c8f87dd3dc91e22de7">
+								<mirror last-checked="2013-12-30T10:42:43+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1605/acts/sp_1605_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Butterballs">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9031fb5d38ce37741119385f53cf69164b50ea02">
+								<mirror last-checked="2013-12-30T10:38:31+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_act1_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="6d6ead6fd6cf2b18a7deb9a0f57e5b084c2d71e9">
+								<mirror last-checked="2013-12-30T10:39:13+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_act2_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="1021195c28ed2526c5dfc56665e1b238a0d65d4d">
+								<mirror last-checked="2013-12-30T10:39:58+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1605/acts/sp_1605_X8Q1P5F4Z2B6R0Y2N_act3_1280x720_1200_DEU.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1673,23 +1798,48 @@
 				<language id="en" title="I Should Have Never Gone Ziplining">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="9b8e5f4e085e7e015115d8acf71c1e6d36855e61">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="0600429b5e05901b2233a3dcb6d10e0650725b07">
+								<mirror last-checked="2013-12-30T10:46:35+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="619398b50116ef5163ef5d0f8d26f7d3c1f35410">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="2f72e41b3854e660b82ddea02276cd961fc4120d">
+								<mirror last-checked="2013-12-30T10:47:30+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="6e7c5efac516b0027751a410b92d6f44f0beaf35">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="c10aebb38d50a4db311b4ec235b4448a45202b9f">
+								<mirror last-checked="2013-12-30T10:48:02+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1606/acts/sp_1606_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Ziplining">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="7de401595d0653f912ddbd0c256eb09a852308fb">
+								<mirror last-checked="2013-12-30T10:43:56+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act1_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="d7e22a7d4bff9daca78e2583a88861dfd34cfcd5">
+								<mirror last-checked="2013-12-30T10:44:51+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act2_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="a0ae8b700befc8e42f22b3b92718daf62a2ace1b">
+								<mirror last-checked="2013-12-30T10:45:23+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1606/acts/sp_1606_3V5A8U1R4Z2H6D7O9M_act3_1280x720_1200_DEU.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1700,23 +1850,48 @@
 				<language id="en" title="Cartman Finds Love">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="d29f65eb01d2580a0a0ad2760356dd7fd160b15d">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act1_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="8c39dc5fd275bbf79527e430b38d1e585dad47bb">
+								<mirror last-checked="2013-12-30T10:51:52+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="e2f89cf8b9452969aec4a263fe8961d2066d416f">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act2_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="7fa77ee377ac2c5f5c3eedeb496b02d4231cf7f1">
+								<mirror last-checked="2013-12-30T10:52:34+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="010e6d5ed5d164b728f98be8767ba587160c2d6b">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_REV_act3_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="743b7a9952178ce7e7365d3e9bef26cacd1da4b0">
+								<mirror last-checked="2013-12-30T10:53:22+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1607/acts/sp_1607_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Armor Eric">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="57c5dba47d61aa77116502dfcf1ec7625ec16301">
+								<mirror last-checked="2013-12-30T10:49:13+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_act1_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="ea50f5eae0a9696fa45b6717b7771a058629ab37">
+								<mirror last-checked="2013-12-30T10:49:55+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_act2_1280x720_1200_DEU.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="4fb0da6b4016618252239bccc7b9958ccef6a7df">
+								<mirror last-checked="2013-12-30T10:50:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1607/acts/sp_1607_P9U6N4I1A7Q3R5C8L2Z0_act3_1280x720_1200_DEU.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1727,23 +1902,48 @@
 				<language id="en" title="Sarcastaball">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="d5805cd8d59619c2d68367956a41f951aa64dd84">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act1_REV_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="4e61b4d1012291b011f393260e45c2a42ae26960">
+								<mirror last-checked="2013-12-30T10:57:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="d6ddf8ab360ac9579c89c981d1d6069e1b9682a5">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act2_REV_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="b9fd7d426823abdc9000332ba075c22758a4eafe">
+								<mirror last-checked="2013-12-30T10:58:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="5848b623fcddf6d992a6f59acc7d2c22e9af6de3">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_8I6P0O7L4_act3_REV_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="18f5f29b5369eab613b3544f09386e4a0c0b0a65">
+								<mirror last-checked="2013-12-30T10:58:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1608/acts/sp_1608_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Sarcastaball">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9724e0d2fa53da78053a0f203593c449fb71086e">
+								<mirror last-checked="2013-12-30T10:54:37+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1608/acts/sp_1608_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="195288ac1c75786cd2743d9a9e94037d33a1ce61">
+								<mirror last-checked="2013-12-30T10:55:24+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1608/acts/sp_1608_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="e6e874f12a3902519ae7babec504d4d1a84c00da">
+								<mirror last-checked="2013-12-30T10:56:01+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1608/acts/sp_1608_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1754,23 +1954,48 @@
 				<language id="en" title="Raising the Bar">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="de375839472b8e2df986ee19ba29e2749db3d902">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="2f2b775689b90641099269b61207a401eeee0de1">
+								<mirror last-checked="2013-12-30T11:02:37+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="4be55f581120ffa6a9b82e7cdb107b380a61a7f9">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="b8cd35d22d9bccf0aec066f2a180a21d4b8bc8bb">
+								<mirror last-checked="2013-12-30T11:03:27+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="63c851aa5d9bd67e8ed3b732c8dba1d238c2e699">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_Q5K1F3C2N_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="321cb85b745c6e28e7d0a48a6621e36680972d56">
+								<mirror last-checked="2013-12-30T11:04:02+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1609/acts/sp_1609_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Raising the Bar">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="bf0b626f6b1948889971430975ee555bf4bec42f">
+								<mirror last-checked="2013-12-30T10:59:57+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1609/acts/sp_1609_act01_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="ebe9872485859b2e2bc71ec0f2830789a8da7267">
+								<mirror last-checked="2013-12-30T11:00:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1609/acts/sp_1609_act02_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="076f50aea719d69a30e909dc3268736f2c495127">
+								<mirror last-checked="2013-12-30T11:01:22+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1609/acts/sp_1609_act03_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1781,23 +2006,48 @@
 				<language id="en" title="Insecurity">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="01b73ff2f75536cf7b31dde367ff8995f649f400">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="bacf9a1c49b03db1c8545f5957b59f64d92696ec">
+								<mirror last-checked="2013-12-30T11:08:10+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="63afc0f7b23e986b42d7dcd2d30614bd8687eaaf">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="77c36580efc58416dc8f6a0aef5d04020d2509f5">
+								<mirror last-checked="2013-12-30T11:08:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="464289470c351293a838209487dab002c1424dc9">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_6P2E4V3H7M5Z_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="3ad72218ebc5623513dafb5b3dad4c2dd79b6a52">
+								<mirror last-checked="2013-12-30T11:09:35+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1610/acts/sp_1610_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Insecurity">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="18cdd9b13f9348a71adbb716654c78e4728b0f1b">
+								<mirror last-checked="2013-12-30T11:05:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1610/acts/sp_1610_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a5421ffd8cb1d0215bbc82e3f5f7b33ac7705e78">
+								<mirror last-checked="2013-12-30T11:06:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1610/acts/sp_1610_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="32d45e46f4c87ba97053cdc3c824dd3e4c28aad4">
+								<mirror last-checked="2013-12-30T11:06:56+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1610/acts/sp_1610_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1808,23 +2058,48 @@
 				<language id="en" title="Going Native">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="b594de882312b15fbb7361c230612452eed92903">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="a2a6aaa8e74169a5acf21e57873ce3689f1d660f">
+								<mirror last-checked="2013-12-30T11:13:24+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="864bc0f9314aca1b96eebd4781ae5922c77d42f8">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="5381ca13294547a142c4f2a5199a48fb14c48fef">
+								<mirror last-checked="2013-12-30T11:14:13+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="57ee53b14207956d439096dd3e3babaf176a39c6">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_O0P8B4A3V1_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="defdbb36a3596836aac45fcb14a274a1f3f4ca72">
+								<mirror last-checked="2013-12-30T11:14:53+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1611/acts/sp_1611_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Going Native">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="0ba0d8be37cae121b1e694f75eefb0ef4f59815d">
+								<mirror last-checked="2013-12-30T11:10:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1611/acts/sp_1611_Act_01_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="5b54281ea27955ced284e453664b0c664b501926">
+								<mirror last-checked="2013-12-30T11:11:34+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1611/acts/sp_1611_Act_02_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="ff5d6a1f4dd4dcab68568c3feb178f6faa8aa47d">
+								<mirror last-checked="2013-12-30T11:12:14+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1611/acts/sp_1611_Act_03_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1835,23 +2110,48 @@
 				<language id="en" title="A Nightmare on Face Time">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="b178447b9c40c8cfe912f608c9a6c370110be13c">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_5J63N4C2X9F_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="5763b47ade4d8edc784e747bf3abef7d997bf4cc">
+								<mirror last-checked="2013-12-30T11:18:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="10c7f9610823ea8ec2b7edef7701737f43acbdf8">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_5J63N4C2X9F_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="17393728025b763572deeb55ed28f4fa747a680b">
+								<mirror last-checked="2013-12-30T11:19:27+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="3fc58816572ecc078471dcc1b6967df928dc3a2c">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_5J63N4C2X9F_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="9454149cd741af0ed5d5f618390e898f05a7146b">
+								<mirror last-checked="2013-12-30T11:20:11+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1612/acts/sp_1612_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="A Nightmare on Face Time">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9d23c965db5c285abfec6649d66aee5fc7b46625">
+								<mirror last-checked="2013-12-30T11:16:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1612/acts/sp_1612_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="45c3fefc29ba996ef393a72cd433c5277fa2060d">
+								<mirror last-checked="2013-12-30T11:16:48+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1612/acts/sp_1612_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="1b7b6b569be2ae1605dbca66709cecb68f875120">
+								<mirror last-checked="2013-12-30T11:17:32+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1612/acts/sp_1612_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1862,23 +2162,48 @@
 				<language id="en" title="A Scause for Applause">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="7d96ad10d3834c302a882fc21ab8951f8d571339">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_L8P6T1J3A_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="bf0f1fb2252b86117ccce3b917cd758e4bee5aad">
+								<mirror last-checked="2013-12-30T11:23:59+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="c69f5ffca3f03544a8a6c4aa946bd459aaf8f616">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_L8P6T1J3A_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="7d8258e6ae9eb0924aaaf35e98eef1d9331fdeb4">
+								<mirror last-checked="2013-12-30T11:24:42+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="417d0802b787f5c9b98f10d349fd2b18611feb14">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_L8P6T1J3A_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="7b5ffb65ddecd8d0b4492dbf4e928c346a80d731">
+								<mirror last-checked="2013-12-30T11:25:30+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1613/acts/sp_1613_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="A Scause for Applause">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9819a08cb90c784489a01955f4cfab4493465833">
+								<mirror last-checked="2013-12-30T11:21:19+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1613/acts/sp_1613_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="e02ddfa85e061fb11cd1c73e9f7877db6ea5f20d">
+								<mirror last-checked="2013-12-30T11:22:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1613/acts/sp_1613_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="452d2187c0386761976365923657425e6bd561e8">
+								<mirror last-checked="2013-12-30T11:22:50+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1613/acts/sp_1613_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -1889,23 +2214,48 @@
 				<language id="en" title="Obama Wins!">
 					<acts>
 						<act id="1">
-							<url resolution="1280x720" bitrate="1200" sha1="7572d64f5c15a053ac5573738d61fefac85e20a4">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_X3I2D5V7A4Z9Y_act1_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="02715e5238719d36505c34e89f947e12adbe67c2">
+								<mirror last-checked="2013-12-30T11:29:18+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_actHD_01_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="2">
-							<url resolution="1280x720" bitrate="1200" sha1="2b6adda8e847a7d1109423e7168085bae1e4aa09">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_X3I2D5V7A4Z9Y_act2_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="197168ed78e2ec541e1a03f3953ae286fac12be9">
+								<mirror last-checked="2013-12-30T11:30:12+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_actHD_02_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
 						<act id="3">
-							<url resolution="1280x720" bitrate="1200" sha1="e259474c5fc0fac5bf7532541b8051bc6e27e7ab">
-								<mirror>
-									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_X3I2D5V7A4Z9Y_act3_rev_1280x720_1200.mp4
+							<url resolution="1280x720" bitrate="1200" sha1="42d0e2f7c2c423d290043aac187ccb63c7610dbc">
+								<mirror last-checked="2013-12-30T11:30:49+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-16/1614/acts/sp_1614_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Obama Wins!">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="e8424fa88d08429375735bef918ed3ea3606b88e">
+								<mirror last-checked="2013-12-30T11:26:38+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1614/acts/sp_1614_act1_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="03bfe1b666b5911ce64cfa333be7e333037188c7">
+								<mirror last-checked="2013-12-30T11:27:32+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1614/acts/sp_1614_act2_DEU_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="e7bead7f818b3fb1b8b2587e66f2cc4287a81f21">
+								<mirror last-checked="2013-12-30T11:28:10+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_16/1614/acts/sp_1614_act3_DEU_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
