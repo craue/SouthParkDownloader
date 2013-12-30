@@ -23,6 +23,7 @@ class Config {
 	protected $mkvmerge = null;
 
 	protected $verifyChecksums = true;
+	protected $updateDatabaseOnSuccessfulDownload = false;
 	protected $printCommandCalls = false;
 
 	protected $removeTempFiles = true;
@@ -119,6 +120,15 @@ class Config {
 
 	public function isVerifyChecksums() {
 		return $this->verifyChecksums;
+	}
+
+	public function setUpdateDatabaseOnSuccessfulDownload($updateDatabaseOnSuccessfulDownload) {
+		$this->assertBoolean($updateDatabaseOnSuccessfulDownload);
+		$this->updateDatabaseOnSuccessfulDownload = $updateDatabaseOnSuccessfulDownload;
+	}
+
+	public function isUpdateDatabaseOnSuccessfulDownload() {
+		return $this->updateDatabaseOnSuccessfulDownload;
 	}
 
 	public function setPrintCommandCalls($printCommandCalls) {

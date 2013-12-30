@@ -26,6 +26,7 @@ try {
 	$config->setFfmpeg($ffmpeg);
 	$config->setMkvmerge($mkvmerge);
 	$config->setVerifyChecksums(true); // no command line option yet
+	$config->setUpdateDatabaseOnSuccessfulDownload(false); // no command line option yet
 	$config->setPrintCommandCalls(false); // no command line option yet
 	$config->setRemoveTempFiles(true); // no command line option yet
 	$config->setRemoveDownloadedFiles(false); // no command line option yet

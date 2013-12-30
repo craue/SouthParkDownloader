@@ -105,18 +105,22 @@ class SouthParkDownloader {
 			if ($actualChecksum !== $expectedChecksum) {
 				throw new ChecksumMismatchException($file, $expectedChecksum, $actualChecksum);
 			}
+
+			if ($this->config->isUpdateDatabaseOnSuccessfulDownload()) {
+				// update "last-checked" timestamp
+				$this->episodeDb->updateLastChecked($season, $episode, $language, $actId);
+			}
 		}
 
-// 		if (empty($expectedChecksum)) {
-// 			// add missing checksum
-// 			$actualChecksum = sha1_file($file);
-// 			$this->episodeDb->setSha1($season, $episode, $language, $actId, $actualChecksum);
-// 		}
+		if ($this->config->isUpdateDatabaseOnSuccessfulDownload()) {
+			if (empty($expectedChecksum)) {
+				// add missing checksum
+				$actualChecksum = sha1_file($file);
+				$this->episodeDb->setSha1($season, $episode, $language, $actId, $actualChecksum);
+			}
 
-// 		// update "last-checked" timestamp
-// 		$this->episodeDb->updateLastChecked($season, $episode, $language, $actId);
-
-// 		$this->episodeDb->save();
+			$this->episodeDb->save();
+		}
 	}
 
 	public function merge() {
