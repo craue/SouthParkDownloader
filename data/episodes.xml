@@ -7,7 +7,10 @@
 	Copyright: 2011-2014 Christian Raue
 	License: http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
 -->
-<seasons xmlns="https://github.com/craue/SouthParkDownloader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/craue/SouthParkDownloader episodes.xsd">
+<seasons
+		xmlns="https://github.com/craue/SouthParkDownloader"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://github.com/craue/SouthParkDownloader episodes.xsd">
 	<season id="1">
 		<episodes>
 			<episode id="1">
