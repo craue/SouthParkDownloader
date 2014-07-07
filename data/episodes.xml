@@ -2295,6 +2295,31 @@
 						</act>
 					</acts>
 				</language>
+				<language id="de" title="Lass los, die NSA liebt dich">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="3aa87db6eea537325eea700da4d25397824d920b">
+								<mirror last-checked="2014-07-07T05:45:38+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1701/acts/sp_1701_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="eac55f8cb6967f3ff02eabaa8888f45e0f4432e0">
+								<mirror last-checked="2014-07-07T05:46:34+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1701/acts/sp_1701_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="60de3dac2c6d3d51ce12b3893520187f245e5615">
+								<mirror last-checked="2014-07-07T05:47:14+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1701/acts/sp_1701_actHD_03_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
 			</episode>
 			<episode id="2">
 				<language id="en" title="Informative Murder Porn">
@@ -2317,6 +2342,31 @@
 							<url resolution="1280x720" bitrate="1200" sha1="1938868e52f7fba6501e8ec1fb9aa39a75f2596a">
 								<mirror last-checked="2014-07-07T05:55:48+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1702/acts/sp_1702_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Infotainment-Mörderpornos">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="f0d16b45bfec23f8549f472bdcb18423d48d9ca3">
+								<mirror last-checked="2014-07-07T05:51:29+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1702/acts/sp_1702_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="c963653c4f06f6ae1117ae7795142d409d5fafad">
+								<mirror last-checked="2014-07-07T05:52:18+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1702/acts/sp_1702_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="19beddc0010b0db85d46a3db823dd8d885f6aa38">
+								<mirror last-checked="2014-07-07T05:53:01+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1702/acts/sp_1702_actHD_03_DEU_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -2349,6 +2399,31 @@
 						</act>
 					</acts>
 				</language>
+				<language id="de" title="World War Zimmerman">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="f680ac442d403e1be2075a06b75d050d95eec1ac">
+								<mirror last-checked="2014-07-07T05:57:08+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1703/acts/sp_1703_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="f0c4c01ce6258f5c93413a347e09d0f8cd29c301">
+								<mirror last-checked="2014-07-07T05:57:59+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1703/acts/sp_1703_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="00aa4994694cc76d842257644e8a1302230fb202">
+								<mirror last-checked="2014-07-07T05:58:47+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1703/acts/sp_1703_actHD_03_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
 			</episode>
 			<episode id="4">
 				<language id="en" title="Goth Kids 3 - Dawn of the Posers">
@@ -2371,6 +2446,31 @@
 							<url resolution="1280x720" bitrate="1200" sha1="6082bf5a9ba6b9c3c320659af7f31a5483ad297e">
 								<mirror last-checked="2014-07-07T06:18:39+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1704/acts/sp_1704_actHD_03_7F9C6K5J3R4W1Z_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Goth Kids 3">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="2877dda4421d5d04a52cabab7dfe7e49cfce1735">
+								<mirror last-checked="2014-07-07T06:03:01+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1704/acts/sp_1704_actHD_01_TENTA_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="8f372f4f9ca8991848c6550d5ad20637e205f8bb">
+								<mirror last-checked="2014-07-07T06:03:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1704/acts/sp_1704_actHD_02_TENTA_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="ae40a48306568726e404a884c83003420b275c30">
+								<mirror last-checked="2014-07-07T06:04:31+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1704/acts/sp_1704_actHD_03_TENTA_DEU_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -2403,6 +2503,31 @@
 						</act>
 					</acts>
 				</language>
+				<language id="de" title="Die Zähmung des widerspenstigen Spaltes">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="03f4a228d63226d0d9e59a84348cd4363fc674af">
+								<mirror last-checked="2014-07-07T06:25:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1705/acts/sp_1705_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="4cdca84e07f32ddf35cb579301908fa011be4754">
+								<mirror last-checked="2014-07-07T06:26:46+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1705/acts/sp_1705_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2ce26cb3d53afe5bfa73716eba1b0778570f14d4">
+								<mirror last-checked="2014-07-07T06:27:34+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1705/acts/sp_1705_actHD_03_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
 			</episode>
 			<episode id="6">
 				<language id="en" title="Ginger Cow">
@@ -2425,6 +2550,31 @@
 							<url resolution="1280x720" bitrate="1200" sha1="0fac9058c94fdacf0cd989aa2f86e16a0d2499b6">
 								<mirror last-checked="2014-07-07T06:36:40+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1706/acts/sp_1706_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Ginger Kuh">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="5e95fd0a49cf735e2430ec01964789dc6470293a">
+								<mirror last-checked="2014-07-07T06:32:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1706/acts/sp_1706_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="bce1a98bf4bc6aee1273da32f8fa5e22b824c0e5">
+								<mirror last-checked="2014-07-07T06:33:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1706/acts/sp_1706_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0bafe91a3c8752df5dc6588c6b76edcf46077a3c">
+								<mirror last-checked="2014-07-07T06:33:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1706/acts/sp_1706_actHD_03_DEU_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -2457,6 +2607,31 @@
 						</act>
 					</acts>
 				</language>
+				<language id="de" title="Die Red Robin Hochzeit">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="89803628871cfd52e812d0d3b3f497d85b83d1c8">
+								<mirror last-checked="2014-07-07T06:38:15+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1707/acts/sp_1707_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="b740aee2216b152ec07e29574998723fceb3d6fc">
+								<mirror last-checked="2014-07-07T06:39:05+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1707/acts/sp_1707_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="07713fc192d640746ca3ff34dfe34c87662fe2ae">
+								<mirror last-checked="2014-07-07T06:39:50+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1707/acts/sp_1707_actHD_03_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
 			</episode>
 			<episode id="8">
 				<language id="en" title="A Song of Ass and Fire">
@@ -2479,6 +2654,31 @@
 							<url resolution="1280x720" bitrate="1200" sha1="17814d5ebe4c8f8e9e3356799ed6e4e0b69aa205">
 								<mirror last-checked="2014-07-07T06:48:42+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1708/acts/sp_1708_actHD_03_rev_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Das Lied von Arsch und Feuer">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="5875e28ee2676ea71d95a21eb1aed10d281c1bb9">
+								<mirror last-checked="2014-07-07T06:44:23+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1708/acts/sp_1708_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="7814fb0f5145e53a7e688145c09163fe2ae73658">
+								<mirror last-checked="2014-07-07T06:45:06+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1708/acts/sp_1708_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="497bc8d0442feabc4545db32e0ae4c98d75664aa">
+								<mirror last-checked="2014-07-07T06:45:52+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1708/acts/sp_1708_actHD_03_DEU_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
@@ -2511,6 +2711,31 @@
 						</act>
 					</acts>
 				</language>
+				<language id="de" title="Titten und Drachen">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="1c81b071476805d9b81f2ce071700d2b83614baf">
+								<mirror last-checked="2014-07-07T06:50:15+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1709/acts/sp_1709_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a71af5efe3bf0a9774459231ccb9696f9f07e27b">
+								<mirror last-checked="2014-07-07T06:51:02+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1709/acts/sp_1709_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="929fc6e3f67b5cd49698f59a5e3d43dc66b7c552">
+								<mirror last-checked="2014-07-07T06:51:52+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1709/acts/sp_1709_actHD_03_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
 			</episode>
 			<episode id="10">
 				<language id="en" title="The Hobbit">
@@ -2533,6 +2758,31 @@
 							<url resolution="1280x720" bitrate="1200" sha1="b15d07056cbd71de039283f442a7651965f35d32">
 								<mirror last-checked="2014-07-07T07:00:37+00:00">
 									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-17/1710/acts/sp_1710_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+				<language id="de" title="Der Hobbit">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9577dbbf31ef23c6d804f4981dbdd6be43827883">
+								<mirror last-checked="2014-07-07T06:56:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1710/acts/sp_1710_actHD_01_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="c69931ba94d2579e3ebac6ce7bad6846f3e08974">
+								<mirror last-checked="2014-07-07T06:57:06+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1710/acts/sp_1710_actHD_02_DEU_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="923f996ed3441f21c2095b51ad636ac9dfcc801d">
+								<mirror last-checked="2014-07-07T06:57:49+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtviestor/_!/intlod/southpark/video/Deutsche/Season_17/1710/acts/sp_1710_actHD_03_DEU_B_1280x720_1200.mp4
 								</mirror>
 							</url>
 						</act>
