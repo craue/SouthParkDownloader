@@ -152,6 +152,11 @@ class SouthParkDownloader {
 			}
 		}
 
+		if (defined('PHP_WINDOWS_VERSION_BUILD')) {
+			// fix filename on Windows
+			$title = utf8_decode($title);
+		}
+
 		$targetFile = $this->config->getOutputFolder() . 'South Park ' . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $this->config->getLanguages(), 'mkv', null, $title);
 		if (file_exists($targetFile)) {
 			throw new FileAlreadyExistsException($targetFile);
