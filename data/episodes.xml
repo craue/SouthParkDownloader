@@ -6402,4 +6402,170 @@
 			</episode>
 		</episodes>
 	</season>
+	<season id="18">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Go Fund Yourself">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="f14278d8dede24c58041f3a31246ebc680e810af">
+								<mirror last-checked="2014-11-06T12:40:45+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1801/acts/sp_1801_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="73fe7a97afdf3e50b163f03c84f8eeb0e3c7c6a8">
+								<mirror last-checked="2014-11-06T12:41:33+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1801/acts/sp_1801_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="b5db0ff86f48a84dc3e3a9026fcfc9b28fe5272d">
+								<mirror last-checked="2014-11-06T12:42:20+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1801/acts/sp_1801_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="2">
+				<language id="en" title="Gluten Free Ebola">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="e68a22ba64cebe3173fb025d6cea9a20eb7d8fff">
+								<mirror last-checked="2014-11-06T12:43:34+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1802/acts/sp_1802_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="4c24f6316e755a4121fd43fae1a211f051612638">
+								<mirror last-checked="2014-11-06T12:44:22+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1802/acts/sp_1802_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0d255c88a7d0e5666b72ead4c060984cf55f67fc">
+								<mirror last-checked="2014-11-06T12:45:07+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1802/acts/sp_1802_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="The Cissy">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="1332d36bdd4b30a4b4f7cab759cb8455d0a8ff4b">
+								<mirror last-checked="2014-11-06T12:46:22+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1803/acts/sp_1803_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="90b2530b3174d991e7b571d2d3e99b43494a4c2c">
+								<mirror last-checked="2014-11-06T12:47:16+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1803/acts/sp_1803_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0d9c57a5521a2c94f01a788a99032219bdc75a0b">
+								<mirror last-checked="2014-11-06T12:47:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1803/acts/sp_1803_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="Handicar">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="bfe2df939bd17e153cb45818ff12b10d211f1e9c">
+								<mirror last-checked="2014-11-06T12:49:06+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1804/acts/sp_1804_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="db79f4980979eb7fff46645804ec33ce200a92d5">
+								<mirror last-checked="2014-11-06T12:49:53+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1804/acts/sp_1804_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="d84937425309ad28c4782b66779b3b6fa4a8165c">
+								<mirror last-checked="2014-11-06T12:50:40+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1804/acts/sp_1804_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="The Magic Bush">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="10e38456f69ccd33af07e6ad2181e9a2a3d05343">
+								<mirror last-checked="2014-11-06T12:51:55+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1805/acts/sp_1805_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="86f7c328fcc925a6da4f59014155422f92e82c77">
+								<mirror last-checked="2014-11-06T12:52:39+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1805/acts/sp_1805_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="d149d80aa553bd3598e2188c4ba7b0b67eafab42">
+								<mirror last-checked="2014-11-06T12:53:26+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1805/acts/sp_1805_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="Freemium Isn't Free">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ab6ba4f230698bc00a1f178327671f761908844e">
+								<mirror last-checked="2014-11-07T07:00:24+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1806/acts/sp_1806_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="f8db3b8cd35a1130d054f658cfecd3aaf4ec247d">
+								<mirror last-checked="2014-11-07T07:01:12+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1806/acts/sp_1806_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="863a5c4a7c3384dcb37ddf43a5b6cfd5ba4abbe1">
+								<mirror last-checked="2014-11-07T07:01:54+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1806/acts/sp_1806_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
 </seasons>
