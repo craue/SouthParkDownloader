@@ -7736,6 +7736,33 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="8">
+				<language id="en" title="Cock Magic">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="e0de4616083654e0473a0499cc89d66775979fb7">
+								<mirror last-checked="2014-11-22T12:43:03+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1808/acts/sp_1808_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="431b6f378a24d8ad2de1f2aebf8c2d3f337ba3d5">
+								<mirror last-checked="2014-11-22T12:45:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1808/acts/sp_1808_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="d2e3f92763906ed4ce3e122e98f2a6bc68fb3518">
+								<mirror last-checked="2014-11-22T12:48:12+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1808/acts/sp_1808_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
