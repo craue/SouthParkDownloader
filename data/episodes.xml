@@ -3710,9 +3710,1152 @@
 			</episode>
 		</episodes>
 	</season>
-	<!-- TODO Season 8 -->
-	<!-- TODO Season 9 -->
-	<!-- TODO Season 10 -->
+	<season id="8">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Good Times With Weapons">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="0e2b099aa0968271d4e6e46a2e5845eabe1cde10">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0801/acts/sp_0801_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="6b67c2da1a05efbd75b9ea9caf54bd392a8ffb2b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0801/acts/sp_0801_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="1b5923d94def1e5c7f108a27092b2c96811305c8">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0801/acts/sp_0801_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="2">
+				<language id="en" title="AWESOM-O">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="b4afcfbe183f6ebaa6187b982c4e80c9f69fe08d">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0802/acts/sp_0802_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="b9e7978990232a7687c80588ee3179526a16b4b3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0802/acts/sp_0802_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="65f8558de9a753f8357029ffeda0a0767833993a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0802/acts/sp_0802_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="Up the Down Steroid">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="5834ef108e2129c29286d54f1ed9b219563a0fb3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0803/acts/sp_0803_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="e6b4403fdb867cc10c292df8b48296f566f95886">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0803/acts/sp_0803_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2028cd8b9c76330b896adbf992314da8723689aa">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0803/acts/sp_0803_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="The Passion of the Jew">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="2f29404d6e99b939a2660922ff559f0ade27e373">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0804/acts/sp_0804_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="533b71f4382264f8e82010988fcd6f4a6c70f6b9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0804/acts/sp_0804_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="3d898439bd38404dc39640d2913424f48a6bfbec">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0804/acts/sp_0804_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="You Got F'd in the A">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="5e9915208a46a91b5f7e82e52f04c84c296dca9e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0805/acts/sp_0805_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="8f45938d103f196e13dc2245d0664f75f46ef287">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0805/acts/sp_0805_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="e74d27bfb2f4a489c5fdf0d010bb19c1db9ba27a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0805/acts/sp_0805_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="Goobacks">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="66badf04d1db1c5d2ce291836c94bf2fff83a712">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0806/acts/sp_0806_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="2697243c5e59acb0f2d978cc3b4f37daa3de60c9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0806/acts/sp_0806_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="c59d4af04d057b8276795402a5e068e2678e71cf">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0806/acts/sp_0806_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="7">
+				<language id="en" title="The Jeffersons">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="81fb8034be9a2734efe800767b5ff0d97602f531">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0807/acts/sp_0807_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="2367e5132e3edbe7c913858ced2bcc242b072bf2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0807/acts/sp_0807_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="cb7da02e5e23e4ec83f1ec7fd3eb032a2d6ca830">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0807/acts/sp_0807_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="8">
+				<language id="en" title="Douche and Turd">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="3bf6a35b4f8892c5212aca1f4b3e428c17d1b202">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0808/acts/sp_0808_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="7430a2ede7117f1726e4709d0a0f0f39aa31ff83">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0808/acts/sp_0808_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="26584226e23a9280a7e813f171ff953d1d2f3055">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0808/acts/sp_0808_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="9">
+				<language id="en" title="Something Wall Mart This Way Comes">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="1ff9f559b34724518df47b464daae471db9c63f1">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0809/acts/sp_0809_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="59ea553d3213c9fd432356bd97327eea03d71db1">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0809/acts/sp_0809_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="f252c07740b74c8c170ac98dad4d7dbcc3e81946">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0809/acts/sp_0809_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="10">
+				<language id="en" title="Pre-School">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="2092a9b1c49c0637c0a5019ea85152d0619d28c6">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0810/acts/sp_0810_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="b913609eea69f6ee51eedd1d1e3e8939863c62aa">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0810/acts/sp_0810_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="6baefcdcd5d6f9cd305081a4523a553c5f5ac8c6">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0810/acts/sp_0810_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="11">
+				<language id="en" title="Quest for Ratings">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="2b791f9c5ac98578ba93515caa8aa52bcb255d27">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0811/acts/sp_0811_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="c7c0d4687700d2a37b3f9d2c992a09bdd0939186">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0811/acts/sp_0811_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0c5de601358f7086988289536e1ecc9a488c2af5">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0811/acts/sp_0811_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="12">
+				<language id="en" title="Stupid Spoiled Whore Video Playset">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="e440b014d1c8e5a10d8a4a0b27faaf96087926e9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0812/acts/sp_0812_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="95bf41bae1026da1483bd85fad9f3e1ae12b765e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0812/acts/sp_0812_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="f8b2974c2b2f20b5e1d5930cbdf6f6f2f9d83a0a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0812/acts/sp_0812_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="13">
+				<language id="en" title="Cartman's Incredible Gift">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="66d11b2c03e1bc9d7fb9762e306287d5db30e624">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0813/acts/sp_0813_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="42b98a6ffa1463e708c7aa5386d2c8c476c148ca">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0813/acts/sp_0813_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="fb47d1406f680e16d5df5f8c0bb30a608449dca3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0813/acts/sp_0813_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="14">
+				<language id="en" title="Woodland Critter Christmas">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="48029b9e68ec68c90e6a8b7e089714d6303a0436">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0814/acts/sp_0814_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a27778798cf51bdee082e30fbf743cce3a8d10a2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0814/acts/sp_0814_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="88b4432b82e05ee3095365f80ab15a584bacf10e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-8/0814/acts/sp_0814_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
+	<season id="9">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="Mr. Garrison's Fancy New Vagina">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="eeb6d20ef565dfd3dc1ceb8eb799d12f539bdd90">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0901/acts/sp_0901_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="095bc408c98fa1e8d5ffe8374e2346585d924869">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0901/acts/sp_0901_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="089c66ac2253bf32c533002692ade106bba8e76e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0901/acts/sp_0901_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="2">
+				<language id="en" title="Die Hippie Die">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="a819b9b6b8c614262370f5752744c3340b452543">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0902/acts/sp_0902_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="9adbcc14118c44371a2d8f34b43db9d6abb52c43">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0902/acts/sp_0902_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="eb6d669e6ca2776a0cbf4f7a6d871ad8e0534d82">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0902/acts/sp_0902_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="Wing">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="881802cf68acff821b3221fc03fea3ada4a25422">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0903/acts/sp_0903_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="380ded8ae4e9397c4b112dd7cb253529fd7f875d">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0903/acts/sp_0903_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="1661ab1ed48a781004b58dccbeaefe0bb57b2a66">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0903/acts/sp_0903_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="Best Friends Forever">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="49927242061db2c4e976071eafbc1deead3cc312">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0904/acts/sp_0904_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="fdcd501dc6d38746a4040fc3ca2bbeef318da72f">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0904/acts/sp_0904_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="c5429c1d0b68b202e23c269531717845dda3657a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0904/acts/sp_0904_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="The Losing Edge">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9b20ee3bf4e6985c1fc7d04b5f15d30f5c2c01e4">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0905/acts/sp_0905_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="12cd036df0616e65b321f622bfb2f9fed6a3e6c3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0905/acts/sp_0905_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="382dd948cbcd52f7cddfe7b8d4c77bcf151eb5a0">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0905/acts/sp_0905_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="The Death of Eric Cartman">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ff27a189d5058c3ddf20ab717cd63f8ab4a4a7a8">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0906/acts/sp_0906_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="2ccc280f472209a0c2c8eb4d49068fb6637f0138">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0906/acts/sp_0906_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2d4f561797d79103e8c6f38ba97629c67cabc7ee">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0906/acts/sp_0906_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="7">
+				<language id="en" title="Erection Day">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="02c2a2cfb0f33419eaeb6c45020b838a725b9ddb">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0907/acts/sp_0907_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="597ac03ca638e5aefc1f607e108d54a77491f9cb">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0907/acts/sp_0907_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="dd5bd0c9ad7165bf880662e3fa55b689ae68e9d0">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0907/acts/sp_0907_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="8">
+				<language id="en" title="Two Days Before the Day After Tomorrow">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="0259835fb2a43ca97b263f0a39f2f9a1e93ba2ab">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0908/acts/sp_0908_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="28392ef8dba298b481dc8b057557d9eabc50811b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0908/acts/sp_0908_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="834aa128a39c0d3886ea7fbb60eefb2a266ff8ce">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0908/acts/sp_0908_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="9">
+				<language id="en" title="Marjorine">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="a75c9ed83f10ef65b1256e0d5a5b7e773856e363">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0909/acts/sp_0909_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="5af2b4258df0401e9e8dd89e70ddcd4c65bd18b3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0909/acts/sp_0909_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="5c6d06ac11d090a1a612463bc004b1e39b38a594">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0909/acts/sp_0909_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="10">
+				<language id="en" title="Follow That Egg">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="bf3f66782631f1d0ed95b11acab59a6e39af6561">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0910/acts/sp_0910_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="c800ae4c3f871248e451085f3b6ac59da5e1ab1a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0910/acts/sp_0910_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="bd8fa9e7e97cfadc79bf95ea9cc9af0cf08187b2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0910/acts/sp_0910_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="11">
+				<language id="en" title="Ginger Kids">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="8b25395f25856cc8d00d9239791971789e2ce890">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0911/acts/sp_0911_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="c928da281d7c112bc9c986f9d97e2191f2e93ae9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0911/acts/sp_0911_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="a3a2867007aa6491a01b947dfa9f304652c94105">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0911/acts/sp_0911_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="12">
+				<language id="en" title="Trapped in the Closet">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="01b620835e818613e9e1cbc907bcaf9c73d87fd2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0912/acts/sp_0912_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="dd10d8060232e246e27f86a5f243414c2e2b8d9b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0912/acts/sp_0912_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="77cc64de76fdee31c2429d1d994095863a74d578">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0912/acts/sp_0912_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="13">
+				<language id="en" title="Free Willzyx">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="9484d2fec63b518e949f72c531dd107b815c5354">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0913/acts/sp_0913_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="9360d8cfc887605a0717b8bed08674436b0270b4">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0913/acts/sp_0913_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0e98614deec1102bb2a5c34f51cc7c7f830b3d92">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0913/acts/sp_0913_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="14">
+				<language id="en" title="Bloody Mary">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="86bbefaa8dcf6256df91c560adb347103f82d87d">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0914/acts/sp_0914_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="805cc40d40c61fcbbffcbfe8c79bd3dfc92757e9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0914/acts/sp_0914_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="162c349950edd7def1c9e6698452f191d1056ef9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-9/0914/acts/sp_0914_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
+	<season id="10">
+		<episodes>
+			<episode id="1">
+				<language id="en" title="The Return of Chef">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="aa7a8fa2c41a6a187a7301effe687b137b9cc09f">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1001/acts/sp_1001_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="9752ed80fbee0a54ac5393e4c307f5ce83f7b29b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1001/acts/sp_1001_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="6f7e5404d52255c433b68617786bcb78136a052e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1001/acts/sp_1001_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="2">
+				<language id="en" title="Smug Alert!">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="7fbd80c926b7ad75824e9d23a6407d551f6ff82b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1002/acts/sp_1002_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="0e99ee33a272098ae9bcdd7c62ccbbce20836fcd">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1002/acts/sp_1002_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="73fb718489e1fa2f981cc9dc670b94bb5ad5f623">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1002/acts/sp_1002_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="3">
+				<language id="en" title="Cartoon Wars Part I">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="1d277b15677f8c7f64e81f83930e1d5f85ab8851">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1003/acts/sp_1003_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="33cfaab6bb49e0b50169316de4d37a52eb78ba55">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1003/acts/sp_1003_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="8cfb9c8e980a1d315e909e723098c58d9853f39b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1003/acts/sp_1003_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="4">
+				<language id="en" title="Cartoon Wars Part II">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="fc25dc6238fd7ccb7f7dff9bb03068ca54c03f42">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1004/acts/sp_1004_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="cdcfe0af047b0f825264bd6a9866ca2fc8957201">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1004/acts/sp_1004_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="a71e41c1811fd519dc1aadcff9bea4ae4d5963b7">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1004/acts/sp_1004_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="5">
+				<language id="en" title="A Million Little Fibers">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ccd1eddec6718614b5315e87ae8622b30c3a90b8">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1005/acts/sp_1005_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="e518b7ef5413cf471baf64f5bf0e4b6ab4be15bf">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1005/acts/sp_1005_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="06184128b4d5f3f54a9a2cb5361ca0ed26e27531">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1005/acts/sp_1005_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="6">
+				<language id="en" title="ManBearPig">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="dc594d7f698fd9a42a4e52862ed62884c3b64d07">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1006/acts/sp_1006_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="d78895df0233f0a5079f7a6a01e30c642af19fb4">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1006/acts/sp_1006_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="957a57356f2906921ffafa2328ec601b18ce07e2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1006/acts/sp_1006_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="7">
+				<language id="en" title="Tsst">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="ca82840c2364be2cf434918c6db22664d2e4e418">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1007/acts/sp_1007_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="ea0101d09dcaef11a64de16f03f65eb47d60b744">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1007/acts/sp_1007_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="4f0dc51a48472f467aed77c8df1cd90d4acdf36a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1007/acts/sp_1007_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="8">
+				<language id="en" title="Make Love, Not Warcraft">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="10a79b897da6337367840410cad5d733021f69e0">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1008/acts/sp_1008_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="526b4712761f51f15a10dd3a6d546e470366bc1a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1008/acts/sp_1008_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2c033feb16001700ae27d077abc2300c9a1c8a67">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1008/acts/sp_1008_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="9">
+				<language id="en" title="Mystery of the Urinal Deuce">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="8d8c62ab7ff9e3f43da8a3103edf4c666b677e05">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1009/acts/sp_1009_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="01799a650eb55ae492ad3246eee163b6b0636f8a">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1009/acts/sp_1009_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="0b4c507c45ef3dc7e6b8250e972583335d442338">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1009/acts/sp_1009_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="10">
+				<language id="en" title="Miss Teacher Bangs a Boy">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="450960a58c5a636981733babbb5a5f989b6c7dcc">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1010/acts/sp_1010_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="3683fb37a583ee25dbc5379368cea8de1bd3317e">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1010/acts/sp_1010_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2dc662c644589c68298360df8ffb97cfe6b013b7">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1010/acts/sp_1010_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="11">
+				<language id="en" title="Hell on Earth 2006">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="73cbf25b4b7ef33140571b2d420655d368f1d00b">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1011/acts/sp_1011_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="a6f3c980f74573b5ffa940431860b1ce071a07be">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1011/acts/sp_1011_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="2e5a2fb504031c0eda42abfc353bca5ceb5c30b2">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1011/acts/sp_1011_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="12">
+				<language id="en" title="Go God Go">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="30f9a6ac01931f40c639da4efc7273e691234cf3">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1012/acts/sp_1012_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="43ceacdf76747ec0254cdc46d267c3154b2ab89c">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1012/acts/sp_1012_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="4a13e9df91f1867593b877d5ad1e44bdfaed56d5">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1012/acts/sp_1012_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="13">
+				<language id="en" title="Go God Go XII">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="19713dcde0a434682e5af4c63865138b02dea3ad">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1013/acts/sp_1013_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="1e70e2a0759deeb39df47d2a9519e40ae2dcc6ed">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1013/acts/sp_1013_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="cd716ec1ab15aac13adeff7c1cb04bfd05976b42">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1013/acts/sp_1013_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+			<episode id="14">
+				<language id="en" title="Stanley's Cup">
+					<acts>
+						<act id="1">
+							<url resolution="1280x720" bitrate="1200" sha1="05bd883025606413c93659681d393119456b78fa">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1014/acts/sp_1014_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="cbfd2917a4128ff98f2e6f2dfaacf7083721b6a9">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1014/acts/sp_1014_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="b0856c3834ac8d280730eb3f41b6123c40a501dc">
+								<mirror last-checked="2013-12-29T18:00:00+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-10/1014/acts/sp_1014_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
+		</episodes>
+	</season>
 	<!-- TODO Season 11 -->
 	<!-- TODO Season 12 -->
 	<season id="13">
