@@ -239,9 +239,20 @@ class SouthParkDownloader {
 			}
 
 			$this->tempFiles[] = $targetFile;
-			$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s -vcodec copy -an %s',
+
+			$videoCodecParam = '-vcodec copy';
+			if ($this->episodeDb->getVideoReencode($this->config->getSeason(), $this->config->getEpisode(), $this->config->getMainLanguage())) {
+				/*
+				 * Merging video tracks with mixed copy/reencode settings doesn't work for mkvmerge.
+				 * Thus, all parts need to be reencoded.
+				 */
+				$videoCodecParam = '-profile:v baseline -level 3.1 -crf 21 -r 23.976';
+			}
+
+			$exitCode = $this->call(sprintf('%s -loglevel quiet -i %s %s -an %s',
 					escapeshellcmd($this->config->getFfmpeg()),
 					escapeshellarg($sourceFile),
+					$videoCodecParam,
 					escapeshellarg($targetFile)));
 
 			if ($exitCode !== self::EXITCODE_SUCCESS) {
@@ -270,7 +281,7 @@ class SouthParkDownloader {
 				$this->tempFiles[] = $targetFile;
 
 				$audioCodecParam = '-acodec copy';
-				if ($this->episodeDb->getAudioReencode($this->config->getSeason(), $this->config->getEpisode(), $currentLanguage, $actId)) {
+				if ($this->episodeDb->getAudioReencode($this->config->getSeason(), $this->config->getEpisode(), $currentLanguage)) {
 					/*
 					 * Not just copying audio results in reencoding it.
 					 * Needed for S17E03A2EN, as FFMPEG quits with error when trying to copy it:
