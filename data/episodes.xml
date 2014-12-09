@@ -7763,6 +7763,34 @@
 					</acts>
 				</language>
 			</episode>
+			<episode id="9">
+				<language id="en" title="#REHASH">
+					<acts>
+						<act id="1">
+							<video-reencode>true</video-reencode>
+							<url resolution="1280x720" bitrate="1200" sha1="e09ff81d08a90600d41f33269d161dfd585aa080">
+								<mirror last-checked="2014-12-09T09:32:41+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1809/acts/sp_1809_actHD_01_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="2">
+							<url resolution="1280x720" bitrate="1200" sha1="0f87391ee924bd1d7c76c345383852242f746803">
+								<mirror last-checked="2014-12-09T09:33:28+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1809/acts/sp_1809_actHD_02_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+						<act id="3">
+							<url resolution="1280x720" bitrate="1200" sha1="afb1d69c7a45f73cef22ba52a3635fad38589332">
+								<mirror last-checked="2014-12-09T09:34:12+00:00">
+									rtmpe://cp75298.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/sp/season-18/1809/acts/sp_1809_actHD_03_B_1280x720_1200.mp4
+								</mirror>
+							</url>
+						</act>
+					</acts>
+				</language>
+			</episode>
 		</episodes>
 	</season>
 </seasons>
