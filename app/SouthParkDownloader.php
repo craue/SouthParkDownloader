@@ -230,7 +230,7 @@ class SouthParkDownloader {
 			$actId = $act->attributes()->id;
 
 			$sourceFile = $this->config->getDownloadFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), $this->config->getMainLanguage(), 'mp4', $actId);
-			$targetFile = $this->config->getTmpFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), null, 'mkv', $actId);
+			$targetFile = $this->config->getTmpFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), null, 'h264', $actId);
 			if (!file_exists($sourceFile)) {
 				throw new FileDoesNotExistException($sourceFile);
 			}
@@ -300,12 +300,12 @@ class SouthParkDownloader {
 	/**
 	 * Merges all audio parts into video parts.
 	 */
-	// 3x mkvmerge -o SXXEYYAZZDE+EN.mkv SXXEYYAZZ.mkv SXXEYYAZZDE.aac --sync 0:870 SXXEYYAZZEN.aac
+	// 3x mkvmerge -o SXXEYYAZZDE+EN.mkv SXXEYYAZZ.h264 SXXEYYAZZDE.aac --sync 0:870 SXXEYYAZZEN.aac
 	protected function mergeVideoWithAudioParts() {
 		foreach ($this->episodeDb->getActs($this->config->getSeason(), $this->config->getEpisode(), $this->config->getMainLanguage()) as $act) {
 			$actId = $act->attributes()->id;
 
-			$actVideoSourceFile = $this->config->getTmpFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), null, 'mkv', $actId);
+			$actVideoSourceFile = $this->config->getTmpFolder() . $this->getFilename($this->config->getSeason(), $this->config->getEpisode(), null, 'h264', $actId);
 			if (!file_exists($actVideoSourceFile)) {
 				throw new FileDoesNotExistException($actVideoSourceFile);
 			}
