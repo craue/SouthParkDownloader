@@ -7,19 +7,15 @@ South Park Downloader to get South Park episodes from official sources.
  - Cross-platform support.
  - Full support for English and German episodes.
  - Ready for additional languages.
- - Renaming of episodes to contain title of each language.
- - XML database containing all information.
+ - Renaming of episodes to contain the title of each language.
  - Checksum verification of downloaded files.
- - Resuming of incomplete downloads (which occur starting with S15E07).
  - Fix audio delay for certain acts.
- - Enforce audio/video reencoding for certain acts.
 
 # Installation
 
 ## Requirements
 
  - PHP (>= 5.3) from http://php.net/downloads.php
- - RTMPDump from http://rtmpdump.mplayerhq.hu/download/
  - FFmpeg from http://ffmpeg.zeranoe.com/builds/
  - mkvmerge (part of MKVToolnix) from http://www.bunkus.org/videotools/mkvtoolnix/downloads.html
 

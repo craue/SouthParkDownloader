@@ -1,0 +1,66 @@
+{
+	"comment": "This file contains information about required special treatment of specific episodes.",
+	"S19E01DE": {
+		"title": "Umwerfend und mutig"
+	},
+	"S19E02DE": {
+		"title": "Wo ist mein Land hin?"
+	},
+	"S19E03DE": {
+		"title": "Die mieseste Gegend der Stadt"
+	},
+	"S19E04DE": {
+		"title": "Sag Ja zu Yelp"
+	},
+	"S19E05DE": {
+		"title": "Ein sicherer Raum"
+	},
+	"S19E06DE": {
+		"title": "Tweek und Craig"
+	},
+	"S19E07DE": {
+		"title": "Böse Ninjas"
+	},
+	"S19E08DE": {
+		"title": "Gesponserte Inhalte"
+	},
+	"S19E09DE": {
+		"title": "Werbung und Wahrheit"
+	},
+	"S19E10DE": {
+		"title": "PC Principal: Tag der Abrechnung"
+	},
+	"S20E01DE": {
+		"title": "Weißt-du-noch-Beeren"
+	},
+	"S20E01A2DE": {
+		"video-sync": -2500
+	},
+	"S20E02DE": {
+		"title": "Skankhunt"
+	},
+	"S20E03DE": {
+		"title": "Die Verdammten"
+	},
+	"S20E04DE": {
+		"title": "Schniedel raus"
+	},
+	"S20E05DE": {
+		"title": "Der Einlauf und dänische Delikatessen"
+	},
+	"S20E06DE": {
+		"title": "Fort Collins"
+	},
+	"S20E07DE": {
+		"title": "Herrgott!"
+	},
+	"S20E08DE": {
+		"title": "Nur für Mitglieder"
+	},
+	"S20E09DE": {
+		"title": "Nicht witzig"
+	},
+	"S20E10DE": {
+		"title": "Das Ende der Serialisierung wie wir sie kennen"
+	}
+}

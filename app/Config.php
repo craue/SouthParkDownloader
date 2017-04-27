@@ -10,39 +10,43 @@
  */
 class Config {
 
-	protected $season = 0;
-	protected $episode = 0;
+	protected $seasonNumber = 0;
+	protected $episodeNumber = 0;
 	protected $languages = array();
-	protected $playerUrl = null;
 
 	protected $tmpFolder = null;
 	protected $downloadFolder = null;
 	protected $outputFolder = null;
-	protected $rtmpdump = null;
 	protected $ffmpeg = null;
 	protected $mkvmerge = null;
 
 	protected $verifyChecksums = true;
-	protected $updateDatabaseOnSuccessfulDownload = false;
+	protected $updateChecksumOnSuccessfulDownload = false;
+
+	protected $printUrls = false;
 	protected $printCommandCalls = false;
+	protected $quietCommands = true;
+
+	protected $goOnIfDownloadedFileAlreadyExists = true;
+	protected $goOnIfFinalFileAlreadyExists = true;
 
 	protected $removeTempFiles = true;
 	protected $removeDownloadedFiles = false;
 
-	public function setSeason($season) {
-		$this->season = (int) $season;
+	public function setSeasonNumber($seasonNumber) {
+		$this->seasonNumber = (int) $seasonNumber;
 	}
 
-	public function getSeason() {
-		return $this->season;
+	public function getSeasonNumber() {
+		return $this->seasonNumber;
 	}
 
-	public function setEpisode($episode) {
-		$this->episode = (int) $episode;
+	public function setEpisodeNumber($episodeNumber) {
+		$this->episodeNumber = (int) $episodeNumber;
 	}
 
-	public function getEpisode() {
-		return $this->episode;
+	public function getEpisodeNumber() {
+		return $this->episodeNumber;
 	}
 
 	public function setLanguages(array $languages) {
@@ -55,14 +59,6 @@ class Config {
 
 	public function getMainLanguage() {
 		return $this->languages[0];
-	}
-
-	public function setPlayerUrl($playerUrl) {
-		$this->playerUrl = $playerUrl;
-	}
-
-	public function getPlayerUrl() {
-		return $this->playerUrl;
 	}
 
 	public function setTmpFolder($tmpFolder) {
@@ -87,14 +83,6 @@ class Config {
 
 	public function getOutputFolder() {
 		return $this->outputFolder;
-	}
-
-	public function setRtmpdump($rtmpdump) {
-		$this->rtmpdump = $this->canonizeExistingExecutable($rtmpdump);
-	}
-
-	public function getRtmpdump() {
-		return $this->rtmpdump;
 	}
 
 	public function setFfmpeg($ffmpeg) {
@@ -122,13 +110,22 @@ class Config {
 		return $this->verifyChecksums;
 	}
 
-	public function setUpdateDatabaseOnSuccessfulDownload($updateDatabaseOnSuccessfulDownload) {
-		$this->assertBoolean($updateDatabaseOnSuccessfulDownload);
-		$this->updateDatabaseOnSuccessfulDownload = $updateDatabaseOnSuccessfulDownload;
+	public function setUpdateChecksumOnSuccessfulDownload($updateChecksumOnSuccessfulDownload) {
+		$this->assertBoolean($updateChecksumOnSuccessfulDownload);
+		$this->updateChecksumOnSuccessfulDownload = $updateChecksumOnSuccessfulDownload;
 	}
 
-	public function isUpdateDatabaseOnSuccessfulDownload() {
-		return $this->updateDatabaseOnSuccessfulDownload;
+	public function isUpdateChecksumOnSuccessfulDownload() {
+		return $this->updateChecksumOnSuccessfulDownload;
+	}
+
+	public function setPrintUrls($printUrls) {
+		$this->assertBoolean($printUrls);
+		$this->printUrls = $printUrls;
+	}
+
+	public function isPrintUrls() {
+		return $this->printUrls;
 	}
 
 	public function setPrintCommandCalls($printCommandCalls) {
@@ -138,6 +135,33 @@ class Config {
 
 	public function isPrintCommandCalls() {
 		return $this->printCommandCalls;
+	}
+
+	public function setQuietCommands($quietCommands) {
+		$this->assertBoolean($quietCommands);
+		$this->quietCommands = $quietCommands;
+	}
+
+	public function isQuietCommands() {
+		return $this->quietCommands;
+	}
+
+	public function setGoOnIfDownloadedFileAlreadyExists($goOnIfDownloadedFileAlreadyExists) {
+		$this->assertBoolean($goOnIfDownloadedFileAlreadyExists);
+		$this->goOnIfDownloadedFileAlreadyExists = $goOnIfDownloadedFileAlreadyExists;
+	}
+
+	public function isGoOnIfDownloadedFileAlreadyExists() {
+		return $this->goOnIfDownloadedFileAlreadyExists;
+	}
+
+	public function setGoOnIfFinalFileAlreadyExists($goOnIfFinalFileAlreadyExists) {
+		$this->assertBoolean($goOnIfFinalFileAlreadyExists);
+		$this->goOnIfFinalFileAlreadyExists = $goOnIfFinalFileAlreadyExists;
+	}
+
+	public function isGoOnIfFinalFileAlreadyExists() {
+		return $this->goOnIfFinalFileAlreadyExists;
 	}
 
 	public function setRemoveTempFiles($removeTempFiles) {

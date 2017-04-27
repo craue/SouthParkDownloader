@@ -16,18 +16,16 @@ require_once(__DIR__.'/config.php');
 try {
 	$southParkDownloader = new SouthParkDownloader();
 	$config = $southParkDownloader->getCommandLineArguments($argv);
-	if (isset($playerUrl)) {
-		$config->setPlayerUrl($playerUrl);
-	}
 	$config->setTmpFolder($tmp);
 	$config->setDownloadFolder($download);
 	$config->setOutputFolder($output);
-	$config->setRtmpdump($rtmpdump);
 	$config->setFfmpeg($ffmpeg);
 	$config->setMkvmerge($mkvmerge);
 	$config->setVerifyChecksums(true); // no command line option yet
-	$config->setUpdateDatabaseOnSuccessfulDownload(false); // no command line option yet
+	$config->setUpdateChecksumOnSuccessfulDownload(true); // no command line option yet
+	$config->setPrintUrls(false); // no command line option yet
 	$config->setPrintCommandCalls(false); // no command line option yet
+	$config->setQuietCommands(true); // no command line option yet
 	$config->setRemoveTempFiles(true); // no command line option yet
 	$config->setRemoveDownloadedFiles(false); // no command line option yet
 	$southParkDownloader->setConfig($config);

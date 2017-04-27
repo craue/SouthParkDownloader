@@ -1,0 +1,18 @@
+{
+	"availableSeasonsUrl": {
+		"de": "http://www.southpark.de/alle-episoden",
+		"en": "http://southpark.cc.com/full-episodes"
+	},
+	"availableEpisodesUrl": {
+		"de": "http://www.southpark.de/feeds/carousel/video/e3748950-6c2a-4201-8e45-89e255c06df1/{resultsPerPage}/{currentPage}/json/{sort}/{relatedItemId}",
+		"en": "http://southpark.cc.com/feeds/carousel/video/57baee9c-b611-4260-958b-05315479a7fc/{resultsPerPage}/{currentPage}/json/{sort}/{relatedItemId}"
+	},
+	"episodeDataUrl": {
+		"de": "http://www.southpark.de/alle-episoden/s{season}e{episode}",
+		"en": "http://southpark.cc.com/full-episodes/s{season}e{episode}"
+	},
+	"chapterName": {
+		"de": "Akt",
+		"en": "Act"
+	}
+}
