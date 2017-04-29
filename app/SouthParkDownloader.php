@@ -355,7 +355,7 @@ class SouthParkDownloader {
 		$this->downloadedFiles = array();
 	}
 
-	public function getCommandLineArguments(array $argv) {
+	public function parseCommandLineArguments(array $argv) {
 		$config = new Config();
 
 		for ($i = 1; $i < count($argv); $i++) {

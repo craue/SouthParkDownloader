@@ -15,7 +15,7 @@ require_once(__DIR__.'/config.php');
 
 try {
 	$southParkDownloader = new SouthParkDownloader();
-	$config = $southParkDownloader->getCommandLineArguments($argv);
+	$config = $southParkDownloader->parseCommandLineArguments($argv);
 	$config->setTmpFolder($tmp);
 	$config->setDownloadFolder($download);
 	$config->setOutputFolder($output);
