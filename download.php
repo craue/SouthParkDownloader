@@ -21,6 +21,7 @@ try {
 	$config->setOutputFolder($output);
 	$config->setFfmpeg($ffmpeg);
 	$config->setMkvmerge($mkvmerge);
+	$config->setDownloadTimeoutInSeconds(2 * 60); // no command line option yet
 	$config->setVerifyChecksums(true); // no command line option yet
 	$config->setUpdateChecksumOnSuccessfulDownload(true); // no command line option yet
 	$config->setPrintUrls(false); // no command line option yet

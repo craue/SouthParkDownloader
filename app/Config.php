@@ -20,6 +20,8 @@ class Config {
 	protected $ffmpeg = null;
 	protected $mkvmerge = null;
 
+	protected $downloadTimeoutInSeconds = null;
+
 	protected $verifyChecksums = true;
 	protected $updateChecksumOnSuccessfulDownload = false;
 
@@ -99,6 +101,14 @@ class Config {
 
 	public function getMkvmerge() {
 		return $this->mkvmerge;
+	}
+
+	public function setDownloadTimeoutInSeconds($downloadTimeoutInSeconds) {
+		$this->downloadTimeoutInSeconds = (int) $downloadTimeoutInSeconds;
+	}
+
+	public function getDownloadTimeoutInSeconds() {
+		return $this->downloadTimeoutInSeconds;
 	}
 
 	public function setVerifyChecksums($verifyChecksums) {

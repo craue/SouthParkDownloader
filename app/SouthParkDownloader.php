@@ -1,5 +1,7 @@
 <?php
 
+use Symfony\Component\Process\Exception\ProcessTimedOutException;
+use Symfony\Component\Process\Process;
 
 /**
  * Implementation of control flow and logic.
@@ -157,37 +159,60 @@ class SouthParkDownloader {
 
 		if (file_exists($targetFile)) {
 			if ($this->config->isGoOnIfDownloadedFileAlreadyExists()) {
-				$this->log('    (skipped)');
-				$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language);
+				$hashWrong = false;
+				try {
+					$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, false);
+				} catch (ChecksumMismatchException $e) {
+					$hashWrong = true;
+				}
 
-				return;
+				if (!$hashWrong) {
+					$this->log('    (skipped)');
+					$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, $this->config->isUpdateChecksumOnSuccessfulDownload());
+
+					return;
+				} else {
+					unlink($targetFile);
+				}
+			} else {
+				throw new FileAlreadyExistsException($targetFile);
 			}
-
-			throw new FileAlreadyExistsException($targetFile);
 		}
-
-		$this->downloadedFiles[] = $targetFile;
 
 		$startTime = microtime(true);
 
-		$exitCode = $this->call(sprintf('%s%s -hide_banner -i %s -codec copy %s',
-				escapeshellcmd($this->config->getFfmpeg()),
-				$this->config->isQuietCommands() ? ' -loglevel quiet' : '',
-				escapeshellcmd($actUrl),
-				escapeshellarg($targetFile)));
-
-		if ($exitCode !== self::EXITCODE_SUCCESS) {
-			$this->abort($exitCode);
-		}
+		$this->downloadFile($actUrl, $targetFile);
 
 		$this->log(sprintf('    took %.1f s for %.1f MB', microtime(true) - $startTime, filesize($targetFile) / 1024 / 1024));
 
-		$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language);
+		$this->downloadedFiles[] = $targetFile;
+
+		$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, $this->config->isUpdateChecksumOnSuccessfulDownload());
 	}
 
-	protected function verifyChecksum($file, $seasonNumber, $episodeNumber, $language, $actNumber) {
+	protected function downloadFile($actUrl, $targetFile) {
+		$timeout = $this->config->getDownloadTimeoutInSeconds();
+
+		try {
+			$exitCode = $this->call(sprintf('%s%s -hide_banner -i %s -codec copy %s',
+					escapeshellcmd($this->config->getFfmpeg()),
+					$this->config->isQuietCommands() ? ' -loglevel quiet' : '',
+					escapeshellcmd($actUrl),
+					escapeshellarg($targetFile)), $timeout);
+
+			if ($exitCode !== self::EXITCODE_SUCCESS) {
+				$this->abort($exitCode);
+			}
+		} catch (ProcessTimedOutException $e) {
+			$this->log(sprintf('    (timeout of %u s reached, trying again)', $timeout));
+			unlink($targetFile);
+			$this->downloadFile($actUrl, $targetFile);
+		}
+	}
+
+	protected function verifyChecksum($file, $seasonNumber, $episodeNumber, $actNumber, $language, $updateDatabase) {
 		$hashAlgo = 'sha256';
-		$expectedChecksum = $this->checksumDb->getHash($seasonNumber, $episodeNumber, $language, $actNumber);
+		$expectedChecksum = $this->checksumDb->getHash($seasonNumber, $episodeNumber, $actNumber, $language);
 
 		if ($this->config->isVerifyChecksums() && !empty($expectedChecksum)) {
 			$actualChecksum = hash_file($hashAlgo, $file);
@@ -195,17 +220,17 @@ class SouthParkDownloader {
 				throw new ChecksumMismatchException($file, $expectedChecksum, $actualChecksum);
 			}
 
-			if ($this->config->isUpdateChecksumOnSuccessfulDownload()) {
+			if ($updateDatabase) {
 				// update "last-checked" timestamp
-				$this->checksumDb->updateLastChecked($seasonNumber, $episodeNumber, $language, $actNumber);
+				$this->checksumDb->updateLastChecked($seasonNumber, $episodeNumber, $actNumber, $language);
 			}
 		}
 
-		if ($this->config->isUpdateChecksumOnSuccessfulDownload()) {
+		if ($updateDatabase) {
 			if (empty($expectedChecksum)) {
 				// add missing checksum
 				$actualChecksum = hash_file($hashAlgo, $file);
-				$this->checksumDb->updateHash($seasonNumber, $episodeNumber, $language, $actNumber, $actualChecksum);
+				$this->checksumDb->updateHash($seasonNumber, $episodeNumber, $actNumber, $language, $actualChecksum);
 			}
 
 			$this->checksumDb->save();
@@ -453,16 +478,18 @@ class SouthParkDownloader {
 				!empty($extension) ? '.' . $extension : '');
 	}
 
-	protected function call($command) {
+	protected function call($command, $timeout = null) {
 		if ($this->config->isPrintCommandCalls()) {
 			$this->log('  > ' . $command);
 		}
 
-		$exitCode = 0;
+		$process = new Process($command);
+		$process->setTimeout($timeout);
+		$process->run(function($type, $buffer) {
+			echo $buffer;
+		});
 
-		passthru($command, $exitCode);
-
-		return $exitCode;
+		return $process->getExitCode();
 	}
 
 	protected function abort($exitCode) {
