@@ -1,0 +1,12 @@
+{
+	"name": "craue/south-park-downloader",
+	"type": "project",
+	"license": "GPL-3.0",
+	"config": {
+		"github-protocols": ["https", "git"],
+		"notify-on-install": false
+	},
+	"autoload": {
+		"classmap": ["app/"]
+	}
+}

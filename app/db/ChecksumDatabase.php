@@ -1,7 +1,5 @@
 <?php
 
-require_once(__DIR__.'/JsonDatabase.php');
-
 /**
  * Handling of the database for checksums.
  * This file is part of the South Park Downloader package.

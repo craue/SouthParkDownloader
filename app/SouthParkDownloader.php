@@ -1,13 +1,5 @@
 <?php
 
-require_once(__DIR__.'/Config.php');
-require_once(__DIR__.'/db/AnomalyDatabase.php');
-require_once(__DIR__.'/db/ChecksumDatabase.php');
-require_once(__DIR__.'/db/SettingDatabase.php');
-require_once(__DIR__.'/exception/ChecksumMismatchException.php');
-require_once(__DIR__.'/exception/FileAlreadyExistsException.php');
-require_once(__DIR__.'/exception/FileDoesNotExistException.php');
-require_once(__DIR__.'/vo/Season.php');
 
 /**
  * Implementation of control flow and logic.

@@ -10,7 +10,7 @@
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
  */
 
-require_once(__DIR__.'/app/SouthParkDownloader.php');
+require __DIR__.'/vendor/autoload.php';
 require_once(__DIR__.'/config.php');
 
 try {

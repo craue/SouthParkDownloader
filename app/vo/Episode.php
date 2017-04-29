@@ -1,7 +1,5 @@
 <?php
 
-require_once(__DIR__.'/Act.php');
-
 /**
  * Representation of an episode.
  * This file is part of the South Park Downloader package.

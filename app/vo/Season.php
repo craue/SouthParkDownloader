@@ -1,7 +1,5 @@
 <?php
 
-require_once(__DIR__.'/Episode.php');
-
 /**
  * Representation of a season.
  * This file is part of the South Park Downloader package.
