@@ -111,6 +111,8 @@ class SouthParkDownloader {
 			return false;
 		}
 
+		$downloads = array();
+
 		foreach ($metaData['feed']['items'] as $index => $item) {
 			$itemUrlTemplate = $item['group']['content']; // e.g. "http://media-utils.mtvnservices.com/services/MediaGenerator/mgid:arc:video:southparkstudios.com:bc766f29-be39-4f66-82a7-e74e49c1898c?device={device}&aspectRatio=16:9&lang=de"
 
@@ -131,14 +133,65 @@ class SouthParkDownloader {
 
 				$act->setDownloadMetadataUrlForLanguage($language, $itemUrl);
 
-				$this->downloadPart($act, $language);
+				$download = $this->findDownload($act, $language);
+
+				if ($download !== null) {
+					$downloads[] = $download;
+				}
 			}
+		}
+
+		if (!empty($downloads)) {
+			$this->log(sprintf('  starting %u %s downloads', count($downloads), $this->config->isParallelDownloads() ? 'parallel' : 'sequential'));
+		}
+
+		foreach ($downloads as $download) {
+			$this->downloadFile($download);
+			$this->downloadedFiles[] = $download->getTargetFile();
+		}
+
+		while (true) {
+			$allDone = true;
+
+			foreach ($downloads as $download) {
+				if ($download->getProcess() === null) {
+					continue;
+				}
+
+				if ($download->getProcess()->isRunning()) {
+					$allDone = false;
+					continue;
+				}
+
+				$exitCode = $download->getProcess()->getExitCode();
+
+				if ($exitCode !== self::EXITCODE_SUCCESS) {
+					$this->abort($exitCode);
+				}
+
+				$download->setProcess(null);
+				$this->log(sprintf('    [%s] took %.1f s for %.1f MB', $download->getProcessName(), microtime(true) - $download->getStartTime(), filesize($download->getTargetFile()) / 1024 / 1024));
+			}
+
+			if ($allDone) {
+				break;
+			}
+		}
+
+		foreach ($downloads as $download) {
+			$this->verifyChecksum($download->getTargetFile(), $download->getAct()->getEpisode()->getSeason()->getNumber(), $download->getAct()->getEpisode()->getNumber(), $download->getAct()->getNumber(), $download->getLanguage(), $this->config->isUpdateChecksumOnSuccessfulDownload());
 		}
 
 		return true;
 	}
 
-	protected function downloadPart(Act $act, $language) {
+	/**
+	 * @param Act $act
+	 * @param string $language
+	 * @throws FileAlreadyExistsException
+	 * @return Download|null
+	 */
+	protected function findDownload(Act $act, $language) {
 		$actDownloadMetadataUrl = $act->getDownloadMetadataUrlForLanguage($language);
 		$this->log(sprintf('  fetching act metadata for S%02uE%02uA%u%s%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language), $this->config->isPrintUrls() ? sprintf(' from %s', $actDownloadMetadataUrl) : ''));
 		$itemContent = file_get_contents($actDownloadMetadataUrl);
@@ -155,7 +208,7 @@ class SouthParkDownloader {
 
 		$targetFile = $this->config->getDownloadFolder() . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $language, 'mp4', $act->getNumber());
 
-		$this->log(sprintf('  downloading S%02uE%02uA%u%s to %s%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language), $targetFile, $this->config->isPrintUrls() ? sprintf(' from %s', $actUrl) : ''));
+		$this->log(sprintf('  will download S%02uE%02uA%u%s to %s%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language), $targetFile, $this->config->isPrintUrls() ? sprintf(' from %s', $actUrl) : ''));
 
 		if (file_exists($targetFile)) {
 			if ($this->config->isGoOnIfDownloadedFileAlreadyExists()) {
@@ -170,7 +223,7 @@ class SouthParkDownloader {
 					$this->log('    (skipped)');
 					$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, $this->config->isUpdateChecksumOnSuccessfulDownload());
 
-					return;
+					return null;
 				} else {
 					unlink($targetFile);
 				}
@@ -179,34 +232,26 @@ class SouthParkDownloader {
 			}
 		}
 
-		$startTime = microtime(true);
-
-		$this->downloadFile($actUrl, $targetFile);
-
-		$this->log(sprintf('    took %.1f s for %.1f MB', microtime(true) - $startTime, filesize($targetFile) / 1024 / 1024));
-
-		$this->downloadedFiles[] = $targetFile;
-
-		$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, $this->config->isUpdateChecksumOnSuccessfulDownload());
+		return new Download($act, $language, $actUrl, $targetFile);
 	}
 
-	protected function downloadFile($actUrl, $targetFile) {
+	protected function downloadFile(Download $download) {
 		$timeout = $this->config->getDownloadTimeoutInSeconds();
 
 		try {
-			$exitCode = $this->call(sprintf('%s%s -hide_banner -i %s -codec copy %s',
+			$download->setStartTime(microtime(true));
+
+			$this->call(sprintf('%s%s -hide_banner -i %s -codec copy %s',
 					escapeshellcmd($this->config->getFfmpeg()),
 					$this->config->isQuietCommands() ? ' -loglevel quiet' : '',
-					escapeshellcmd($actUrl),
-					escapeshellarg($targetFile)), $timeout);
+					escapeshellcmd($download->getUrl()),
+					escapeshellarg($download->getTargetFile())), $timeout, true, $process);
 
-			if ($exitCode !== self::EXITCODE_SUCCESS) {
-				$this->abort($exitCode);
-			}
+			$download->setProcess($process);
 		} catch (ProcessTimedOutException $e) {
-			$this->log(sprintf('    (timeout of %u s reached, trying again)', $timeout));
-			unlink($targetFile);
-			$this->downloadFile($actUrl, $targetFile);
+			$this->log(sprintf('    [%s] (timeout of %u s reached, trying again)', $download->getProcessName(), $timeout));
+			unlink($download->getTargetFile());
+			$this->downloadFile($download);
 		}
 	}
 
@@ -478,16 +523,23 @@ class SouthParkDownloader {
 				!empty($extension) ? '.' . $extension : '');
 	}
 
-	protected function call($command, $timeout = null) {
+	protected function call($command, $timeout = null, $async = false, &$process = null) {
 		if ($this->config->isPrintCommandCalls()) {
 			$this->log('  > ' . $command);
 		}
 
 		$process = new Process($command);
 		$process->setTimeout($timeout);
-		$process->run(function($type, $buffer) {
+
+		$callback = function($type, $buffer) {
 			echo $buffer;
-		});
+		};
+
+		if ($async) {
+			$process->start($callback);
+		} else {
+			$process->run($callback);
+		}
 
 		return $process->getExitCode();
 	}
