@@ -1,2 +1,242 @@
 {
+    "S20E01A1DE": {
+        "hash": "032a25127e8b77cde5b74589444f35dee3052a446204540e6978b5ed3e1addee",
+        "last-checked": "2017-05-16T05:51:17+00:00"
+    },
+    "S20E01A1EN": {
+        "hash": "f8441cdca1bd91cded394679ccb26923cb979a12c19a79dda93e40cb1e844880",
+        "last-checked": "2017-05-16T05:51:18+00:00"
+    },
+    "S20E01A2DE": {
+        "hash": "b2d83496d2874fec997514ce6ca353c55c7bf0f7fbe12e178e58f9312a7fff96",
+        "last-checked": "2017-05-16T05:51:19+00:00"
+    },
+    "S20E01A2EN": {
+        "hash": "3d75b3555bb40eef96b7115e1deec681a1317851d141dd794404240c1c35f214",
+        "last-checked": "2017-05-16T05:51:19+00:00"
+    },
+    "S20E01A3DE": {
+        "hash": "73c581dfe1c1b0eca95365737d733a66fb57c9082a0f58f8cf13a755b87410cb",
+        "last-checked": "2017-05-16T05:51:19+00:00"
+    },
+    "S20E01A3EN": {
+        "hash": "6dae96ad9b5813039e3c433040dcc3b8bd8149b016aa540e9902b704b541e02f",
+        "last-checked": "2017-05-16T05:51:20+00:00"
+    },
+    "S20E02A1DE": {
+        "hash": "8e19ff8a59f0fb9d2ea8908c308a23435d0da3ed3368ed456d4f6ceade067928",
+        "last-checked": "2017-05-16T05:52:47+00:00"
+    },
+    "S20E02A1EN": {
+        "hash": "c51df39d1d9e7f039151d763b337ddb35bd85f97e21f9f5d15bce77524c9fee7",
+        "last-checked": "2017-05-16T05:52:48+00:00"
+    },
+    "S20E02A2DE": {
+        "hash": "98accd2056bbb3d1c0305201cf51006fc73c6213bee95a973941b7d608bfb858",
+        "last-checked": "2017-05-16T05:52:48+00:00"
+    },
+    "S20E02A2EN": {
+        "hash": "d75d1bb41c1fe560abe6b48645c629c241e7005385bb42ebee4030adf2d3aef0",
+        "last-checked": "2017-05-16T05:52:49+00:00"
+    },
+    "S20E02A3DE": {
+        "hash": "417991c8649b2af45534cbc59ce5e54f15a205da7da05bd0ef55d5117a897ecf",
+        "last-checked": "2017-05-16T05:52:49+00:00"
+    },
+    "S20E02A3EN": {
+        "hash": "330f6744415543b43c93aff884944b433fff2a0ded83c3d2d477d2b6680e1d86",
+        "last-checked": "2017-05-16T05:52:50+00:00"
+    },
+    "S20E03A1DE": {
+        "hash": "e112d8fc5236af3b640edc0392a13eed9aeaf4b6e705ea6852ff1a1e7ef9b117",
+        "last-checked": "2017-05-16T05:54:16+00:00"
+    },
+    "S20E03A1EN": {
+        "hash": "9b43b7ec8ca87abbdf5aaee80779f2f060a955f8d4a8763d9677a3f6f416969e",
+        "last-checked": "2017-05-16T05:54:16+00:00"
+    },
+    "S20E03A2DE": {
+        "hash": "0e12096f889e3df9445fede32041539941bbeaf18f2abd3f2968b949b0a62ed9",
+        "last-checked": "2017-05-16T05:54:17+00:00"
+    },
+    "S20E03A2EN": {
+        "hash": "f7fd51dc41f5b6b3a3eabee7b4edf7f817ec07be567107dd96dcc8a7e9ce1041",
+        "last-checked": "2017-05-16T05:54:17+00:00"
+    },
+    "S20E03A3DE": {
+        "hash": "ead21e70bd0a92c788f6bf12b0f79714e19fb5631b487c1e9846b6a00f2d39b4",
+        "last-checked": "2017-05-16T05:54:18+00:00"
+    },
+    "S20E03A3EN": {
+        "hash": "e7f66dca50c16f6167b39115b1c9e56ca7c5f677bb834f950e9472892e352024",
+        "last-checked": "2017-05-16T05:54:18+00:00"
+    },
+    "S20E04A1DE": {
+        "hash": "9d1b68ca079c992459e34e4b3c54862944e5774378180a61c118ab59c2d15f35",
+        "last-checked": "2017-05-16T05:55:46+00:00"
+    },
+    "S20E04A1EN": {
+        "hash": "734de3350185cc040cd4f81a7a93bdd7aa5274129c76aa81164fc968b6e74754",
+        "last-checked": "2017-05-16T05:55:47+00:00"
+    },
+    "S20E04A2DE": {
+        "hash": "c121bd542e944294d7d06846a8f9ff5c70ad7e22761d4814b9a7dfc26744286b",
+        "last-checked": "2017-05-16T05:55:48+00:00"
+    },
+    "S20E04A2EN": {
+        "hash": "0782476bc3dca8910e558731cd1d920a9dfc97ef1d13722cccf16cb5e530ad11",
+        "last-checked": "2017-05-16T05:55:48+00:00"
+    },
+    "S20E04A3DE": {
+        "hash": "f33d7fa4712c35195ea840f7bfbfbf1b8e9ad89d8a377dbe4ef21629b39ad919",
+        "last-checked": "2017-05-16T05:55:48+00:00"
+    },
+    "S20E04A3EN": {
+        "hash": "bf630900d13b287d046b1fdd1d1303db8b80e8b6baac6c1df8fd9738e7e451b3",
+        "last-checked": "2017-05-16T05:55:49+00:00"
+    },
+    "S20E05A1DE": {
+        "hash": "925681c4ac1d907c3655fdc35b183f1c6bf60b0b390f6bd3f3868b02aefd0844",
+        "last-checked": "2017-05-16T05:57:23+00:00"
+    },
+    "S20E05A1EN": {
+        "hash": "aeb4b7144ac0eb9fb5ec7201478ab724f010e85fd0d72ea24f398bfb2a9e4e17",
+        "last-checked": "2017-05-16T05:57:24+00:00"
+    },
+    "S20E05A2DE": {
+        "hash": "c258867cd3bee95eb7a6f3e93665afc831cc3516f073356ef8548a60b6d9876e",
+        "last-checked": "2017-05-16T05:57:24+00:00"
+    },
+    "S20E05A2EN": {
+        "hash": "b63ac8c108a7eaced10f3d7fc0525e2f789956d844ee71aa24b2b2acf5905d97",
+        "last-checked": "2017-05-16T05:57:25+00:00"
+    },
+    "S20E05A3DE": {
+        "hash": "0780aee3532bf812903943242aa46011086b8e6a066f8a7e666c47df11d6e88a",
+        "last-checked": "2017-05-16T05:57:25+00:00"
+    },
+    "S20E05A3EN": {
+        "hash": "a11fec30658f35c2eb7a57dc5fa3a3385e37e4874b718dd8cb6c7d8c6bd3a039",
+        "last-checked": "2017-05-16T05:57:26+00:00"
+    },
+    "S20E06A1DE": {
+        "hash": "b5d8b4af77421348631a69a2bda10ffef7582ee6792ecfbdf8dc738c4cf5a5e9",
+        "last-checked": "2017-05-16T05:58:53+00:00"
+    },
+    "S20E06A1EN": {
+        "hash": "05a4b612e079ed32364116951c4cb4b2a2adb37e45ccc828d81ff35803151af0",
+        "last-checked": "2017-05-16T05:58:54+00:00"
+    },
+    "S20E06A2DE": {
+        "hash": "a5e3f739f53eea18ff68627f36bb260261841df667bb3100110856ceed3c3b65",
+        "last-checked": "2017-05-16T05:58:54+00:00"
+    },
+    "S20E06A2EN": {
+        "hash": "eb83427ab4972d6f4dc51adef880596d39fc3c8e8194b4df85619841cd8636cc",
+        "last-checked": "2017-05-16T05:58:55+00:00"
+    },
+    "S20E06A3DE": {
+        "hash": "23d707766daca13df67563f1807cf70162f8ef05f6089d21dcd7cc7b224c2eaa",
+        "last-checked": "2017-05-16T05:58:55+00:00"
+    },
+    "S20E06A3EN": {
+        "hash": "376f93b4315a52981e8fa0428ddc3ef53f29b27ce98274315da622007be5ccca",
+        "last-checked": "2017-05-16T05:58:56+00:00"
+    },
+    "S20E07A1DE": {
+        "hash": "3c564a3d2024c45ada568d1475e7ea3e5fb32829f96a3f68ccedec90ed8bb051",
+        "last-checked": "2017-05-16T06:00:23+00:00"
+    },
+    "S20E07A1EN": {
+        "hash": "f4d1f4a1e4c6fbbb9f8d5ce722e03c6aa7352071596af8fb253b531f51d18593",
+        "last-checked": "2017-05-16T06:00:23+00:00"
+    },
+    "S20E07A2DE": {
+        "hash": "26fa7736c5668237f2f9dbfab213e9825a460402bdcb69a0b8cfda1f83b46497",
+        "last-checked": "2017-05-16T06:00:24+00:00"
+    },
+    "S20E07A2EN": {
+        "hash": "4932755fffded5427f540d818457d99932360b7bbe826849982790a1d9db6bd1",
+        "last-checked": "2017-05-16T06:00:24+00:00"
+    },
+    "S20E07A3DE": {
+        "hash": "cbd668ee93b38c302fd6fdc4f85b7794885e16dfe91e8cb14a0da9d3fde94b79",
+        "last-checked": "2017-05-16T06:00:24+00:00"
+    },
+    "S20E07A3EN": {
+        "hash": "c861f76ce0906417af09b995141bb6269ddb140dd401cb1206083f453b1e0296",
+        "last-checked": "2017-05-16T06:00:25+00:00"
+    },
+    "S20E08A1DE": {
+        "hash": "7ce1d793adcd0f8a1f79f76b34b4c1ab8a75519b510cf933d5098db7c5b73063",
+        "last-checked": "2017-05-16T06:01:59+00:00"
+    },
+    "S20E08A1EN": {
+        "hash": "ed1cda9882db03d3ac157331b0ce166834d80431ec4ed7e64978c070ab202e46",
+        "last-checked": "2017-05-16T06:02:00+00:00"
+    },
+    "S20E08A2DE": {
+        "hash": "ae896117171639e5f633b3c6bcc9846dc317432c3728bb5a1f4590cafe28850a",
+        "last-checked": "2017-05-16T06:02:01+00:00"
+    },
+    "S20E08A2EN": {
+        "hash": "005bfaf8b3bcf64ccdfc22b13253f9a752d23cb96548adc3a027bafb21123264",
+        "last-checked": "2017-05-16T06:02:01+00:00"
+    },
+    "S20E08A3DE": {
+        "hash": "f0876bb2e0df4d303ec4f55b07503f775ebe761a5a3aa2dff702e47db60a7fc1",
+        "last-checked": "2017-05-16T06:02:02+00:00"
+    },
+    "S20E08A3EN": {
+        "hash": "241db4861de2f971135c5face560aa047e5f8cffa08f28d335f3a7b6d5889b5f",
+        "last-checked": "2017-05-16T06:02:02+00:00"
+    },
+    "S20E09A1DE": {
+        "hash": "0d44e9b51e1c6d709147447966a714ac75cdb22cf0e0a51b798a6beb3153eeb9",
+        "last-checked": "2017-05-16T06:03:28+00:00"
+    },
+    "S20E09A1EN": {
+        "hash": "ac40931832f29d497d72142c95c91c4345cb820d5999851cf92d3c04df56615e",
+        "last-checked": "2017-05-16T06:03:29+00:00"
+    },
+    "S20E09A2DE": {
+        "hash": "60c609e125b5e4fa679e7272c401edb73ac4a152b5c107999be86b4af7387803",
+        "last-checked": "2017-05-16T06:03:29+00:00"
+    },
+    "S20E09A2EN": {
+        "hash": "d41e11565ebc2bc7fe30d9faa5d7397f8bef0aa6d9abdf778b7cf8a9654eb703",
+        "last-checked": "2017-05-16T06:03:30+00:00"
+    },
+    "S20E09A3DE": {
+        "hash": "76d977cc9d51c66c4ad96e8663279fe0271a5378bb3224d557263023affc3c4e",
+        "last-checked": "2017-05-16T06:03:30+00:00"
+    },
+    "S20E09A3EN": {
+        "hash": "7982cdb204d5ee80678dd221c8fe4abcd3f1f7b59d604b71e687fb211058fceb",
+        "last-checked": "2017-05-16T06:03:31+00:00"
+    },
+    "S20E10A1DE": {
+        "hash": "fa2b70ed48eed8fd2449667bb48cf8294ad181f7c2d9d20bcc98531d40396547",
+        "last-checked": "2017-05-16T06:04:56+00:00"
+    },
+    "S20E10A1EN": {
+        "hash": "b1065335797d78961f77e40380a8b70585a2192ec1d103bd54fb0c6fcbd18f62",
+        "last-checked": "2017-05-16T06:04:57+00:00"
+    },
+    "S20E10A2DE": {
+        "hash": "d3193030407ee51671917ec93824b279915223487ce6c345de2cc3b96adc3efd",
+        "last-checked": "2017-05-16T06:04:57+00:00"
+    },
+    "S20E10A2EN": {
+        "hash": "83573d925370d5d97af5b4af99ef02414e70652c09c0237d31349239d1436493",
+        "last-checked": "2017-05-16T06:04:58+00:00"
+    },
+    "S20E10A3DE": {
+        "hash": "fdd1ae553cccf455eb10ab95fb446b476fa3977652e5cd28843be43d55be216b",
+        "last-checked": "2017-05-16T06:04:58+00:00"
+    },
+    "S20E10A3EN": {
+        "hash": "2599da48f88115f44d144a70bf0a92452b3a8423f5e76b5cfa53b75dc80d0d4c",
+        "last-checked": "2017-05-16T06:04:59+00:00"
+    }
 }
