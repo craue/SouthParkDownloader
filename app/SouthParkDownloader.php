@@ -499,7 +499,7 @@ class SouthParkDownloader {
 		));
 
 		// remove characters which would be invalid for the filename
-		$episodeTitleForFilename = preg_replace("/[^a-z0-9äöüßè*()!%_' .\-]/iu", '', $episodeTitleForFilename);
+		$episodeTitleForFilename = preg_replace("/[^a-z0-9äöüßè()!%_' .-]/iu", '', $episodeTitleForFilename);
 
 		// fix filename on Windows
 		if (defined('PHP_WINDOWS_VERSION_BUILD')) {
