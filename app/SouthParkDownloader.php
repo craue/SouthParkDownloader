@@ -51,6 +51,11 @@ class SouthParkDownloader {
 	protected $tempFiles = array();
 	protected $downloadedFiles = array();
 
+	/**
+	 * @var bool
+	 */
+	private $ffmpegHideBanner;
+
 	public function setConfig(Config $config) {
 		$this->config = $config;
 	}
@@ -63,6 +68,8 @@ class SouthParkDownloader {
 		if (!in_array($this->config->getSeasonNumber(), $this->getAvailableSeasons($this->config->getMainLanguage()), true)) {
 			throw new RuntimeException(sprintf('Unknown season "%s".', $this->config->getSeasonNumber()));
 		}
+
+		$this->ffmpegHideBanner = $this->isFfmpegSupportingHideBanner();
 
 		$this->season = $this->buildSeason($this->config->getSeasonNumber());
 
@@ -241,9 +248,10 @@ class SouthParkDownloader {
 		try {
 			$download->setStartTime(microtime(true));
 
-			$this->call(sprintf('%s%s -hide_banner -i %s -codec copy %s',
+			$this->call(sprintf('%s%s%s -i %s -codec copy %s',
 					escapeshellcmd($this->config->getFfmpeg()),
 					$this->config->isQuietCommands() ? ' -loglevel quiet' : '',
+					$this->ffmpegHideBanner ? ' -hide_banner' : '',
 					escapeshellcmd($download->getUrl()),
 					escapeshellarg($download->getTargetFile())), $timeout, true, $process);
 
@@ -282,9 +290,39 @@ class SouthParkDownloader {
 		}
 	}
 
+	protected function isFfmpegSupportingHideBanner() {
+		// according to https://stackoverflow.com/a/22705820
+		return version_compare($this->getFfmpegVersion(), '2.2', '>=');
+	}
+
+	protected function getFfmpegVersion() {
+		$command = sprintf('%s -version',
+				escapeshellcmd($this->config->getFfmpeg()));
+
+		exec($command, $output, $exitCode);
+
+		return $this->extractFfmpegVersion(implode("\n", $output));
+	}
+
+	protected function extractFfmpegVersion($copyrightText) {
+		/*
+		 * real world examples:
+		 * ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+		 * ffmpeg version 3.0.7-0ubuntu0.16.10.1 Copyright (c) 2000-2017 the FFmpeg developers
+		 * ffmpeg version 0.8.21-6:0.8.21-0+deb7u1, Copyright (c) 2000-2014 the Libav developers
+		 * FFmpeg version 0.6.2, Copyright (c) 2000-2010 the FFmpeg developers
+		 */
+		if (preg_match('#ffmpeg version ((\d|\.)+)(?:\s|-|,)#i', $copyrightText, $matches) !== false) {
+			return $matches[1];
+		}
+
+		return null;
+	}
+
 	protected function getFrameRateFromFile($file) {
-		$command = sprintf('%s -hide_banner -i %s 2>&1',
+		$command = sprintf('%s%s -i %s 2>&1',
 				escapeshellcmd($this->config->getFfmpeg()),
+				$this->ffmpegHideBanner ? ' -hide_banner' : '',
 				escapeshellarg($file));
 
 		exec($command, $output, $exitCode);
