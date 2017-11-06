@@ -289,7 +289,12 @@ class SouthParkDownloader {
 
 		exec($command, $output, $exitCode);
 
-		if (preg_match('#kb/s, (\d|.+) fps,#', implode("\n", $output), $matches) !== false) {
+		/*
+		 * real world examples:
+		 * Stream #0:0(und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv), 1280x720 [SAR 1:1 DAR 16:9], 1097 kb/s, 23.98 fps, 23.98 tbr, 90k tbn, 23.98 tbc (default)
+		 * Stream #0:0(und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv), 1280x720 [SAR 1:1 DAR 16:9], 1101 kb/s, 25 fps, 25 tbr, 90k tbn, 25 tbc (default)
+		 */
+		if (preg_match('#kb/s, ((\d|\.)+) fps,#', implode("\n", $output), $matches) !== false) {
 			return $matches[1];
 		}
 
