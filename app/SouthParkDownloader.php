@@ -18,6 +18,8 @@ class SouthParkDownloader {
 	const EXITCODE_MKVMERGE_WARNINGS = 1; // at least one warning
 	const EXITCODE_MKVMERGE_ERROR = 2;
 
+	const MKVMERGE_MIN_VERSION = '9.7'; // support for option files (@options.json) is needed, which was added in 9.7.0 according to https://www.videohelp.com/software/MKVToolNix/version-history
+
 	/**
 	 * @var AnomalyDatabase
 	 */
@@ -61,6 +63,8 @@ class SouthParkDownloader {
 	}
 
 	public function run() {
+		$this->assertMkvmergeMinVersion();
+
 		$this->anomalyDb = new AnomalyDatabase(__DIR__.'/../data/anomalies.json');
 		$this->checksumDb = new ChecksumDatabase(__DIR__.'/../data/checksums.json');
 		$this->settingDb = new SettingDatabase(__DIR__.'/../data/settings.json');
@@ -307,6 +311,7 @@ class SouthParkDownloader {
 	protected function extractFfmpegVersion($copyrightText) {
 		/*
 		 * real world examples:
+		 * ffmpeg version 3.4.1-1~16.04.york0 Copyright (c) 2000-2017 the FFmpeg developers
 		 * ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
 		 * ffmpeg version 3.0.7-0ubuntu0.16.10.1 Copyright (c) 2000-2017 the FFmpeg developers
 		 * ffmpeg version 0.8.21-6:0.8.21-0+deb7u1, Copyright (c) 2000-2014 the Libav developers
@@ -317,6 +322,42 @@ class SouthParkDownloader {
 		}
 
 		return null;
+	}
+
+	protected function assertMkvmergeMinVersion() {
+		$mkvmergeVersion = $this->getMkvmergeVersion();
+		if (version_compare($mkvmergeVersion, self::MKVMERGE_MIN_VERSION, '>=') === false) {
+			throw new RuntimeException(sprintf('The version of mkvmerge does not meet the minimum requirements. Expected at least %s, but found %s.', self::MKVMERGE_MIN_VERSION, $mkvmergeVersion));
+		}
+	}
+
+	protected function getMkvmergeVersion() {
+		$command = sprintf('%s --version',
+				escapeshellcmd($this->config->getMkvmerge()));
+
+		exec($command, $output, $exitCode);
+
+		return $this->extractMkvmergeVersion(implode("\n", $output));
+	}
+
+	protected function extractMkvmergeVersion($copyrightText) {
+		/*
+		 * real world examples:
+		 * mkvmerge v20.0.0 ('I Am The Sun') 64-bit
+		 * mkvmerge v18.0.0 ('Apricity') 64-bit
+		 * mkvmerge v17.0.0 ('Be Ur Friend') 64-bit
+		 * mkvmerge v11.0.0 ('Alive') 32bit
+		 * mkvmerge v10.0.0 ('To Drown In You') 64bit
+		 * mkvmerge v9.7.1 ('Pandemonium') 64bit
+		 * mkvmerge v9.1.0 ('Little Earthquakes') 64bit
+		 * mkvmerge v8.8.0 ('Wind at my back') 64bit
+		 * mkvmerge v1.5.6 ('Breathe me') built on Sep 9 2005 03:05:48
+		 */
+		if (preg_match('#mkvmerge v((\d|\.)+)#i', $copyrightText, $matches) !== false && $matches[1] !== null) {
+			return $matches[1];
+		}
+
+		throw new RuntimeException(sprintf('The version of mkvmerge could not be extracted from "%s". Please report this issue.', $copyrightText));
 	}
 
 	protected function getFrameRateFromFile($file) {

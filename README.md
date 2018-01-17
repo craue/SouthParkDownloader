@@ -15,7 +15,7 @@ South Park Downloader to get South Park episodes from official sources.
 
  - PHP (>= 5.5.9) from http://php.net/downloads.php
  - FFmpeg from http://ffmpeg.zeranoe.com/builds/
- - mkvmerge (part of MKVToolnix) from http://www.bunkus.org/videotools/mkvtoolnix/downloads.html
+ - mkvmerge (>= 9.7, part of MKVToolnix) from http://www.bunkus.org/videotools/mkvtoolnix/downloads.html
 
 Or, if you are using Windows, just take the bundle of pre-packaged tools from https://github.com/craue/SouthParkDownloader/releases. 
 
