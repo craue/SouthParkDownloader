@@ -2981,74 +2981,122 @@
     },
     "S21E01A1EN": {
         "hash": "67953dc511d4a2544a0fe71a88492660e0858f62d637ccd7c111d7df6046e8bc",
-        "last-checked": "2017-11-06T03:30:01+00:00"
+        "last-checked": "2018-02-13T09:10:02+00:00"
     },
     "S21E01A2EN": {
         "hash": "a7221f9eb1530fff2c57bcb95d1f4ec3a88c78e19569c58be9e6d0a32170baa9",
-        "last-checked": "2017-11-06T03:30:02+00:00"
+        "last-checked": "2018-02-13T09:10:02+00:00"
     },
     "S21E01A3EN": {
         "hash": "93eb8381483d4dc7e28684739b642092f67d25e8bdb4b4b59e0d69ae4407370d",
-        "last-checked": "2017-11-06T03:30:03+00:00"
+        "last-checked": "2018-02-13T09:10:03+00:00"
     },
     "S21E02A1EN": {
         "hash": "abb88a619c09ff8bcb89d22cb6c33417ea482a27f5f98d870ba7db3c387421fd",
-        "last-checked": "2017-11-06T03:30:05+00:00"
+        "last-checked": "2018-02-13T09:10:50+00:00"
     },
     "S21E02A2EN": {
         "hash": "9509a106b639a5350ccceb460d39421be3e6e984866aa31c189137b94a1ea3b2",
-        "last-checked": "2017-11-06T03:30:06+00:00"
+        "last-checked": "2018-02-13T09:10:50+00:00"
     },
     "S21E02A3EN": {
         "hash": "1ae203fd4397e4d53a7df83b1313d7119d8db3ca8ea97e0822ec86787ad198b2",
-        "last-checked": "2017-11-06T03:30:07+00:00"
+        "last-checked": "2018-02-13T09:10:51+00:00"
     },
     "S21E03A1EN": {
         "hash": "2e6c92cbcfe8c611b86910e974b04f5004e573a311fbee40e559fe4b93bd3bbe",
-        "last-checked": "2017-11-06T03:30:08+00:00"
+        "last-checked": "2018-02-13T09:11:37+00:00"
     },
     "S21E03A2EN": {
         "hash": "07276825232b31e2a58ac93e20f178d8caad05c6aa985ebdff11b727b43575b3",
-        "last-checked": "2017-11-06T03:30:09+00:00"
+        "last-checked": "2018-02-13T09:11:38+00:00"
     },
     "S21E03A3EN": {
         "hash": "f6544775b220912598f9eb8dd014c04dc7d3a4e6f4e6c61c217790529f7c4752",
-        "last-checked": "2017-11-06T03:30:10+00:00"
+        "last-checked": "2018-02-13T09:11:38+00:00"
     },
     "S21E04A1EN": {
         "hash": "5764c5347904c1cc1e462c8aa07fd02eeb6163d1f3890b17fd1c05b1594dc17b",
-        "last-checked": "2017-11-06T03:30:12+00:00"
+        "last-checked": "2018-02-13T09:12:25+00:00"
     },
     "S21E04A2EN": {
         "hash": "496a182a6b8b0f20f2ef2db1cfb99dba8f1da8bd0b07a3968caf108545e4d87e",
-        "last-checked": "2017-11-06T03:30:13+00:00"
+        "last-checked": "2018-02-13T09:12:26+00:00"
     },
     "S21E04A3EN": {
         "hash": "260f1cbbc7c32ebf50c180d1f7e471e24a2106a5ceeec263ad398f932c6c636f",
-        "last-checked": "2017-11-06T03:30:14+00:00"
+        "last-checked": "2018-02-13T09:12:26+00:00"
     },
     "S21E05A1EN": {
         "hash": "629dbc9eb808c54199e580bb5451fd3ec8e5ae855b38593057ddb323e4f3b87e",
-        "last-checked": "2017-11-06T03:30:16+00:00"
+        "last-checked": "2018-02-13T09:23:41+00:00"
     },
     "S21E05A2EN": {
         "hash": "9fc0478eca24a8241c9a88aa4179aca8599e77313ae377e68a209debcd455215",
-        "last-checked": "2017-11-06T03:30:17+00:00"
+        "last-checked": "2018-02-13T09:23:41+00:00"
     },
     "S21E05A3EN": {
-        "hash": "afa9149604b3a65f6f0accdd8047f217d9847abe339fdac3a49ad50d63d407a1",
-        "last-checked": "2017-11-06T03:30:17+00:00"
+        "hash": "bd6e6d95946e29e31e92d983f237ff9f1219cc1ee46a4329ce9c7e62c85834db",
+        "last-checked": "2018-02-13T09:23:42+00:00"
     },
     "S21E06A1EN": {
         "hash": "4dea7997e34f212f7ff3dfd6992b2280bcb546c421847fda42fc5dc76ecfefa7",
-        "last-checked": "2017-11-06T03:30:19+00:00"
+        "last-checked": "2018-02-13T09:18:07+00:00"
     },
     "S21E06A2EN": {
         "hash": "2a65218702934d9b7ebdf63f7ab693aa119cd134c28293d9aedab59f0575a6ba",
-        "last-checked": "2017-11-06T03:30:20+00:00"
+        "last-checked": "2018-02-13T09:18:08+00:00"
     },
     "S21E06A3EN": {
         "hash": "f5a99ab2637bc91cfd69861000596d665e5bc3fa52486bfd3e9011f478e43d89",
-        "last-checked": "2017-11-06T03:30:21+00:00"
+        "last-checked": "2018-02-13T09:18:08+00:00"
+    },
+    "S21E07A1EN": {
+        "hash": "3fbf3efcf5fe8fe99ed52d7acf0d2dcb3be901d4c80e36de7a4c7f2f832ae7c9",
+        "last-checked": "2018-02-13T09:19:36+00:00"
+    },
+    "S21E07A2EN": {
+        "hash": "29dcfa5f00be6852179893711bb6d7a3e609ebf2e9c7457db46e771ab92ad0bc",
+        "last-checked": "2018-02-13T09:19:37+00:00"
+    },
+    "S21E07A3EN": {
+        "hash": "01d66e8a380fb519972691e03e3de89494ebca6bafe1fe558853d536f114ebe6",
+        "last-checked": "2018-02-13T09:19:37+00:00"
+    },
+    "S21E08A1EN": {
+        "hash": "ad1db862f601448dfa65c145a0e3938da15d4c1534bc0eca2443a4aefadc2d8b",
+        "last-checked": "2018-02-13T09:20:57+00:00"
+    },
+    "S21E08A2EN": {
+        "hash": "29de056dad464416efedcca1ad731010c6365ceecc8d2e11ca1c1076ca559f4f",
+        "last-checked": "2018-02-13T09:20:57+00:00"
+    },
+    "S21E08A3EN": {
+        "hash": "010a5c2292ff2c2f030e5d6697bd02d2b9b4a0f7c46eae7b6ff413af0fa43cc3",
+        "last-checked": "2018-02-13T09:20:57+00:00"
+    },
+    "S21E09A1EN": {
+        "hash": "40378e6ea289e791d0648b4c3cbe1daaaa13831b69c437d9aed72e091a5a8049",
+        "last-checked": "2018-02-13T09:21:46+00:00"
+    },
+    "S21E09A2EN": {
+        "hash": "00b06972a2efb2c4d3b853d6dde032492353c40aba1aa0be1164497ed188fcff",
+        "last-checked": "2018-02-13T09:21:47+00:00"
+    },
+    "S21E09A3EN": {
+        "hash": "1b36fb91c5326fa9f398b5578e7fba50fa0784422a78af88f3ebdabedc86bac2",
+        "last-checked": "2018-02-13T09:21:47+00:00"
+    },
+    "S21E10A1EN": {
+        "hash": "39b66aa7dd42061ac8890e86fc9a6e46c614713c4666be4f573adc0bdb6865d6",
+        "last-checked": "2018-02-13T09:22:36+00:00"
+    },
+    "S21E10A2EN": {
+        "hash": "c9770470538d5fd0be37bd2b178f802a68a3085f0049609f7684cd47029ccfa7",
+        "last-checked": "2018-02-13T09:22:37+00:00"
+    },
+    "S21E10A3EN": {
+        "hash": "de9915cc03bc8699e37c5b6945a37a64fc0c86cefa95d42c656e970334276211",
+        "last-checked": "2018-02-13T09:22:37+00:00"
     }
 }
