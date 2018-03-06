@@ -3075,13 +3075,25 @@
         "hash": "260f1cbbc7c32ebf50c180d1f7e471e24a2106a5ceeec263ad398f932c6c636f",
         "last-checked": "2018-02-13T09:12:26+00:00"
     },
+    "S21E05A1DE": {
+        "hash": "fb11905e21f0f7bb31ef8378626645ea7bbc15a59893404a97674fac5cf758da",
+        "last-checked": "2018-03-06T19:27:08+00:00"
+    },
     "S21E05A1EN": {
         "hash": "629dbc9eb808c54199e580bb5451fd3ec8e5ae855b38593057ddb323e4f3b87e",
         "last-checked": "2018-02-13T09:23:41+00:00"
     },
+    "S21E05A2DE": {
+        "hash": "78b6fefa469b2bfdf909329d70b63f3be6431755e3cb4cf998783d35f5134c96",
+        "last-checked": "2018-03-06T19:27:10+00:00"
+    },
     "S21E05A2EN": {
         "hash": "9fc0478eca24a8241c9a88aa4179aca8599e77313ae377e68a209debcd455215",
         "last-checked": "2018-02-13T09:23:41+00:00"
+    },
+    "S21E05A3DE": {
+        "hash": "b9dd8da3851333537934c88edc37cf4bddb94d71441acd1ce6111e12cfe73dba",
+        "last-checked": "2018-03-06T19:27:11+00:00"
     },
     "S21E05A3EN": {
         "hash": "bd6e6d95946e29e31e92d983f237ff9f1219cc1ee46a4329ce9c7e62c85834db",
