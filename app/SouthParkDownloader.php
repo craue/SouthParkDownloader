@@ -101,14 +101,7 @@ class SouthParkDownloader {
 			$metaUrl = sprintf('http://media.mtvnservices.com/pmt/e1/access/index.html?uri=%s&configtype=edge', $episodeUri);
 
 			$this->log(sprintf('  fetching episode metadata for S%02uE%02u%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $this->config->isPrintUrls() ? sprintf(' from %s', $metaUrl) : ''));
-			$metaContent = file_get_contents($metaUrl, false, stream_context_create(array(
-				'http' => array(
-					'method' => 'GET',
-					'header' => sprintf("Referer: %s\r\n", $this->settingDb->getEpisodeDataUrl($this->config->getMainLanguage(), $this->episode->getSeason()->getNumber(), $this->episode->getNumber()))
-				)
-			)));
-
-			$metaData = json_decode($metaContent, true);
+			$metaData = json_decode(file_get_contents($metaUrl), true);
 
 			if (isset($metaData['feed']['items'])) {
 				break;
