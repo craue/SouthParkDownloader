@@ -21,7 +21,6 @@ class Config {
 	protected $mkvmerge = null;
 
 	protected $downloadTimeoutInSeconds = null;
-	protected $parallelDownloads = true;
 
 	protected $verifyChecksums = true;
 	protected $updateChecksumOnSuccessfulDownload = false;
@@ -110,15 +109,6 @@ class Config {
 
 	public function getDownloadTimeoutInSeconds() {
 		return $this->downloadTimeoutInSeconds;
-	}
-
-	public function setParallelDownloads($parallelDownloads) {
-		$this->assertBoolean($parallelDownloads);
-		$this->parallelDownloads = $parallelDownloads;
-	}
-
-	public function isParallelDownloads() {
-		return $this->parallelDownloads;
 	}
 
 	public function setVerifyChecksums($verifyChecksums) {

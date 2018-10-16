@@ -153,7 +153,7 @@ class SouthParkDownloader {
 		}
 
 		if (!empty($downloads)) {
-			$this->log(sprintf('  starting %u %s downloads', count($downloads), $this->config->isParallelDownloads() ? 'parallel' : 'sequential'));
+			$this->log(sprintf('  starting %u parallel downloads', count($downloads)));
 		}
 
 		foreach ($downloads as $download) {
