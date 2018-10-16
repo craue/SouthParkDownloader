@@ -124,6 +124,7 @@ class SouthParkDownloader {
 				$itemUrl = strtr($itemUrlTemplate . '&format=json', array(
 					'{device}' => 'iPad',
 					'lang=de' => sprintf('lang=%s', $language),
+					'lang=en' => sprintf('lang=%s', $language),
 				));
 
 				$actNumber = $index + 1;
