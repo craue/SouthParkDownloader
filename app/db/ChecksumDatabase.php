@@ -5,7 +5,7 @@
  * This file is part of the South Park Downloader package.
  *
  * @author Christian Raue <christian.raue@gmail.com>
- * @copyright 2011-2017 Christian Raue
+ * @copyright 2011-2018 Christian Raue
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
  */
 class ChecksumDatabase extends JsonDatabase {
