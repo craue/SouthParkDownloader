@@ -3,6 +3,7 @@
 	"type": "project",
 	"license": "GPL-3.0",
 	"require": {
+		"ext-dom": "*",
 		"symfony/process": "^3.2"
 	},
 	"config": {
