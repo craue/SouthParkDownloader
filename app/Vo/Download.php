@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Vo;
+
 use Symfony\Component\Process\Process;
 
 /**

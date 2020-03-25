@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Vo;
+
 /**
  * Representation of an act.
  * This file is part of the South Park Downloader package.

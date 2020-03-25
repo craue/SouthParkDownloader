@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Database;
+
 /**
  * Base class for reading/writing a JSON database.
  * This file is part of the South Park Downloader package.

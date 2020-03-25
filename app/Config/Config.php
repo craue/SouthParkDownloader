@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Config;
+
 /**
  * Configuration.
  * This file is part of the South Park Downloader package.
@@ -52,7 +54,19 @@ class Config {
 	}
 
 	public function setLanguages(array $languages) {
-		$this->languages = $languages;
+		$this->languages = [];
+
+		foreach ($languages as $language) {
+			if (empty($language) || !is_string($language)) {
+				throw new \InvalidArgumentException(sprintf('Invalid language: %s', $language));
+			}
+
+			if (in_array($language, $this->languages, true)) {
+				throw new \InvalidArgumentException(sprintf('Duplicate language: %s', $language));
+			}
+
+			$this->languages[] = $language;
+		}
 	}
 
 	public function getLanguages() {
@@ -194,21 +208,21 @@ class Config {
 
 	protected function canonizeExistingPath($path) {
 		if (!is_dir($path)) {
-			throw new RuntimeException(sprintf('Folder "%s" doesn\'t exist.', $path));
+			throw new \RuntimeException(sprintf('Folder "%s" doesn\'t exist.', $path));
 		}
 		return realpath($path).DIRECTORY_SEPARATOR;
 	}
 
 	protected function canonizeExistingExecutable($path) {
 		if (!is_executable($path)) {
-			throw new RuntimeException(sprintf('Program "%s" doesn\'t exist or isn\'t executable.', $path));
+			throw new \RuntimeException(sprintf('Program "%s" doesn\'t exist or isn\'t executable.', $path));
 		}
 		return realpath($path);
 	}
 
 	protected function assertBoolean($value) {
 		if (!is_bool($value)) {
-			throw new InvalidArgumentException(sprintf('Boolean value expected, but %s given.',
+			throw new \InvalidArgumentException(sprintf('Boolean value expected, but %s given.',
 					$this->getTypeOf($value)));
 		}
 	}

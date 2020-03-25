@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Vo;
+
 /**
  * Representation of an episode.
  * This file is part of the South Park Downloader package.
@@ -97,7 +99,7 @@ class Episode {
 	public function addAct(Act $newAct) {
 		foreach ($this->acts as $act) {
 			if ($act->getNumber() === $newAct->getNumber()) {
-				throw new RuntimeException(sprintf('Act %u for S%02uE%02u already exists.', $act->getNumber(), $this->season->getNumber(), $this->number));
+				throw new \RuntimeException(sprintf('Act %u for S%02uE%02u already exists.', $act->getNumber(), $this->season->getNumber(), $this->number));
 			}
 		}
 

@@ -1,5 +1,25 @@
 <?php
 
+namespace App\Command;
+
+use App\Config\Config;
+use App\Database\AnomalyDatabase;
+use App\Database\ChecksumDatabase;
+use App\Database\SettingDatabase;
+use App\Exception\ChecksumMismatchException;
+use App\Exception\FileAlreadyExistsException;
+use App\Exception\FileDoesNotExistException;
+use App\Helper\Spinner;
+use App\Vo\Act;
+use App\Vo\Download;
+use App\Vo\Episode;
+use App\Vo\Season;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\NullOutput;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Process\Exception\ProcessTimedOutException;
 use Symfony\Component\Process\Process;
 
@@ -11,7 +31,7 @@ use Symfony\Component\Process\Process;
  * @copyright 2011-2020 Christian Raue
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 License
  */
-class SouthParkDownloader {
+class DownloadCommand extends Command {
 
 	const EXITCODE_SUCCESS = 0;
 
@@ -19,6 +39,13 @@ class SouthParkDownloader {
 	const EXITCODE_MKVMERGE_ERROR = 2;
 
 	const MKVMERGE_MIN_VERSION = '9.7'; // support for option files (@options.json) is needed, which was added in 9.7.0 according to https://www.videohelp.com/software/MKVToolNix/version-history
+
+	protected static $defaultName = 'php download.php';
+
+	/**
+	 * @var SymfonyStyle
+	 */
+	private $out;
 
 	/**
 	 * @var AnomalyDatabase
@@ -58,19 +85,41 @@ class SouthParkDownloader {
 	 */
 	private $ffmpegHideBanner;
 
-	public function setConfig(Config $config) {
+	public function __construct(Config $config) {
+		parent::__construct();
+
 		$this->config = $config;
 	}
 
-	public function run() {
+	protected function configure() {
+		$this
+			->addArgument('language', InputArgument::REQUIRED, 'Language(s): Must be "en", "de", "en+de", "de+en".')
+			->addArgument('season', InputArgument::REQUIRED, 'Season: Must be a number.')
+			->addArgument('episode', InputArgument::OPTIONAL, 'Episode: If not given, means "all season\'s episodes". If given, must be a number.')
+			->setHelp(<<<HERE
+<comment>Examples:</comment>
+  <info>%command.name% en 15</info>
+    Download all episodes of season 15 in English.
+
+  <info>%command.name% de+en 13 8</info>
+    Download episode 8 of season 13 in German and English, while taking video
+    from the German source and setting the default audio language to German.
+HERE)
+		;
+	}
+
+	protected function execute(InputInterface $input, OutputInterface $output) {
+		$this->out = new SymfonyStyle($input, $output);
+
+		$this->applyArguments($input);
 		$this->assertMkvmergeMinVersion();
 
-		$this->anomalyDb = new AnomalyDatabase(__DIR__.'/../data/anomalies.json');
-		$this->checksumDb = new ChecksumDatabase(__DIR__.'/../data/checksums.json');
-		$this->settingDb = new SettingDatabase(__DIR__.'/../data/settings.json');
+		$this->anomalyDb = new AnomalyDatabase(__DIR__.'/../../data/anomalies.json');
+		$this->checksumDb = new ChecksumDatabase(__DIR__.'/../../data/checksums.json');
+		$this->settingDb = new SettingDatabase(__DIR__.'/../../data/settings.json');
 
 		if (!in_array($this->config->getSeasonNumber(), $this->getAvailableSeasons($this->config->getMainLanguage()), true)) {
-			throw new RuntimeException(sprintf('Unknown season "%s".', $this->config->getSeasonNumber()));
+			throw new \RuntimeException(sprintf('Invalid season: %s', $this->config->getSeasonNumber()));
 		}
 
 		$this->ffmpegHideBanner = $this->isFfmpegSupportingHideBanner();
@@ -82,12 +131,16 @@ class SouthParkDownloader {
 
 		foreach ($episodesToProcess as $episode) {
 			$this->episode = $episode;
-			$this->log(sprintf('processing S%02uE%02u', $this->episode->getSeason()->getNumber(), $this->episode->getNumber()));
+
+			$this->logStep(0, sprintf('processing S%02uE%02u', $this->episode->getSeason()->getNumber(), $this->episode->getNumber()));
+
 			if ($this->download()) {
 				$this->merge();
 				$this->cleanUp();
 			}
 		}
+
+		return 0;
 	}
 
 	public function download() {
@@ -97,21 +150,24 @@ class SouthParkDownloader {
 			sprintf('mgid:arc:episode:southpark.de:%s', $this->episode->getItemId()),
 		);
 
+		$this->logStep(1, 'fetching episode metadata', sprintf('S%02uE%02u', $this->episode->getSeason()->getNumber(), $this->episode->getNumber()));
+
 		foreach ($episodeUris as $episodeUri) {
 			$metaUrl = sprintf('http://media.mtvnservices.com/pmt/e1/access/index.html?uri=%s&configtype=edge', $episodeUri);
 
-			$this->log(sprintf('  fetching episode metadata for S%02uE%02u%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $this->config->isPrintUrls() ? sprintf(' from %s', $metaUrl) : ''));
+			$this->logUrl(2, $metaUrl);
+
 			$metaData = json_decode(file_get_contents($metaUrl), true);
 
 			if (isset($metaData['feed']['items'])) {
 				break;
 			}
 
-			$this->log('    (failed)');
+			$this->logWarning(3, 'failed');
 		}
 
 		if (!isset($metaData['feed']['items'])) {
-			$this->log(sprintf('  Failed fetching episode metadata for S%02uE%02u. Maybe it\'s just not available currently. Skipping this episode.', $this->episode->getSeason()->getNumber(), $this->episode->getNumber()));
+			$this->logWarning(2, 'Failed fetching episode metadata. Maybe it\'s just not available currently. Skipping this episode.', sprintf('S%02uE%02u', $this->episode->getSeason()->getNumber(), $this->episode->getNumber()));
 			return false;
 		}
 
@@ -147,7 +203,7 @@ class SouthParkDownloader {
 		}
 
 		if (!empty($downloads)) {
-			$this->log(sprintf('  starting %u parallel downloads', count($downloads)));
+			$this->logStep(1, sprintf('starting %u parallel downloads...', count($downloads)));
 		}
 
 		foreach ($downloads as $download) {
@@ -155,7 +211,12 @@ class SouthParkDownloader {
 			$this->downloadedFiles[] = $download->getTargetFile();
 		}
 
+		$spinner = new Spinner($this->out);
+
 		while (true) {
+			usleep(250000); // idle
+			$spinner->advance();
+
 			$allDone = true;
 
 			foreach ($downloads as $download) {
@@ -171,11 +232,14 @@ class SouthParkDownloader {
 				$exitCode = $download->getProcess()->getExitCode();
 
 				if ($exitCode !== self::EXITCODE_SUCCESS) {
+					$spinner->destroy();
 					$this->abort($exitCode);
 				}
 
 				$download->setProcess(null);
-				$this->log(sprintf('    [%s] took %.1f s for %.1f MB', $download->getProcessName(), microtime(true) - $download->getStartTime(), filesize($download->getTargetFile()) / 1024 / 1024));
+				$spinner->hide();
+				$this->logInfo(2, sprintf('took %.1f s for %.1f MB', microtime(true) - $download->getStartTime(), filesize($download->getTargetFile()) / 1024 / 1024), $download->getProcessName());
+				$spinner->show();
 			}
 
 			if ($allDone) {
@@ -183,6 +247,9 @@ class SouthParkDownloader {
 			}
 		}
 
+		$spinner->destroy();
+
+		$this->logStep(1, sprintf('%s checksums...', $this->config->isUpdateChecksumOnSuccessfulDownload() ? 'verifying/updating' : 'verifying'));
 		foreach ($downloads as $download) {
 			$this->verifyChecksum($download->getTargetFile(), $download->getAct()->getEpisode()->getSeason()->getNumber(), $download->getAct()->getEpisode()->getNumber(), $download->getAct()->getNumber(), $download->getLanguage(), $this->config->isUpdateChecksumOnSuccessfulDownload());
 		}
@@ -198,7 +265,10 @@ class SouthParkDownloader {
 	 */
 	protected function findDownload(Act $act, $language) {
 		$actDownloadMetadataUrl = $act->getDownloadMetadataUrlForLanguage($language);
-		$this->log(sprintf('  fetching act metadata for S%02uE%02uA%u%s%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language), $this->config->isPrintUrls() ? sprintf(' from %s', $actDownloadMetadataUrl) : ''));
+
+		$this->logStep(1, 'fetching act metadata', sprintf('S%02uE%02uA%u%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language)));
+		$this->logUrl(2, $actDownloadMetadataUrl);
+
 		$itemContent = file_get_contents($actDownloadMetadataUrl);
 		$itemData = json_decode($itemContent, true);
 
@@ -213,7 +283,8 @@ class SouthParkDownloader {
 
 		$targetFile = $this->config->getDownloadFolder() . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $language, 'mp4', $act->getNumber());
 
-		$this->log(sprintf('  will download S%02uE%02uA%u%s to %s%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language), $targetFile, $this->config->isPrintUrls() ? sprintf(' from %s', $actUrl) : ''));
+		$this->logStep(1, sprintf('will download to %s', $targetFile), sprintf('S%02uE%02uA%u%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), strtoupper($language)));
+		$this->logUrl(2, $actUrl);
 
 		if (file_exists($targetFile)) {
 			if ($this->config->isGoOnIfDownloadedFileAlreadyExists()) {
@@ -225,7 +296,7 @@ class SouthParkDownloader {
 				}
 
 				if (!$hashWrong) {
-					$this->log('    (skipped)');
+					$this->logWarning(2, 'skipped');
 					$this->verifyChecksum($targetFile, $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $act->getNumber(), $language, $this->config->isUpdateChecksumOnSuccessfulDownload());
 
 					return null;
@@ -255,8 +326,8 @@ class SouthParkDownloader {
 
 			$download->setProcess($process);
 		} catch (ProcessTimedOutException $e) {
-			$this->log(sprintf('    [%s] (timeout of %u s reached, trying again)', $download->getProcessName(), $timeout));
-			unlink($download->getTargetFile());
+			$this->logWarning(2, sprintf('timeout of %u s reached, trying again', $timeout), $download->getProcessName());
+			@unlink($download->getTargetFile());
 			$this->downloadFile($download);
 		}
 	}
@@ -317,7 +388,7 @@ class SouthParkDownloader {
 	protected function assertMkvmergeMinVersion() {
 		$mkvmergeVersion = $this->getMkvmergeVersion();
 		if (version_compare($mkvmergeVersion, self::MKVMERGE_MIN_VERSION, '>=') === false) {
-			throw new RuntimeException(sprintf('The version of mkvmerge does not meet the minimum requirements. Expected at least %s, but found %s.', self::MKVMERGE_MIN_VERSION, $mkvmergeVersion));
+			throw new \RuntimeException(sprintf('The version of mkvmerge does not meet the minimum requirements. Expected at least %s, but found %s.', self::MKVMERGE_MIN_VERSION, $mkvmergeVersion));
 		}
 	}
 
@@ -347,7 +418,7 @@ class SouthParkDownloader {
 			return $matches[1];
 		}
 
-		throw new RuntimeException(sprintf('The version of mkvmerge could not be extracted from "%s". Please report this issue.', $copyrightText));
+		throw new \RuntimeException(sprintf('The version of mkvmerge could not be extracted from "%s". Please report this issue.', $copyrightText));
 	}
 
 	protected function getFrameRateFromFile($file) {
@@ -397,7 +468,7 @@ class SouthParkDownloader {
 		}
 
 		if ($videosHaveDifferentFrameRates) {
-			$this->log('  will create separate output files per language due to different frame rates of source files');
+			$this->logStep(1, 'will create separate output files per language due to different frame rates of source files');
 			foreach ($this->config->getLanguages() as $language) {
 				$this->mergeParts($language, array($language));
 			}
@@ -409,11 +480,11 @@ class SouthParkDownloader {
 	protected function mergeParts($mainLanguage, array $languages) {
 		$targetFile = $this->config->getOutputFolder() . $this->getEpisodeTitleForFilename($languages);
 
-		$this->log(sprintf('  merging acts of S%02uE%02u%s to %s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), strtoupper(implode('+', $languages)), $targetFile));
+		$this->logStep(1, sprintf('merging acts to %s', $targetFile), sprintf('S%02uE%02u%s', $this->episode->getSeason()->getNumber(), $this->episode->getNumber(), strtoupper(implode('+', $languages))));
 
 		if (file_exists($targetFile)) {
 			if ($this->config->isGoOnIfFinalFileAlreadyExists()) {
-				$this->log('    (skipped)');
+				$this->logWarning(2, 'skipped');
 				return;
 			}
 
@@ -464,7 +535,7 @@ class SouthParkDownloader {
 		$this->tempFiles[] = $optionsFile;
 
 		if (file_put_contents($optionsFile, json_encode(array('--title', $this->getEpisodeTitle($languages)))) === false) {
-			throw new RuntimeException(sprintf('Error writing file "%s".', $optionsFile));
+			throw new \RuntimeException(sprintf('Error writing file "%s".', $optionsFile));
 		}
 
 		$exitCode = $this->call(sprintf('%s%s @%s -o %s --chapter-language %s --generate-chapters when-appending --generate-chapters-name-template %s --default-track 1 %s',
@@ -482,7 +553,7 @@ class SouthParkDownloader {
 	}
 
 	public function cleanUp() {
-		$this->log('  cleaning up');
+		$this->logStep(1, 'cleaning up');
 
 		if ($this->config->isRemoveTempFiles()) {
 			foreach ($this->tempFiles as $tempFile) {
@@ -499,45 +570,27 @@ class SouthParkDownloader {
 		$this->downloadedFiles = array();
 	}
 
-	public function parseCommandLineArguments(array $argv) {
-		$config = new Config();
+	public function applyArguments(InputInterface $input) {
+		$language = $input->getArgument('language');
+		$this->config->setLanguages(explode('+', $language));
 
-		for ($i = 1; $i < count($argv); $i++) {
-			$param = explode('=', $argv[$i]);
-			if (count($param) === 2) {
-				list($key, $value) = $param;
-				switch (strtolower($key)) {
-					case 's':
-						if ((int) $value < 1) {
-							throw new RuntimeException(sprintf('"%s" is not a valid season number.', $value));
-						}
-						$config->setSeasonNumber((int) $value);
-						break;
-					case 'e':
-						if ((int) $value < 1) {
-							throw new RuntimeException(sprintf('"%s" is not a valid episode number.', $value));
-						}
-						$config->setEpisodeNumber((int) $value);
-						break;
-					case 'l':
-						$config->setLanguages(explode('+', $value));
-						break;
-					default:
-						throw new RuntimeException(sprintf('Unknown parameter "%s" used.', $key));
-				}
-			} else {
-				throw new RuntimeException(sprintf('Invalid parameter format used for "%s".', $argv[$i]));
+		$season = $input->getArgument('season');
+		if ((int) $season < 1) {
+			throw new \RuntimeException(sprintf('Invalid season: %s', $season));
+		}
+		$this->config->setSeasonNumber((int) $season);
+
+		$episode = $input->getArgument('episode');
+		if (!empty($episode)) {
+			if ((int) $episode < 1) {
+				throw new \RuntimeException(sprintf('Invalid episode: %s', $episode));
 			}
+			$this->config->setEpisodeNumber((int) $episode);
 		}
 
-		if ($config->getSeasonNumber() < 1) {
-			throw new RuntimeException('No season parameter given.');
+		if ($input->getOption('quiet') === true) {
+			$this->out = new NullOutput();
 		}
-		if (count($config->getLanguages()) < 1) {
-			throw new RuntimeException('No language parameter given.');
-		}
-
-		return $config;
 	}
 
 	protected function getEpisodeTitle(array $languages) {
@@ -583,7 +636,7 @@ class SouthParkDownloader {
 		return 'South Park ' . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $languages, 'mkv', null, $episodeTitleForFilename);
 	}
 
-	protected function getFilename($seasonNumber, $episodeNumber, $language = null, $extension = null, $actNumber= null, $title = null) {
+	protected function getFilename($seasonNumber, $episodeNumber, $language = null, $extension = null, $actNumber = null, $title = null) {
 		if (!is_array($language)) {
 			$language = array($language);
 		}
@@ -598,15 +651,13 @@ class SouthParkDownloader {
 	}
 
 	protected function call($command, $timeout = null, $async = false, &$process = null) {
-		if ($this->config->isPrintCommandCalls()) {
-			$this->log('  > ' . $command);
-		}
+		$this->logCall(2, $command);
 
 		$process = new Process($command);
 		$process->setTimeout($timeout);
 
 		$callback = function($type, $buffer) {
-			echo $buffer;
+			$this->out->block($buffer, null, sprintf('fg=%s', $type === Process::ERR ? 'red' : 'yellow'), '    ');
 		};
 
 		if ($async) {
@@ -619,28 +670,70 @@ class SouthParkDownloader {
 	}
 
 	protected function abort($exitCode) {
-		throw new RuntimeException(sprintf(
+		throw new \RuntimeException(sprintf(
 				'External program aborted with an exit code of "%d" which seems to be an error. Will abort now.',
 				$exitCode));
 	}
 
-	protected function log($line) {
-		echo $line, "\n";
+	protected function logRaw($msg) {
+		$this->out->writeln($msg);
+	}
+
+	protected function log($indentLevel, $textColor, $msg) {
+		assert(is_int($indentLevel));
+		assert(is_string($msg));
+
+		$this->logRaw(sprintf('<fg=%s>%s%s</>', $textColor, str_repeat(' ', 2 * $indentLevel), $msg));
+	}
+
+	protected function logWarning($indentLevel, $msg, $section = '') {
+		$this->log($indentLevel, 'yellow', $this->getLogSection($section) . $msg);
+	}
+
+	protected function logInfo($indentLevel, $msg, $section = '') {
+		$this->log($indentLevel, 'cyan', $this->getLogSection($section) . $msg);
+	}
+
+	protected function logStep($indentLevel, $msg, $section = '') {
+		$this->log($indentLevel, 'green', '> ' . $this->getLogSection($section) . $msg);
+	}
+
+	protected function logUrl($indentLevel, $msg) {
+		if ($this->config->isPrintUrls()) {
+			$this->log($indentLevel, 'magenta', '└ URL: ' . $msg);
+		}
+	}
+
+	protected function logCall($indentLevel, $msg) {
+		if ($this->config->isPrintCommandCalls()) {
+			$this->log($indentLevel, 'magenta', '> ' . $msg);
+		}
+	}
+
+	protected function getLogSection($section) {
+		assert(is_string($section));
+
+		if (empty($section)) {
+			return '';
+		}
+
+		return sprintf('[<fg=white>%s</>] ', $section);
 	}
 
 	public function getAvailableSeasons($language) {
 		$url = $this->settingDb->getAvailableSeasonsUrl($language);
 
-		$this->log(sprintf('fetching available seasons%s', $this->config->isPrintUrls() ? sprintf(' from %s', $url) : ''));
+		$this->logStep(0, 'fetching available seasons');
+		$this->logUrl(1, $url);
 
-		$domDocument = new DOMDocument();
+		$domDocument = new \DOMDocument();
 		libxml_use_internal_errors(true); // disable warnings while parsing
 		$domDocument->loadHTML(file_get_contents($url));
 
 		$seasons = array();
 
 		// section#main_content nav a.season-filter[data-value]
-		$seasonFilters = (new DOMXPath($domDocument))->query('//section[@id="main_content"]//nav/a[contains(@class,"season-filter")][starts-with(@data-value,"season-")]');
+		$seasonFilters = (new \DOMXPath($domDocument))->query('//section[@id="main_content"]//nav/a[contains(@class,"season-filter")][starts-with(@data-value,"season-")]');
 		foreach ($seasonFilters as $seasonFilter) {
 			$seasons[] = (int) str_replace('season-', '', $seasonFilter->getAttribute('data-value'));
 		}
@@ -658,7 +751,8 @@ class SouthParkDownloader {
 		foreach ($this->config->getLanguages() as $language) {
 			$url = $this->settingDb->getAvailableEpisodesUrl($language, $seasonNumber);
 
-			$this->log(sprintf('fetching episodes for S%02u%s%s', $seasonNumber, strtoupper($language), $this->config->isPrintUrls() ? sprintf(' from %s', $url) : ''));
+			$this->logStep(0, sprintf('fetching episodes for S%02u%s', $seasonNumber, strtoupper($language)));
+			$this->logUrl(1, $url);
 
 			$data = json_decode(file_get_contents($url), true);
 
@@ -667,9 +761,9 @@ class SouthParkDownloader {
 
 				$availability = $result['_availability']; // should be "true", but is "banned" for e.g. S14E05+S14E06, "huluplus" for e.g. S01E02EN, "beforepremiere" for e.g. S10E03DE
 				if (!in_array($availability, array('true', 'huluplus'), true)) {
-					// if this episode is requested explicitly, tell why it's is not available
+					// if this episode is requested explicitly, tell why it's not available
 					if ($this->config->getSeasonNumber() === $seasonNumber && $this->config->getEpisodeNumber() === $episodeNumber) {
-						throw new RuntimeException(sprintf('S%02uE%02u is not available: %s', $seasonNumber, $episodeNumber, $availability));
+						throw new \RuntimeException(sprintf('S%02uE%02u is not available: %s', $seasonNumber, $episodeNumber, $availability));
 					}
 
 					// otherwise just skip it

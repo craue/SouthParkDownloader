@@ -35,10 +35,8 @@ php vendor/composer.phar install
 
 # Usage
 
-To download all episodes of season 15 in English:
+To get a list of available arguments, their values, and some examples:
 
-	php download.php s=15 l=en
-
-To download episode 8 of season 13 in German and English, while taking video from the German source and setting the default audio language to German:
-
-	php download.php s=13 e=8 l=de+en
+```sh
+php download.php
+```

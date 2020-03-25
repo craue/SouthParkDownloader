@@ -4,6 +4,7 @@
 	"license": "GPL-3.0",
 	"require": {
 		"ext-dom": "*",
+		"symfony/console": "^3.4",
 		"symfony/process": "^3.4"
 	},
 	"config": {
@@ -15,6 +16,9 @@
 		"sort-packages": true
 	},
 	"autoload": {
-		"classmap": ["app/"]
+		"classmap": ["app/"],
+		"psr-4": {
+			"App\\": "app/"
+		}
 	}
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Database;
+
 /**
  * Handling of the database for settings.
  * This file is part of the South Park Downloader package.

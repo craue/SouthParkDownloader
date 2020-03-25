@@ -11,11 +11,16 @@
  */
 
 require __DIR__.'/vendor/autoload.php';
-require_once(__DIR__.'/config.php');
+require __DIR__.'/config.php';
+
+use App\Config\Config;
+use App\SouthParkDownloaderApplication;
+use Symfony\Component\Console\Output\ConsoleOutput;
+
+$out = new ConsoleOutput();
 
 try {
-	$southParkDownloader = new SouthParkDownloader();
-	$config = $southParkDownloader->parseCommandLineArguments($argv);
+	$config = new Config();
 	$config->setTmpFolder($tmp);
 	$config->setDownloadFolder($download);
 	$config->setOutputFolder($output);
@@ -29,8 +34,10 @@ try {
 	$config->setQuietCommands(true); // no command line option yet
 	$config->setRemoveTempFiles(true); // no command line option yet
 	$config->setRemoveDownloadedFiles(false); // no command line option yet
-	$southParkDownloader->setConfig($config);
-	$southParkDownloader->run();
-} catch (RuntimeException $e) {
-	die($e->getMessage());
+
+	$app = new SouthParkDownloaderApplication($config);
+	$app->setCatchExceptions(false);
+	$app->run(null, $out);
+} catch (\Exception $e) {
+	$out->getErrorOutput()->writeln(sprintf('<error>%s</>', $e->getMessage()));
 }
