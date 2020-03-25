@@ -4,11 +4,15 @@
 	"license": "GPL-3.0",
 	"require": {
 		"ext-dom": "*",
-		"symfony/process": "^3.2"
+		"symfony/process": "^3.4"
 	},
 	"config": {
 		"github-protocols": ["https", "git"],
-		"notify-on-install": false
+		"notify-on-install": false,
+		"preferred-install": {
+			"*": "dist"
+		},
+		"sort-packages": true
 	},
 	"autoload": {
 		"classmap": ["app/"]
