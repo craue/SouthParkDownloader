@@ -278,12 +278,8 @@ class SouthParkDownloader {
 		}
 
 		if ($updateDatabase) {
-			if (empty($expectedChecksum)) {
-				// add missing checksum
-				$actualChecksum = hash_file($hashAlgo, $file);
-				$this->checksumDb->updateHash($seasonNumber, $episodeNumber, $actNumber, $language, $actualChecksum);
-			}
-
+			$actualChecksum = hash_file($hashAlgo, $file);
+			$this->checksumDb->updateHash($seasonNumber, $episodeNumber, $actNumber, $language, $actualChecksum);
 			$this->checksumDb->save();
 		}
 	}
