@@ -95,11 +95,20 @@ class DownloadCommand extends Command {
 		$this
 			->addArgument('language', InputArgument::REQUIRED, 'Language(s): Must be "en", "de", "en+de", "de+en".')
 			->addArgument('season', InputArgument::REQUIRED, 'Season: Must be a number.')
-			->addArgument('episode', InputArgument::OPTIONAL, 'Episode: If not given, means "all season\'s episodes". If given, must be a number.')
+			->addArgument('episode', InputArgument::OPTIONAL, 'Episode(s): If not given, means "all season\'s episodes". If given, must be a number or a range of numbers (see examples below).')
 			->setHelp(<<<HERE
-<comment>Examples:</comment>
+<comment>Usage examples:</comment>
   <info>%command.name% en 15</info>
     Download all episodes of season 15 in English.
+
+  <info>%command.name% de 23 7-10</info>
+    Download episodes 7, 8, 9 & 10 of season 23 in German.
+
+  <info>%command.name% de 23 7,10</info>
+    Download episodes 7 & 10 of season 23 in German.
+
+  <info>%command.name% de 23 1-3,9,10</info>
+    Download episodes 1, 2, 3, 9 & 10 of season 23 in German.
 
   <info>%command.name% de+en 13 8</info>
     Download episode 8 of season 13 in German and English, while taking video
@@ -127,7 +136,7 @@ HERE)
 		$this->season = $this->buildSeason($this->config->getSeasonNumber());
 
 		/* @var $episodesToProcess Episode[] */
-		$episodesToProcess = $this->config->getEpisodeNumber() > 0 ? array($this->season->getEpisode($this->config->getEpisodeNumber())) : $this->season->getEpisodes();
+		$episodesToProcess = count($this->config->getEpisodeNumbers()) > 0 ? $this->season->getEpisodes($this->config->getEpisodeNumbers()) : $this->season->getAllEpisodes();
 
 		foreach ($episodesToProcess as $episode) {
 			$this->episode = $episode;
@@ -581,12 +590,7 @@ HERE)
 		$this->config->setSeasonNumber((int) $season);
 
 		$episode = $input->getArgument('episode');
-		if (!empty($episode)) {
-			if ((int) $episode < 1) {
-				throw new \RuntimeException(sprintf('Invalid episode: %s', $episode));
-			}
-			$this->config->setEpisodeNumber((int) $episode);
-		}
+		$this->config->setEpisodeNumbers($episode);
 
 		if ($input->getOption('quiet') === true) {
 			$this->out = new NullOutput();
@@ -762,7 +766,7 @@ HERE)
 				$availability = $result['_availability']; // should be "true", but is "banned" for e.g. S14E05+S14E06, "huluplus" for e.g. S01E02EN, "beforepremiere" for e.g. S10E03DE
 				if (!in_array($availability, array('true', 'huluplus'), true)) {
 					// if this episode is requested explicitly, tell why it's not available
-					if ($this->config->getSeasonNumber() === $seasonNumber && $this->config->getEpisodeNumber() === $episodeNumber) {
+					if ($this->config->getSeasonNumber() === $seasonNumber && in_array($episodeNumber, $this->config->getEpisodeNumbers(), true)) {
 						throw new \RuntimeException(sprintf('S%02uE%02u is not available: %s', $seasonNumber, $episodeNumber, $availability));
 					}
 

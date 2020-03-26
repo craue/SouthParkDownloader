@@ -13,7 +13,7 @@ namespace App\Config;
 class Config {
 
 	protected $seasonNumber = 0;
-	protected $episodeNumber = 0;
+	protected $episodeNumbers = [];
 	protected $languages = array();
 
 	protected $tmpFolder = null;
@@ -45,12 +45,76 @@ class Config {
 		return $this->seasonNumber;
 	}
 
-	public function setEpisodeNumber($episodeNumber) {
-		$this->episodeNumber = (int) $episodeNumber;
+	public function setEpisodeNumbers($arg) {
+		$this->episodeNumbers = [];
+
+		foreach ($this->extractEpisodeNumbers($arg) as $number) {
+			if (in_array($number, $this->episodeNumbers, true)) {
+				throw new \InvalidArgumentException(sprintf('Duplicate episode: %s', $number));
+			}
+
+			$this->episodeNumbers[] = $number;
+		}
 	}
 
-	public function getEpisodeNumber() {
-		return $this->episodeNumber;
+	/**
+	 * @param int|string|int[]|string[] $arg
+	 * @return int[]
+	 */
+	private function extractEpisodeNumbers($arg) {
+		if (is_int($arg)) {
+			if ($arg > 0) {
+				return [$arg];
+			}
+
+			throw new \InvalidArgumentException(sprintf('Invalid episode: %s', $arg));
+		}
+
+		if (is_array($arg)) {
+			$result = [];
+
+			foreach ($arg as $value) {
+				$result = array_merge($result, $this->extractEpisodeNumbers($value));
+			}
+
+			return $result;
+		}
+
+		if (is_string($arg)) {
+			if (strpos($arg, ',') !== false) {
+				$splits = explode(',', $arg);
+
+				foreach ($splits as $split) {
+					if (strlen($split) === 0) {
+						throw new \InvalidArgumentException(sprintf('Invalid episode: %s', $split));
+					}
+				}
+
+				return $this->extractEpisodeNumbers($splits);
+			}
+
+			if (strpos($arg, '-') !== false) {
+				$splits = explode('-', $arg);
+
+				if (count($splits) !== 2 || strlen($splits[0]) === 0 || strlen($splits[1]) === 0) {
+					throw new \InvalidArgumentException(sprintf('Invalid episode: %s', $arg));
+				}
+
+				$numbers = $this->extractEpisodeNumbers($splits);
+
+				return range($numbers[0], $numbers[1]);
+			}
+
+			if (is_numeric($arg)) {
+				return $this->extractEpisodeNumbers((int) $arg);
+			}
+		}
+
+		throw new \InvalidArgumentException(sprintf('Invalid episode: %s', $arg));
+	}
+
+	public function getEpisodeNumbers() {
+		return $this->episodeNumbers;
 	}
 
 	public function setLanguages(array $languages) {

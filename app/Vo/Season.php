@@ -49,8 +49,22 @@ class Season {
 	/**
 	 * @return Episode[]
 	 */
-	public function getEpisodes() {
+	public function getAllEpisodes() {
 		return $this->episodes;
+	}
+
+	/**
+	 * @param int[] $numbers Episode numbers.
+	 * @return Episode[]
+	 */
+	public function getEpisodes($numbers) {
+		$episodes = [];
+
+		foreach ($numbers as $number) {
+			$episodes[] = $this->getEpisode($number);
+		}
+
+		return $episodes;
 	}
 
 	/**
