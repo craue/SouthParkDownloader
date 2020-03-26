@@ -9,6 +9,8 @@ use App\Database\SettingDatabase;
 use App\Exception\ChecksumMismatchException;
 use App\Exception\FileAlreadyExistsException;
 use App\Exception\FileDoesNotExistException;
+use App\Helper\Ffmpeg;
+use App\Helper\Mkvmerge;
 use App\Helper\Spinner;
 use App\Vo\Act;
 use App\Vo\Download;
@@ -375,23 +377,7 @@ HERE)
 
 		exec($command, $output, $exitCode);
 
-		return $this->extractFfmpegVersion(implode("\n", $output));
-	}
-
-	protected function extractFfmpegVersion($copyrightText) {
-		/*
-		 * real world examples:
-		 * ffmpeg version 3.4.1-1~16.04.york0 Copyright (c) 2000-2017 the FFmpeg developers
-		 * ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
-		 * ffmpeg version 3.0.7-0ubuntu0.16.10.1 Copyright (c) 2000-2017 the FFmpeg developers
-		 * ffmpeg version 0.8.21-6:0.8.21-0+deb7u1, Copyright (c) 2000-2014 the Libav developers
-		 * FFmpeg version 0.6.2, Copyright (c) 2000-2010 the FFmpeg developers
-		 */
-		if (preg_match('#ffmpeg version ((\d|\.)+)(?:\s|-|,)#i', $copyrightText, $matches) !== false) {
-			return $matches[1];
-		}
-
-		return null;
+		return Ffmpeg::extractVersion(implode("\n", $output));
 	}
 
 	protected function assertMkvmergeMinVersion() {
@@ -407,27 +393,7 @@ HERE)
 
 		exec($command, $output, $exitCode);
 
-		return $this->extractMkvmergeVersion(implode("\n", $output));
-	}
-
-	protected function extractMkvmergeVersion($copyrightText) {
-		/*
-		 * real world examples:
-		 * mkvmerge v20.0.0 ('I Am The Sun') 64-bit
-		 * mkvmerge v18.0.0 ('Apricity') 64-bit
-		 * mkvmerge v17.0.0 ('Be Ur Friend') 64-bit
-		 * mkvmerge v11.0.0 ('Alive') 32bit
-		 * mkvmerge v10.0.0 ('To Drown In You') 64bit
-		 * mkvmerge v9.7.1 ('Pandemonium') 64bit
-		 * mkvmerge v9.1.0 ('Little Earthquakes') 64bit
-		 * mkvmerge v8.8.0 ('Wind at my back') 64bit
-		 * mkvmerge v1.5.6 ('Breathe me') built on Sep 9 2005 03:05:48
-		 */
-		if (preg_match('#mkvmerge v((\d|\.)+)#i', $copyrightText, $matches) !== false && $matches[1] !== null) {
-			return $matches[1];
-		}
-
-		throw new \RuntimeException(sprintf('The version of mkvmerge could not be extracted from "%s". Please report this issue.', $copyrightText));
+		return Mkvmerge::extractVersion(implode("\n", $output));
 	}
 
 	protected function getFrameRateFromFile($file) {
@@ -438,16 +404,7 @@ HERE)
 
 		exec($command, $output, $exitCode);
 
-		/*
-		 * real world examples:
-		 * Stream #0:0(und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv), 1280x720 [SAR 1:1 DAR 16:9], 1097 kb/s, 23.98 fps, 23.98 tbr, 90k tbn, 23.98 tbc (default)
-		 * Stream #0:0(und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv), 1280x720 [SAR 1:1 DAR 16:9], 1101 kb/s, 25 fps, 25 tbr, 90k tbn, 25 tbc (default)
-		 */
-		if (preg_match('#kb/s, ((\d|\.)+) fps,#', implode("\n", $output), $matches) !== false) {
-			return $matches[1];
-		}
-
-		return null;
+		return Ffmpeg::extractFramerate(implode("\n", $output));
 	}
 
 	public function merge() {
