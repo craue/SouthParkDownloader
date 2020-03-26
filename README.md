@@ -25,7 +25,7 @@ Run the following commands in a shell to set up the required dependencies:
 
 ```sh
 php -r "eval('?>'.file_get_contents('http://getcomposer.org/installer'));" -- --install-dir=vendor
-php vendor/composer.phar install
+php vendor/composer.phar install --no-dev
 ```
 
 # Configuration

@@ -2,10 +2,5 @@
 /.project
 /.settings
 /bin
-/composer-install.bat
-/composer-update.bat
 /config.php
-/php.bat
-/vendors-install.bat
-/vendors-update.bat
-/vendors-whatsnew.bat
+/phpunit.xml
