@@ -328,12 +328,26 @@ HERE)
 		try {
 			$download->setStartTime(microtime(true));
 
-			$this->call(sprintf('%s%s%s -i %s -codec copy %s',
-					escapeshellcmd($this->config->getFfmpeg()),
-					$this->config->isQuietCommands() ? ' -loglevel quiet' : '',
-					$this->ffmpegHideBanner ? ' -hide_banner' : '',
-					escapeshellcmd($download->getUrl()),
-					escapeshellarg($download->getTargetFile())), $timeout, true, $process);
+			$command = array($this->config->getFfmpeg());
+
+			if ($this->config->isQuietCommands()) {
+				$command[] = '-loglevel';
+				$command[] = 'quiet';
+			}
+
+			if ($this->ffmpegHideBanner) {
+				$command[] = '-hide_banner';
+			}
+
+			$command[] = '-i';
+			$command[] = $download->getUrl();
+
+			$command[] = '-codec';
+			$command[] = 'copy';
+
+			$command[] = $download->getTargetFile();
+
+			$this->call($command, $timeout, true, $process);
 
 			$download->setProcess($process);
 		} catch (ProcessTimedOutException $e) {
@@ -372,12 +386,10 @@ HERE)
 	}
 
 	protected function getFfmpegVersion() {
-		$command = sprintf('%s -version',
-				escapeshellcmd($this->config->getFfmpeg()));
+		$process = new Process(array($this->config->getFfmpeg(), '-version'));
+		$process->mustRun();
 
-		exec($command, $output, $exitCode);
-
-		return Ffmpeg::extractVersion(implode("\n", $output));
+		return Ffmpeg::extractVersion($process->getOutput());
 	}
 
 	protected function assertMkvmergeMinVersion() {
@@ -388,23 +400,28 @@ HERE)
 	}
 
 	protected function getMkvmergeVersion() {
-		$command = sprintf('%s --version',
-				escapeshellcmd($this->config->getMkvmerge()));
+		$process = new Process(array($this->config->getMkvmerge(), '--version'));
+		$process->mustRun();
 
-		exec($command, $output, $exitCode);
-
-		return Mkvmerge::extractVersion(implode("\n", $output));
+		return Mkvmerge::extractVersion($process->getOutput());
 	}
 
 	protected function getFrameRateFromFile($file) {
-		$command = sprintf('%s%s -i %s 2>&1',
-				escapeshellcmd($this->config->getFfmpeg()),
-				$this->ffmpegHideBanner ? ' -hide_banner' : '',
-				escapeshellarg($file));
+		$command = array($this->config->getFfmpeg());
 
-		exec($command, $output, $exitCode);
+		if ($this->ffmpegHideBanner) {
+			$command[] = '-hide_banner';
+		}
 
-		return Ffmpeg::extractFramerate(implode("\n", $output));
+		$command[] = '-i';
+		$command[] = $file;
+
+		$process = new Process($command);
+		$process->run();
+
+		$output = $process->getErrorOutput(); // All output is sent to STDERR because of "At least one output file must be specified".
+
+		return Ffmpeg::extractFramerate($output);
 	}
 
 	public function merge() {
@@ -457,40 +474,6 @@ HERE)
 			throw new FileAlreadyExistsException($targetFile);
 		}
 
-		$arguments = array();
-		foreach ($languages as $language) {
-			$arguments[] = sprintf('--language 1:%s', $language);
-
-			foreach ($this->episode->getActs() as $act) {
-				$actNumber = $act->getNumber();
-
-				if ($language !== $mainLanguage) {
-					$arguments[] = '--no-video';
-				}
-
-				$videoSync = $this->anomalyDb->getVideoSync($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $actNumber, $language);
-				if ($videoSync !== null) {
-					$arguments[] = sprintf('--sync 0:%d', $videoSync);
-				}
-
-				$audioSync = $this->anomalyDb->getAudioSync($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $actNumber, $language);
-				if ($audioSync !== null) {
-					$arguments[] = sprintf('--sync 1:%d', $audioSync);
-				}
-
-				if ($actNumber > 1) {
-					$arguments[] = '+';
-				}
-
-				$actSourceFile = $this->config->getDownloadFolder() . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $language, 'mp4', $actNumber);
-				if (!file_exists($actSourceFile)) {
-					throw new FileDoesNotExistException($actSourceFile);
-				}
-
-				$arguments[] = escapeshellarg($actSourceFile);
-			}
-		}
-
 		// use an options file to properly pass the UTF-8-encoded episode title to mkvmerge (not possible via command line on Windows)
 		$optionsFile = $this->config->getTmpFolder() . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $languages, 'json');
 
@@ -504,14 +487,66 @@ HERE)
 			throw new \RuntimeException(sprintf('Error writing file "%s".', $optionsFile));
 		}
 
-		$exitCode = $this->call(sprintf('%s%s @%s -o %s --chapter-language %s --generate-chapters when-appending --generate-chapters-name-template %s --default-track 1 %s',
-				escapeshellcmd($this->config->getMkvmerge()),
-				$this->config->isQuietCommands() ? ' --quiet' : '',
-				escapeshellarg($optionsFile),
-				escapeshellarg($targetFile),
-				escapeshellarg($mainLanguage),
-				escapeshellarg(sprintf('%s <NUM>', $this->settingDb->getChapterName($mainLanguage))),
-				implode(' ', $arguments)));
+		$command = array($this->config->getMkvmerge());
+
+		if ($this->config->isQuietCommands()) {
+			$command[] = '--quiet';
+		}
+
+		$command[] = sprintf('@%s', $optionsFile);
+
+		$command[] = '-o';
+		$command[] = $targetFile;
+
+		$command[] = '--chapter-language';
+		$command[] = $mainLanguage;
+
+		$command[] = '--generate-chapters';
+		$command[] = 'when-appending';
+
+		$command[] = '--generate-chapters-name-template';
+		$command[] = sprintf('%s <NUM>', $this->settingDb->getChapterName($mainLanguage));
+
+		$command[] = '--default-track';
+		$command[] = '1';
+
+		foreach ($languages as $language) {
+			$command[] = '--language';
+			$command[] = sprintf('1:%s', $language);
+
+			foreach ($this->episode->getActs() as $act) {
+				$actNumber = $act->getNumber();
+
+				if ($language !== $mainLanguage) {
+					$command[] = '--no-video';
+				}
+
+				$videoSync = $this->anomalyDb->getVideoSync($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $actNumber, $language);
+				if ($videoSync !== null) {
+					$command[] = '--sync';
+					$command[] = sprintf('0:%d', $videoSync);
+				}
+
+				$audioSync = $this->anomalyDb->getAudioSync($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $actNumber, $language);
+				if ($audioSync !== null) {
+					$command[] = '--sync';
+					$command[] = sprintf('1:%d', $audioSync);
+				}
+
+				if ($actNumber > 1) {
+					$command[] = '+';
+				}
+
+				$actSourceFile = $this->config->getDownloadFolder() . $this->getFilename($this->episode->getSeason()->getNumber(), $this->episode->getNumber(), $language, 'mp4', $actNumber);
+				if (!file_exists($actSourceFile)) {
+					throw new FileDoesNotExistException($actSourceFile);
+				}
+
+				$command[] = $actSourceFile;
+			}
+		}
+
+		$exitCode = $this->call($command);
 
 		if ($exitCode !== self::EXITCODE_SUCCESS && $exitCode !== self::EXITCODE_MKVMERGE_WARNINGS) {
 			$this->abort($exitCode);
@@ -611,11 +646,11 @@ HERE)
 				!empty($extension) ? '.' . $extension : '');
 	}
 
-	protected function call($command, $timeout = null, $async = false, &$process = null) {
-		$this->logCall(2, $command);
-
+	protected function call(array $command, $timeout = null, $async = false, &$process = null) {
 		$process = new Process($command);
 		$process->setTimeout($timeout);
+
+		$this->logCall(2, $process->getCommandLine());
 
 		$callback = function($type, $buffer) {
 			$this->out->block($buffer, null, sprintf('fg=%s', $type === Process::ERR ? 'red' : 'yellow'), '    ');
