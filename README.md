@@ -24,7 +24,7 @@ Or, if you are using Windows, just take the bundle of pre-packaged tools from ht
 Run the following commands in a shell to set up the required dependencies:
 
 ```sh
-php -r "eval('?>'.file_get_contents('http://getcomposer.org/installer'));" -- --install-dir=vendor
+php -r "if (!is_dir('vendor')) mkdir('vendor'); eval('?>'.file_get_contents('https://getcomposer.org/installer'));" -- --install-dir=vendor
 php vendor/composer.phar install --no-dev
 ```
 
