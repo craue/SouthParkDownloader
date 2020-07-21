@@ -2,5 +2,6 @@
 /.project
 /.settings
 /bin
+/composer.lock
 /config.php
 /phpunit.xml
