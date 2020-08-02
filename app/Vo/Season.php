@@ -38,23 +38,17 @@ class Season {
 	 * @return bool
 	 */
 	public function hasEpisode($number) {
-		foreach ($this->episodes as $episode) {
-			if ($episode->getNumber() === $number) {
-				return true;
-			}
-		}
-
-		return false;
+		return $this->findEpisode($number) !== null;
 	}
 
 	/**
 	 * @param Episode $newEpisode
 	 */
 	public function addEpisode(Episode $newEpisode) {
-		foreach ($this->episodes as $episode) {
-			if ($episode->getNumber() === $newEpisode->getNumber()) {
-				throw new \RuntimeException(sprintf('Episode %u for S%02u already exists.', $episode->getNumber(), $this->number));
-			}
+		$episode = $this->findEpisode($newEpisode->getNumber());
+
+		if ($episode !== null) {
+			throw new \RuntimeException(sprintf('Episode %u for S%02u already exists.', $episode->getNumber(), $this->number));
 		}
 
 		$this->episodes[] = $newEpisode;
@@ -86,13 +80,27 @@ class Season {
 	 * @return Episode
 	 */
 	public function getEpisode($number) {
+		$episode = $this->findEpisode($number);
+
+		if ($episode === null) {
+			throw new \RuntimeException(sprintf('Episode %u for S%02u does not exist.', $number, $this->number));
+		}
+
+		return $episode;
+	}
+
+	/**
+	 * @param int $number Episode number.
+	 * @return Episode|null
+	 */
+	private function findEpisode($number) {
 		foreach ($this->episodes as $episode) {
 			if ($episode->getNumber() === $number) {
 				return $episode;
 			}
 		}
 
-		throw new \RuntimeException(sprintf('Episode %u for S%02u does not exist.', $number, $this->number));
+		return null;
 	}
 
 }
