@@ -768,8 +768,9 @@ HERE)
 					continue;
 				}
 
-				$episode = $season->getEpisode($episodeNumber);
-				if ($episode === null) {
+				if ($season->hasEpisode($episodeNumber)) {
+					$episode = $season->getEpisode($episodeNumber);
+				} else {
 					$episode = new Episode($season);
 					$episode->setNumber($episodeNumber);
 					$episode->setItemId($result['itemId']); // e.g. "ebb343ef-711d-450e-baa5-60ec0848e977"
