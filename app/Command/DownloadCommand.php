@@ -582,7 +582,9 @@ HERE)
 		$this->config->setSeasonNumber((int) $season);
 
 		$episode = $input->getArgument('episode');
-		$this->config->setEpisodeNumbers($episode);
+		if (!empty($episode)) {
+			$this->config->setEpisodeNumbers($episode);
+		}
 
 		if ($input->getOption('quiet') === true) {
 			$this->out = new NullOutput();
